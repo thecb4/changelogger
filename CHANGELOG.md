@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file.
 -
 
 ### Removed
--
+- Removed CLI to support swift sh
 
 ### Fixed
 -

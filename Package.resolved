@@ -2,24 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "llbuild",
-        "repositoryURL": "https://github.com/apple/swift-llbuild.git",
-        "state": {
-          "branch": "master",
-          "revision": "e110c9b71f722a41f641f329bf3fc436fd10512d",
-          "version": null
-        }
-      },
-      {
-        "package": "SwiftPM",
-        "repositoryURL": "https://github.com/apple/swift-package-manager.git",
-        "state": {
-          "branch": "swift-5.0-branch",
-          "revision": "3a57975e10be0b1a8b87992ddf3a49701036f96c",
-          "version": null
-        }
-      },
-      {
         "package": "Yams",
         "repositoryURL": "https://github.com/jpsim/Yams",
         "state": {

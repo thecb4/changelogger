@@ -1,10 +1,10 @@
 ---
-summary: Swift 5
+summary: Removed CLI to support swift sh
 
 added: []
-changed:
-  - trying swift 5 branch
+changed: []
 deprecated: []
-removed:
+removed: []
+  - Removed CLI to support swift sh
 fixed: []
 security: []
