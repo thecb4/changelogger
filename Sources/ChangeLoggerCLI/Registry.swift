@@ -1,5 +1,5 @@
 import Foundation
-import Utility
+import SPMUtility
 import Basic
 
 // https://www.enekoalonso.com/articles/handling-commands-with-swift-package-manager

@@ -1,10 +1,9 @@
 ---
-summary: Public works
+summary: Swift 5
 
-added:
-  - made CommitEntry summary public
-  - made ChangeLog revise public
-changed: []
+added: []
+changed:
+  - trying swift 5 branch
 deprecated: []
 removed:
 fixed: []
