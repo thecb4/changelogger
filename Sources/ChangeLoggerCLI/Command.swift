@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Utility
+import SPMUtility
 import ChangeLoggerKit
 
 // https://www.enekoalonso.com/articles/handling-commands-with-swift-package-manager

@@ -1,5 +1,5 @@
 import Foundation
-import Utility
+import SPMUtility
 import ChangeLoggerKit
 
 // https://github.com/apple/swift-package-manager/blob/master/Sources/Utility/ArgumentParser.swift
