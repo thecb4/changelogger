@@ -72,7 +72,7 @@ extension ChangeLog {
 
   public static var changelogMarkdownPath = FileManager.default.currentDirectoryPath + "/CHANGELOG.md"
 
-  static func revise() throws {
+  public static func revise() throws {
     let decoder = YAMLDecoder()
     let encoder = YAMLEncoder()
 

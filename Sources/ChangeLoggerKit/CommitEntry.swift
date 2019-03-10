@@ -1,7 +1,7 @@
 import Yams
 
-struct CommitEntry: Codable {
-  let summary: String
+public struct CommitEntry: Codable {
+  public let summary: String
   let added: [String]
   let changed: [String]
   let deprecated: [String]
@@ -9,7 +9,7 @@ struct CommitEntry: Codable {
   let fixed: [String]
   let security: [String]
 
-  static func current() throws -> CommitEntry {
+  public static func current() throws -> CommitEntry {
     let decoder = YAMLDecoder()
     let YAML = try String(contentsOfFile: "./commit.yaml")
     let entry = try decoder.decode(CommitEntry.self, from: YAML)
