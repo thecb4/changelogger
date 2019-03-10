@@ -35,6 +35,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "added jazzy docs (with sourcekitten)")
+    try Shell.gitCommit(message: "made functions public")
   }
 }

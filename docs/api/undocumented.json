@@ -36,6 +36,34 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
+      "line": 75,
+      "symbol": "ChangeLog.revise()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
+      "line": 3,
+      "symbol": "CommitEntry",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
+      "line": 4,
+      "symbol": "CommitEntry.summary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
+      "line": 12,
+      "symbol": "CommitEntry.current()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/LogEntry.swift",
       "line": null,
       "symbol": "LogEntry",
