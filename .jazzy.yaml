@@ -1,0 +1,10 @@
+module: ChangeLoggerKit
+author: Cavelle Benjamin
+author_url: https://thecb4.io
+github_url: https://gitlab.com/thecb4/changelogger
+copyright: '© Copyright (c) 2018 Cavelle Benjamin (thecb4)'
+sourcekitten_sourcefile: docs/source.json
+swift_version: 4.2
+theme: fullwidth
+clean: true
+output: docs/api

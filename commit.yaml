@@ -1,0 +1,13 @@
+---
+summary: Initial creation of project
+
+added:
+  - ChangeLog
+  - ChangeLoggerError
+  - CommitEntry
+  - LogEntry
+changed: []
+deprecated: []
+removed:
+fixed: []
+security: []
