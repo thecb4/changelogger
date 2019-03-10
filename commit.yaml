@@ -1,0 +1,15 @@
+---
+summary: Initial creation of project
+
+added:
+  - ChangeLog
+  - ChangeLoggerError
+  - CommitEntry
+  - LogEntry
+  - use commit.yaml for commit message and changelog update
+  - use ./changelog/changelog.yaml to create CHANGELOG.md file
+changed: []
+deprecated: []
+removed:
+fixed: []
+security: []
