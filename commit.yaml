@@ -1,10 +1,9 @@
 ---
-summary: Added CLI back, unique name to workflow
+summary: Fixing workflow
 
-added:
-  - Added CLI back
+added: []
 changed:
-  - Unique name for workflow
+  - SPM dependency name (removed .git from end)
 deprecated: []
 removed: []
 fixed: []
