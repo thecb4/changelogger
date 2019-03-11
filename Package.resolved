@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "SwiftPM",
+        "repositoryURL": "https://github.com/apple/swift-package-manager",
+        "state": {
+          "branch": "swift-4.2-branch",
+          "revision": "235aacc514cb81a6881364b0fedcb3dd083228f3",
+          "version": null
+        }
+      },
+      {
         "package": "Yams",
         "repositoryURL": "https://github.com/jpsim/Yams",
         "state": {
