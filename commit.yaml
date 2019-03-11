@@ -1,10 +1,10 @@
 ---
-summary: Removed CLI to support swift sh
+summary: Fixing workflow
 
 added: []
-changed: []
+changed:
+  - SPM dependency name (removed .git from end)
 deprecated: []
 removed: []
-  - Removed CLI to support swift sh
 fixed: []
 security: []

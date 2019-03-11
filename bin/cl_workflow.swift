@@ -2,7 +2,7 @@
 
 import Foundation
 import Shelltr // https://gitlab.com/thecb4/Shelltr == 0.2.0
-// import ChangeLogger // https://gitlab.com/thecb4/Shelltr == 0.1.0
+// import ChangeLogger // https://gitlab.com/thecb4/changelogger == 0.1.0
 
 @available(macOS 10.13, *)
 extension Shell {
