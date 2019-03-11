@@ -1,10 +1,11 @@
 ---
-summary: Removed CLI to support swift sh
+summary: Added CLI back, unique name to workflow
 
-added: []
-changed: []
+added:
+  - Added CLI back
+changed:
+  - Unique name for workflow
 deprecated: []
 removed: []
-  - Removed CLI to support swift sh
 fixed: []
 security: []
