@@ -14,9 +14,6 @@ extension Shell {
 
 if #available(macOS 10.13, *) {
   Shell.work {
-    // tell me what you are changing
-    try Shell.assertModified(file: "commit.yaml")
-
     // get rid of all the old data
     try Shell.rm(content: ".build", recursive: true, force: true)
 
@@ -35,6 +32,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "made functions public")
+    try Shell.gitCommit(message: "bumped swift tools to 5.0")
   }
 }
