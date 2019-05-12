@@ -1,0 +1,13 @@
+title: Changelogger Changelog
+logs:
+- version: unreleased
+  date: 2019-05-12T12:08:55.016356945Z
+  commit:
+    summary: Fixing workflow
+    added:
+    - Some new feature
+    changed: []
+    deprecated: []
+    removed: []
+    fixed: []
+    security: []

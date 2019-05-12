@@ -1,63 +1,61 @@
 import Foundation
 import Yams
 
-struct LogEntry: Codable {
-  var version: String
-  var date: String
-  var added: [String]
-  var changed: [String]
-  var deprecated: [String]
-  var removed: [String]
-  var fixed: [String]
-  var security: [String]
+public struct LogEntry: Codable {
+  public let version: String
+  public let date: Date
+  // public let date: String
+  public let commit: CommitEntry
+
+  public static var dateFormat = "yyyy-MM-dd'T'HH:mm.ss.SSSSSSSS"
+  public static var timeZone = TimeZone(secondsFromGMT: 0)
+  public static var unreleasedVersion = "unreleased"
+
+  public enum Error: Swift.Error {
+    case badDate(String)
+  }
 }
 
 extension LogEntry {
-  init(_ commit: CommitEntry) {
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "yyyy-MMM-dd HH:mm:ss"
-
-    version = "unreleased"
-    date = dateFormatter.string(from: Date())
-    added = commit.added
-    changed = commit.changed
-    deprecated = commit.deprecated
-    removed = commit.removed
-    fixed = commit.fixed
-    security = commit.security
+  public init(from commit: CommitEntry) {
+    version = LogEntry.unreleasedVersion
+    // DateManager.formatter.dateFormat = LogEntry.dateFormat
+    // date = DateManager.formatter.string(from: Date())
+    date = Date()
+    self.commit = commit
   }
 
-  var markdown: String {
-    var descriptor = ""
+  public var markdown: String {
+    let descriptor =
+      """
+      #### [\(version)] - \(date.iso8601StringWithFullNanosecond).
+      \(convertItemToMarkDown(titled: "Added", using: commit.added))
 
-    descriptor += "## [\(version)] - \(date).\n"
+      \(convertItemToMarkDown(titled: "Changed", using: commit.changed))
 
-    descriptor += convertToMarkDown(titled: "Added", using: added)
+      \(convertItemToMarkDown(titled: "Deprecated", using: commit.deprecated))
 
-    descriptor += convertToMarkDown(titled: "Changed", using: changed)
+      \(convertItemToMarkDown(titled: "Removed", using: commit.removed))
 
-    descriptor += convertToMarkDown(titled: "Deprecated", using: deprecated)
+      \(convertItemToMarkDown(titled: "Fixed", using: commit.fixed))
 
-    descriptor += convertToMarkDown(titled: "Removed", using: removed)
+      \(convertItemToMarkDown(titled: "Security", using: commit.security))
 
-    descriptor += convertToMarkDown(titled: "Fixed", using: fixed)
-
-    descriptor += convertToMarkDown(titled: "Security", using: security)
+      """
 
     return descriptor
   }
 
-  func convertToMarkDown(titled: String, using work: [String]) -> String {
-    var descriptor = ""
+  func convertItemToMarkDown(titled: String, using work: [String]) -> String {
+    let newLine = "\n"
 
-    descriptor += "### \(titled)\n"
+    let workDescription = work.isEmpty ? "-" : work.map { "- \($0)" }.joined(separator: newLine)
 
-    if work.isEmpty {
-      descriptor += "-\n\n"
-    } else {
-      descriptor += work.map { "- \($0)" }.joined(separator: "\n")
-      descriptor += "\n\n"
-    }
+    let descriptor =
+      """
+      #### \(titled)
+      \(workDescription)
+      """
 
     return descriptor
   }

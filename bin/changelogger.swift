@@ -17,13 +17,15 @@ if #available(macOS 10.13, *) {
     // get rid of all the old data
     try Shell.rm(content: ".build", recursive: true, force: true)
 
+    try Shell.swifttest(arguments: ["--generate-linuxmain"])
+
     // Lint & Format
-    try Shell.swiftformat()
+    try Shell.swiftformat(arguments: [
+      "--swiftversion", "5"
+    ])
     try Shell.swiftlint(quiet: false)
 
-    // delete data and build for docs
-
-    try Shell.swifttest()
+    try Shell.swifttest(arguments: ["--enable-code-coverage"])
     try Shell.sourcekitten(module: "ChangeLoggerKit", destination: Shell.cwd + "/docs/source.json")
     try Shell.jazzy()
 
@@ -32,6 +34,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "bumped swift tools to 5.0")
+    try Shell.gitCommit(message: "Changelog Unit tests, use ISO 8601 with nanoseconds for date")
   }
 }

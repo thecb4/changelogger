@@ -1,7 +1,8 @@
 ---
 summary: Fixing workflow
 
-added: []
+added:
+  - Some new feature
 changed: []
 deprecated: []
 removed: []

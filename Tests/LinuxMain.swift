@@ -1,9 +1,10 @@
 import XCTest
 
-import ChangeLoggerTests
 import ChangeLoggerKitTests
+import ChangeLoggerTests
 
 var tests = [XCTestCaseEntry]()
-tests += ChangeLoggerTests.allTests()
-tests += ChangeLoggerKitTests.allTests()
+tests += ChangeLoggerKitTests.__allTests()
+tests += ChangeLoggerTests.__allTests()
+
 XCTMain(tests)
