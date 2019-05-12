@@ -2,12 +2,15 @@ import ChangeLoggerKit
 import Path
 
 extension CommitEntry {
-  public static var emptyFile = "entry-empty.yml"
-  public static var notEmptyFile = "entry-not-empty.yml"
+  public static let emptyFile = "entry-empty.yml"
+  public static let notEmptyFile = "entry-not-empty.yml"
+  public static let newCommitFile = "new-commit.yml"
 
   public static let testFixturePath = Path.cwd / "Tests" / "fixtures"
 
-  public static var testEmptyEntryPath = testFixturePath / CommitEntry.emptyFile
+  public static let testEmptyEntryPath = testFixturePath / CommitEntry.emptyFile
 
-  public static var testNotEmptyEntryPath = testFixturePath / CommitEntry.notEmptyFile
+  public static let testNotEmptyEntryPath = testFixturePath / CommitEntry.notEmptyFile
+
+  public static let testNewEntryPath = testFixturePath / CommitEntry.newCommitFile
 }

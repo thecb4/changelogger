@@ -14,18 +14,24 @@ extension Shell {
 
 if #available(macOS 10.13, *) {
   Shell.work {
-    // get rid of all the old data
+    // get rid of all old files
     try Shell.rm(content: ".build", recursive: true, force: true)
+    try Shell.rm(content: "/docs/source.json", recursive: true, force: true)
+    try Shell.rm(content: "/docs/api", recursive: true, force: true)
 
+    // auto-generate files
     try Shell.swifttest(arguments: ["--generate-linuxmain"])
 
-    // Lint & Format
+    // Format and Lint
     try Shell.swiftformat(arguments: [
       "--swiftversion", "5"
     ])
     try Shell.swiftlint(quiet: false)
 
+    // build and tests
     try Shell.swifttest(arguments: ["--enable-code-coverage"])
+
+    // docs
     try Shell.sourcekitten(module: "ChangeLoggerKit", destination: Shell.cwd + "/docs/source.json")
     try Shell.jazzy()
 
@@ -34,6 +40,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "Changelog Unit tests, use ISO 8601 with nanoseconds for date")
+    try Shell.gitCommit(message: "Changelog Unit tests for update and squash unreleased")
   }
 }

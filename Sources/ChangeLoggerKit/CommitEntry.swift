@@ -15,12 +15,12 @@ public struct CommitEntry: Codable {
   }
 
   public let summary: String
-  let added: [String]
-  let changed: [String]
-  let deprecated: [String]
-  let removed: [String]
-  let fixed: [String]
-  let security: [String]
+  public let added: [String]
+  public let changed: [String]
+  public let deprecated: [String]
+  public let removed: [String]
+  public let fixed: [String]
+  public let security: [String]
 
   public init(
     summary: String,
