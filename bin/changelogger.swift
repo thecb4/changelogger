@@ -40,6 +40,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "Changelog Unit tests for update and squash unreleased")
+    try Shell.gitCommit(message: "Changelog Unit tests for createing and writing markdown")
   }
 }

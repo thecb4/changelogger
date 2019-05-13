@@ -206,7 +206,6 @@ final class ChangelogTests: XCTestCase {
             security: []
 
         """
-
       // then
       XCTAssertEqual(actualYAML, expectedYAML)
 
@@ -224,24 +223,72 @@ final class ChangelogTests: XCTestCase {
   func testSquashUnreleasedEntries() {
     do {
       // given
-      var sut = try Changelog.current(from: Changelog.testSquashEntryPath.string)
+      let sut = try Changelog.current(from: Changelog.testSquashEntryPath.string)
       let unreleasedCount = sut.logs.filter { $0.version == "unreleased" }
 
       // when
-      sut.squashUnreleased()
+      let squashed = sut.squashedUnreleased
 
-      let actualYAML = try sut.yaml()
+      // then
+      XCTAssertEqual(squashed.commit.summary, "Combined \(unreleasedCount.count) entries")
+
+    } catch let error as CommitEntry.Error {
+      XCTFail("\(error)")
+    } catch let error as LogEntry.Error {
+      XCTFail("\(error)")
+    } catch let error as YamlError {
+      XCTFail("\(error)")
+    } catch {
+      XCTFail("\(error)")
+    }
+  }
+
+  func testwriteChangelogYAML() {
+    do {
+      // given
+      try Changelog.testWriteChangelogPath.delete()
+      var sut = try Changelog.current(from: Changelog.testSquashEntryPath.string)
+      let commitEntry = try CommitEntry.current(from: CommitEntry.testNotEmptyEntryPath.string)
+      let logEntry = LogEntry(from: commitEntry)
+
+      // when
+      sut.update(using: logEntry)
+
+      try sut.write(to: Changelog.testWriteChangelogPath)
+
+      let actualYAML = try String(contentsOf: Changelog.testWriteChangelogPath)
 
       let expectedYAML =
         """
         title: Changelogger Changelog
         logs:
         - version: unreleased
-          date: \(sut.logs[0].date.iso8601StringWithFullNanosecond)
+          date: \(logEntry.date.iso8601StringWithFullNanosecond)
           commit:
-            summary: Combined \(unreleasedCount.count) entries
+            summary: Fixing workflow
+            added:
+            - Some new feature
+            changed: []
+            deprecated: []
+            removed: []
+            fixed: []
+            security: []
+        - version: unreleased
+          date: 2019-05-12T23:25:07.905285954Z
+          commit:
+            summary: Feature flags
             added:
             - Feature flag all the things
+            changed: []
+            deprecated: []
+            removed: []
+            fixed: []
+            security: []
+        - version: unreleased
+          date: 2019-05-12T19:57:00.496031045Z
+          commit:
+            summary: Fixed a bunch of workflow stuff
+            added:
             - Some new feature
             changed: []
             deprecated: []
@@ -253,6 +300,125 @@ final class ChangelogTests: XCTestCase {
 
       // then
       XCTAssertEqual(actualYAML, expectedYAML)
+
+    } catch let error as CommitEntry.Error {
+      XCTFail("\(error)")
+    } catch let error as LogEntry.Error {
+      XCTFail("\(error)")
+    } catch let error as YamlError {
+      XCTFail("\(error)")
+    } catch {
+      XCTFail("\(error)")
+    }
+  }
+
+  func testCreateMarkdown() {
+    do {
+      // given
+      try Changelog.testWriteChangelogPath.delete()
+      let sut = try Changelog.current(from: Changelog.testSquashEntryPath.string)
+      DateManager.formatter.dateFormat = LogEntry.dateFormat
+
+      // when
+      let actualMarkdown = sut.markdown
+
+      // swiftformat:disable consecutiveBlankLines
+      let expectedMarkdown =
+        """
+        ### Changelogger Changelog
+
+        All notable changes to this project will be documented in this file.
+
+        * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
+        * This project adheres to [Semantic Versioning](http://semver.org/).
+
+        #### [unreleased] - \(DateManager.formatter.string(from: Date())).
+        ##### Added
+        - Feature flag all the things
+        - Some new feature
+
+        ##### Changed
+        -
+
+        ##### Deprecated
+        -
+
+        ##### Removed
+        -
+
+        ##### Fixed
+        -
+
+        ##### Security
+        -
+
+
+
+        """
+      // swiftformat:enable consecutiveBlankLines
+
+      // then
+      XCTAssertEqual(actualMarkdown, expectedMarkdown)
+
+    } catch let error as CommitEntry.Error {
+      XCTFail("\(error)")
+    } catch let error as LogEntry.Error {
+      XCTFail("\(error)")
+    } catch let error as YamlError {
+      XCTFail("\(error)")
+    } catch {
+      XCTFail("\(error)")
+    }
+  }
+
+  func testWriteMarkdown() {
+    do {
+      // given
+      try Changelog.testWriteChangelogMarkdownPath.delete()
+      let sut = try Changelog.current(from: Changelog.testSquashEntryPath.string)
+
+      // when
+      try sut.markdown.write(to: Changelog.testWriteChangelogMarkdownPath)
+
+      let actualMarkdown = try String(contentsOf: Changelog.testWriteChangelogMarkdownPath)
+
+      // swiftformat:disable consecutiveBlankLines
+      let expectedMarkdown =
+        """
+        ### Changelogger Changelog
+
+        All notable changes to this project will be documented in this file.
+
+        * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
+        * This project adheres to [Semantic Versioning](http://semver.org/).
+
+        #### [unreleased] - \(DateManager.formatter.string(from: Date())).
+        ##### Added
+        - Feature flag all the things
+        - Some new feature
+
+        ##### Changed
+        -
+
+        ##### Deprecated
+        -
+
+        ##### Removed
+        -
+
+        ##### Fixed
+        -
+
+        ##### Security
+        -
+
+
+
+        """
+      // swiftformat:enable consecutiveBlankLines
+
+      // then
+      XCTAssertEqual(actualMarkdown, expectedMarkdown)
 
     } catch let error as CommitEntry.Error {
       XCTFail("\(error)")

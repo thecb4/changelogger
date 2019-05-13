@@ -7,7 +7,7 @@ public struct LogEntry: Codable {
   // public let date: String
   public let commit: CommitEntry
 
-  public static var dateFormat = "yyyy-MM-dd'T'HH:mm.ss.SSSSSSSS"
+  public static var dateFormat = "yyyy-MMM-dd"
   public static var timeZone = TimeZone(secondsFromGMT: 0)
   public static var unreleasedVersion = "unreleased"
 
@@ -26,9 +26,11 @@ extension LogEntry {
   }
 
   public var markdown: String {
+    DateManager.formatter.dateFormat = LogEntry.dateFormat
+
     let descriptor =
       """
-      #### [\(version)] - \(date.iso8601StringWithFullNanosecond).
+      #### [\(version)] - \(DateManager.formatter.string(from: date)).
       \(convertItemToMarkDown(titled: "Added", using: commit.added))
 
       \(convertItemToMarkDown(titled: "Changed", using: commit.changed))
@@ -53,7 +55,7 @@ extension LogEntry {
 
     let descriptor =
       """
-      #### \(titled)
+      ##### \(titled)
       \(workDescription)
       """
 

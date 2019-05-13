@@ -17,7 +17,6 @@ public struct Changelog: Codable {
 
     * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
     * This project adheres to [Semantic Versioning](http://semver.org/).
-
     """
 
   public static var logEntryFile = "changelog.yml"
@@ -41,20 +40,6 @@ public struct Changelog: Codable {
 }
 
 extension Changelog {
-  // var markdown: String {
-  //   var descriptor = ""
-  //
-  //   descriptor += "# \(title) Change Log\n\n"
-  //
-  //   descriptor += Changelog.preamble + "\n\n\n"
-  //
-  //   descriptor += self.squashedUnreleased.markdown + "\n\n"
-  //
-  //   descriptor += entries.filter { $0.version != "unreleased" }.map { $0.markdown }.joined(separator: "\n")
-  //
-  //   return descriptor
-  // }
-
   public static func current(
     from path: String = Changelog.defaultLogEntryFilePath.string,
     using decoder: ContentDecoder = YAMLDecoder()
@@ -84,8 +69,8 @@ extension Changelog {
     return yaml
   }
 
-  public mutating func squashUnreleased() {
-    let unreleased = logs.filter { $0.version == "unreleased" }
+  public var squashedUnreleased: LogEntry {
+    let unreleased = unreleasedEntries
 
     var added: [String] = []
     var changed: [String] = []
@@ -119,9 +104,41 @@ extension Changelog {
       commit: commit
     )
 
-    logs = logs.filter { $0.version != "unreleased" }
+    return logEntry
+  }
 
-    update(using: logEntry)
+  public func write(to path: Path = Changelog.defaultLogEntryFilePath) throws {
+    let yaml = try self.yaml()
+    try yaml.write(to: path)
+  }
+
+  public var unreleasedEntries: [LogEntry] {
+    return logs.filter { $0.version == "unreleased" }
+  }
+
+  public var releasedEntries: [LogEntry] {
+    return logs.filter { $0.version != "unreleased" }
+  }
+
+  public var markdown: String {
+    let unreleasedMarkdown = squashedUnreleased.markdown
+
+    let releases = releasedEntries
+
+    let releasedMarkdown = releases.map { $0.markdown }.joined(separator: "\n")
+
+    let descriptor =
+      """
+      ### \(title)
+
+      \(Changelog.preamble)
+
+      \(unreleasedMarkdown)
+
+      \(releasedMarkdown)
+      """
+
+    return descriptor
   }
 
   // public static func revise(changelog changelogPath: String = Changelog.defaultLogEntryFilePath.string, using commitPath: String = CommitEntry.defaultCommitFilePath.string ) throws {

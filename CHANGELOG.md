@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased] - 2019-Mar-10.
 ### Added
--
+- Unit tests
 
 ### Changed
 - made CommitEntry summary public

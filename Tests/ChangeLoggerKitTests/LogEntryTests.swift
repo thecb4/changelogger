@@ -54,28 +54,29 @@ final class LogEntryTests: XCTestCase {
       let commitEntry = try CommitEntry.current(from: CommitEntry.testNotEmptyEntryPath.string)
       let logEntry = LogEntry(from: commitEntry)
 
-      // must use YAMS date format because it doesn't provide for changing
-      let expectedDateString = logEntry.date.iso8601StringWithFullNanosecond
+      // // must use YAMS date format because it doesn't provide for changing
+      // let expectedDateString = logEntry.date.iso8601StringWithFullNanosecond
+      DateManager.formatter.dateFormat = LogEntry.dateFormat
 
       let expectedMarkdown =
         """
-        #### [unreleased] - \(expectedDateString).
-        #### Added
+        #### [unreleased] - \(DateManager.formatter.string(from: Date())).
+        ##### Added
         - Some new feature
 
-        #### Changed
+        ##### Changed
         -
 
-        #### Deprecated
+        ##### Deprecated
         -
 
-        #### Removed
+        ##### Removed
         -
 
-        #### Fixed
+        ##### Fixed
         -
 
-        #### Security
+        ##### Security
         -
 
         """

@@ -8,11 +8,14 @@
     static let __allTests__ChangelogTests = [
       ("testChangelogFilePaths", testChangelogFilePaths),
       ("testCreateEmptyChangelog", testCreateEmptyChangelog),
+      ("testCreateMarkdown", testCreateMarkdown),
       ("testCreateNotEmptyChangelog", testCreateNotEmptyChangelog),
       ("testReadNotEmptyChangelog", testReadNotEmptyChangelog),
       ("testSquashUnreleasedEntries", testSquashUnreleasedEntries),
       ("testUpdateChangelogFile", testUpdateChangelogFile),
-      ("testUpdateChangelogStruct", testUpdateChangelogStruct)
+      ("testUpdateChangelogStruct", testUpdateChangelogStruct),
+      ("testwriteChangelogYAML", testwriteChangelogYAML),
+      ("testWriteMarkdown", testWriteMarkdown)
     ]
   }
 
