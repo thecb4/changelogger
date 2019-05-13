@@ -1,8 +1,12 @@
-import XCTest
-import Path
-
+// import XCTest
+// import Path
+//
+// extension String: Error {
+//
+// }
+//
 // extension XCTestCase {
-//   func run(_ arguments: [String], workingDirectory: String = "./", buildPath: String = "./.build") throws -> String {
+//   func run(_ binaryName: String, using arguments: [String], workingDirectory: String = "./", buildPath: String = "./.build") throws -> String {
 //     // This is an example of a functional test case.
 //     // Use XCTAssert and related functions to verify your tests produce the correct
 //     // results.
@@ -12,17 +16,23 @@ import Path
 //         return "--- BAD RETURN ---"
 //     }
 //
-//     let binaryName = "changelogger"
-//
 //     let process = Process()
 //
 //     // let exacutable = FileManager.makeFileURL(using: "bin/missive")
 //
-//     let exacutable = Path("/bin/bash").url //FileManager.makeFileURL(using: "/bin/bash")
+//     // let exacutable = Path("/bin/bash").url //FileManager.makeFileURL(using: "/bin/bash")
 //
-//     process.executableURL = exacutable
+//     guard let swiftExecutableURL = Path("/usr/bin/swift")?.url else {
+//       throw "Cannot find swift"
+//     }
 //
-//     process.arguments = ["-c", "cd \(workingDirectory) && swift run --build-path \(buildPath) \(binaryName) \(arguments.joined(separator: " "))"]
+//     process.executableURL = swiftExecutableURL
+//
+//     process.currentDirectoryURL = Path.cwd.url
+//
+//     process.arguments = ["run", "--skip-build", binaryName]
+//
+//     // process.arguments = ["-c", "cd \(workingDirectory) && swift run --build-path \(buildPath) \(binaryName) \(arguments.joined(separator: " "))"]
 //
 //     print(String(describing: process.arguments))
 //
