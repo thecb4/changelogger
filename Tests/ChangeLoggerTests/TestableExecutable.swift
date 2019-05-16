@@ -28,7 +28,7 @@ final class TestableExecutable {
 
     process.currentDirectoryURL = Path.cwd.url
 
-    process.arguments = ["run", binaryName]
+    process.arguments = ["run", binaryName] + arguments
 
     // process.arguments = ["-c", "cd \(workingDirectory) && swift run --build-path \(buildPath) \(binaryName) \(arguments.joined(separator: " "))"]
 

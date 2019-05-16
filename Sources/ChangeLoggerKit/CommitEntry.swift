@@ -2,7 +2,7 @@ import Yams
 import Path
 
 public struct CommitEntry: Codable {
-  public static var file = "commit.yaml"
+  public static var file = "commit.yml"
 
   public static let defaultCommitFilePath = Path.cwd / CommitEntry.file
 
@@ -54,6 +54,12 @@ public struct CommitEntry: Codable {
     }
 
     return entry
+  }
+
+  public func yaml() throws -> String {
+    let encoder = YAMLEncoder()
+    let yaml = try encoder.encode(self)
+    return yaml
   }
 }
 

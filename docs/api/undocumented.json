@@ -288,6 +288,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
+      "line": 59,
+      "symbol": "CommitEntry.yaml()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ContentDecoder.swift",
       "line": 4,
       "symbol": "ContentDecoder",

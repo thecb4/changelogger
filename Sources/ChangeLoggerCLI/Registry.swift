@@ -23,9 +23,9 @@ struct CommandRegistry {
     } catch let error as ArgumentParserError {
       print(error.description)
     } catch let error as CommandLineError {
-      print(error.description)
+      print("\(error)")
     } catch {
-      print(error.localizedDescription)
+      print("\(error)")
     }
   }
 

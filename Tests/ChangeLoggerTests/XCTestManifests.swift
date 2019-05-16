@@ -6,7 +6,8 @@
     //   `swift test --generate-linuxmain`
     // to regenerate.
     static let __allTests__ChangeloggerExecutableTests = [
-      ("testInit", testInit),
+      ("testInitNoArguments", testInitNoArguments),
+      ("testInitWithArguments", testInitWithArguments),
       ("testRunNoArguments", testRunNoArguments)
     ]
   }

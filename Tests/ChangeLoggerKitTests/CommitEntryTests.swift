@@ -5,9 +5,9 @@ import Yams
 final class CommitEntryTests: XCTestCase {
   func testCommitEntryFilePaths() {
     // commit entry file and paths
-    XCTAssertEqual(CommitEntry.file, "commit.yaml")
-    XCTAssertEqual(CommitEntry.defaultCommitFilePath.string, FileManager.default.currentDirectoryPath + "/commit.yaml")
-    XCTAssertEqual(CommitEntry.commitFilePath.string, FileManager.default.currentDirectoryPath + "/commit.yaml")
+    XCTAssertEqual(CommitEntry.file, "commit.yml")
+    XCTAssertEqual(CommitEntry.defaultCommitFilePath.string, FileManager.default.currentDirectoryPath + "/commit.yml")
+    XCTAssertEqual(CommitEntry.commitFilePath.string, FileManager.default.currentDirectoryPath + "/commit.yml")
   }
 
   func testCommitDefaultPathEmptyEntryNoError() {
