@@ -2,11 +2,29 @@
   "object": {
     "pins": [
       {
+        "package": "Path.swift",
+        "repositoryURL": "https://github.com/mxcl/Path.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "f324b4a562ca421fd2905414a10fb0fc91d58b67",
+          "version": "0.16.2"
+        }
+      },
+      {
+        "package": "llbuild",
+        "repositoryURL": "https://github.com/apple/swift-llbuild.git",
+        "state": {
+          "branch": "master",
+          "revision": "3aaff32283b6968473f740559b6183d149dbfa36",
+          "version": null
+        }
+      },
+      {
         "package": "SwiftPM",
         "repositoryURL": "https://github.com/apple/swift-package-manager",
         "state": {
-          "branch": "swift-4.2-branch",
-          "revision": "235aacc514cb81a6881364b0fedcb3dd083228f3",
+          "branch": "swift-5.0-branch",
+          "revision": "3a57975e10be0b1a8b87992ddf3a49701036f96c",
           "version": null
         }
       },

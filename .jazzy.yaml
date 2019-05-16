@@ -4,7 +4,7 @@ author_url: https://thecb4.io
 github_url: https://gitlab.com/thecb4/changelogger
 copyright: '© Copyright (c) 2018 Cavelle Benjamin (thecb4)'
 sourcekitten_sourcefile: docs/source.json
-swift_version: 4.2
+swift_version: 5.0
 theme: fullwidth
 clean: true
 output: docs/api

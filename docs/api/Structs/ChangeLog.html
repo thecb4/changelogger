@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ChangeLog Structure Reference</title>
+    <title>Changelog Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset="utf-8">
@@ -14,16 +14,16 @@
   </head>
   <body>
 
-    <a name="//apple_ref/swift/Struct/ChangeLog" class="dashAnchor"></a>
+    <a name="//apple_ref/swift/Struct/Changelog" class="dashAnchor"></a>
 
-    <a title="ChangeLog Structure Reference"></a>
+    <a title="Changelog Structure Reference"></a>
 
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="../index.html">
           ChangeLoggerKit Docs
         </a>
-         (0% documented)
+         (7% documented)
       </p>
     
       <p class="header-col--secondary">
@@ -44,20 +44,54 @@
     <p class="breadcrumbs">
       <a class="breadcrumb" href="../index.html">ChangeLoggerKit Reference</a>
       <img class="carat" src="../img/carat.png" />
-      ChangeLog Structure Reference
+      Changelog Structure Reference
     </p>
 
     <div class="content-wrapper">
       <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/YAMLDecoder.html">YAMLDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ContentDecoder.html">ContentDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
             <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Structs/ChangeLog.html">ChangeLog</a>
+                <a class="nav-group-task-link" href="../Structs/Changelog.html">Changelog</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Changelog/Error.html">– Error</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/CommitEntry.html">CommitEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/CommitEntry/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DateManager.html">DateManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LogEntry.html">LogEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/LogEntry/Error.html">– Error</a>
               </li>
             </ul>
           </li>
@@ -67,10 +101,10 @@
 
         <section class="section">
           <div class="section-content">
-            <h1>ChangeLog</h1>
+            <h1>Changelog</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeLog</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Changelog</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
@@ -86,9 +120,37 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:15ChangeLoggerKit0A3LogV17changelogYAMLPathSSvpZ"></a>
-                    <a name="//apple_ref/swift/Variable/changelogYAMLPath" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15ChangeLoggerKit0A3LogV17changelogYAMLPathSSvpZ">changelogYAMLPath</a>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV5ErrorO"></a>
+                    <a name="//apple_ref/swift/Enum/Error" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV5ErrorO">Error</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/Changelog/Error.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span> <span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV5titleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV5titleSSvp">title</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -103,7 +165,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">changelogYAMLPath</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -113,9 +175,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:15ChangeLoggerKit0A3LogV14commitYAMLPathSSvpZ"></a>
-                    <a name="//apple_ref/swift/Variable/commitYAMLPath" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15ChangeLoggerKit0A3LogV14commitYAMLPathSSvpZ">commitYAMLPath</a>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV4logsSayAA8LogEntryVGvp"></a>
+                    <a name="//apple_ref/swift/Property/logs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV4logsSayAA8LogEntryVGvp">logs</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -130,7 +192,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">commitYAMLPath</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">logs</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/LogEntry.html">LogEntry</a></span><span class="p">]</span></code></pre>
 
                         </div>
                       </div>
@@ -140,9 +202,171 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:15ChangeLoggerKit0A3LogV21changelogMarkdownPathSSvpZ"></a>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV12logEntryFileSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/logEntryFile" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV12logEntryFileSSvpZ">logEntryFile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">logEntryFile</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV21defaultLogEntryFolderSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/defaultLogEntryFolder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV21defaultLogEntryFolderSSvpZ">defaultLogEntryFolder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">defaultLogEntryFolder</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV23defaultLogEntryFilePath0I0AEVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/defaultLogEntryFilePath" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV23defaultLogEntryFilePath0I0AEVvpZ">defaultLogEntryFilePath</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">defaultLogEntryFilePath</span><span class="p">:</span> <span class="kt">Path</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV16logEntryFilePath0H0AEVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/logEntryFilePath" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV16logEntryFilePath0H0AEVvpZ">logEntryFilePath</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">logEntryFilePath</span><span class="p">:</span> <span class="kt">Path</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV21changelogMarkdownFileSSvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/changelogMarkdownFile" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV21changelogMarkdownFileSSvpZ">changelogMarkdownFile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">changelogMarkdownFile</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV07defaultD12MarkdownPath0G0AEVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/defaultChangelogMarkdownPath" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV07defaultD12MarkdownPath0G0AEVvpZ">defaultChangelogMarkdownPath</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">defaultChangelogMarkdownPath</span><span class="p">:</span> <span class="kt">Path</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV21changelogMarkdownPath0G0AEVvpZ"></a>
                     <a name="//apple_ref/swift/Variable/changelogMarkdownPath" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15ChangeLoggerKit0A3LogV21changelogMarkdownPathSSvpZ">changelogMarkdownPath</a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV21changelogMarkdownPath0G0AEVvpZ">changelogMarkdownPath</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -157,7 +381,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">changelogMarkdownPath</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">changelogMarkdownPath</span><span class="p">:</span> <span class="kt">Path</span></code></pre>
 
                         </div>
                       </div>
@@ -167,9 +391,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:15ChangeLoggerKit0A3LogV6reviseyyKFZ"></a>
-                    <a name="//apple_ref/swift/Method/revise()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15ChangeLoggerKit0A3LogV6reviseyyKFZ">revise()</a>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV5title4logsACSS_SayAA8LogEntryVGtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(title:logs:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV5title4logsACSS_SayAA8LogEntryVGtcfc">init(title:logs:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -184,7 +408,257 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">revise</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">logs</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/LogEntry.html">LogEntry</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV7current4from5usingACSS_AA14ContentDecoder_ptKFZ"></a>
+                    <a name="//apple_ref/swift/Method/current(from:using:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV7current4from5usingACSS_AA14ContentDecoder_ptKFZ">current(from:using:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">current</span><span class="p">(</span>
+  <span class="n">from</span> <span class="nv">path</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kt">Changelog</span><span class="o">.</span><span class="n"><a href="../Structs/Changelog.html#/s:15ChangeLoggerKit9ChangelogV23defaultLogEntryFilePath0I0AEVvpZ">defaultLogEntryFilePath</a></span><span class="o">.</span><span class="n">string</span><span class="p">,</span>
+  <span class="n">using</span> <span class="nv">decoder</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ContentDecoder.html">ContentDecoder</a></span> <span class="o">=</span> <span class="kt">YAMLDecoder</span><span class="p">()</span>
+<span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Changelog</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV6update5usingyAA8LogEntryV_tF"></a>
+                    <a name="//apple_ref/swift/Method/update(using:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV6update5usingyAA8LogEntryV_tF">update(using:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">using</span> <span class="nv">entry</span><span class="p">:</span> <span class="kt"><a href="../Structs/LogEntry.html">LogEntry</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV4yamlSSyKF"></a>
+                    <a name="//apple_ref/swift/Method/yaml()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV4yamlSSyKF">yaml()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">yaml</span><span class="p">()</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV18squashedUnreleasedAA8LogEntryVvp"></a>
+                    <a name="//apple_ref/swift/Property/squashedUnreleased" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV18squashedUnreleasedAA8LogEntryVvp">squashedUnreleased</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">squashedUnreleased</span><span class="p">:</span> <span class="kt"><a href="../Structs/LogEntry.html">LogEntry</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV5write2toy4PathAFV_tKF"></a>
+                    <a name="//apple_ref/swift/Method/write(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV5write2toy4PathAFV_tKF">write(to:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">write</span><span class="p">(</span><span class="n">to</span> <span class="nv">path</span><span class="p">:</span> <span class="kt">Path</span> <span class="o">=</span> <span class="kt">Changelog</span><span class="o">.</span><span class="n"><a href="../Structs/Changelog.html#/s:15ChangeLoggerKit9ChangelogV23defaultLogEntryFilePath0I0AEVvpZ">defaultLogEntryFilePath</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV17unreleasedEntriesSayAA8LogEntryVGvp"></a>
+                    <a name="//apple_ref/swift/Property/unreleasedEntries" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV17unreleasedEntriesSayAA8LogEntryVGvp">unreleasedEntries</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">unreleasedEntries</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/LogEntry.html">LogEntry</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV15releasedEntriesSayAA8LogEntryVGvp"></a>
+                    <a name="//apple_ref/swift/Property/releasedEntries" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV15releasedEntriesSayAA8LogEntryVGvp">releasedEntries</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">releasedEntries</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/LogEntry.html">LogEntry</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV8markdownSSvp"></a>
+                    <a name="//apple_ref/swift/Property/markdown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV8markdownSSvp">markdown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">markdown</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV7release5usingACSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/release(using:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV7release5usingACSS_tF">release(using:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">release</span><span class="p">(</span><span class="n">using</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Changelog</span></code></pre>
 
                         </div>
                       </div>

@@ -23,7 +23,7 @@
         <a class="header-link" href="index.html">
           ChangeLoggerKit Docs
         </a>
-         (0% documented)
+         (7% documented)
       </p>
     
       <p class="header-col--secondary">
@@ -51,13 +51,47 @@
       <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/YAMLDecoder.html">YAMLDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ContentDecoder.html">ContentDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
             <a class="nav-group-name-link" href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="Structs/ChangeLog.html">ChangeLog</a>
+                <a class="nav-group-task-link" href="Structs/Changelog.html">Changelog</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Changelog/Error.html">– Error</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="Structs/CommitEntry.html">CommitEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/CommitEntry/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/DateManager.html">DateManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/LogEntry.html">LogEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/LogEntry/Error.html">– Error</a>
               </li>
             </ul>
           </li>
@@ -80,9 +114,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:15ChangeLoggerKit0A3LogV"></a>
-                    <a name="//apple_ref/swift/Struct/ChangeLog" class="dashAnchor"></a>
-                    <a class="token" href="#/s:15ChangeLoggerKit0A3LogV">ChangeLog</a>
+                    <a name="/s:15ChangeLoggerKit9ChangelogV"></a>
+                    <a name="//apple_ref/swift/Struct/Changelog" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit9ChangelogV">Changelog</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -92,13 +126,13 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
-                        <a href="Structs/ChangeLog.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/Changelog.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ChangeLog</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Changelog</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                         </div>
                       </div>
@@ -131,6 +165,80 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">CommitEntry</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit11DateManagerV"></a>
+                    <a name="//apple_ref/swift/Struct/DateManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit11DateManagerV">DateManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Wednesday, Sep 12, 2018           &ndash;&gt; EEEE, MMM d, yyyy
+09/12/2018                        &ndash;&gt; MM/dd/yyyy
+09-12-2018 14:11                  &ndash;&gt; MM-dd-yyyy HH:mm
+Sep 12, 2:11 PM                   &ndash;&gt; MMM d, h:mm a
+September 2018                    &ndash;&gt; MMMM yyyy
+Sep 12, 2018                      &ndash;&gt; MMM d, yyyy
+Wed, 12 Sep 2018 14:11:54 +0000   &ndash;&gt; E, d MMM yyyy HH:mm:ss Z
+2018-09-12T14:11:54+0000          &ndash;&gt; yyyy-MM-dd&rsquo;T&#39;HH:mm:ssZ
+12.09.18                          &ndash;&gt; dd.MM.yy
+10:41:02.112                      &ndash;&gt; HH:mm:ss.SSS
+*</p>
+
+                        <a href="Structs/DateManager.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DateManager</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15ChangeLoggerKit8LogEntryV"></a>
+                    <a name="//apple_ref/swift/Struct/LogEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15ChangeLoggerKit8LogEntryV">LogEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/LogEntry.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">LogEntry</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                         </div>
                       </div>

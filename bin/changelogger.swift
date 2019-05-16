@@ -14,19 +14,24 @@ extension Shell {
 
 if #available(macOS 10.13, *) {
   Shell.work {
-    // tell me what you are changing
-    try Shell.assertModified(file: "commit.yaml")
-
-    // get rid of all the old data
+    // get rid of all old files
     try Shell.rm(content: ".build", recursive: true, force: true)
+    try Shell.rm(content: "/docs/source.json", recursive: true, force: true)
+    try Shell.rm(content: "/docs/api", recursive: true, force: true)
 
-    // Lint & Format
-    try Shell.swiftformat()
+    // auto-generate files
+    try Shell.swifttest(arguments: ["--generate-linuxmain"])
+
+    // Format and Lint
+    try Shell.swiftformat(arguments: [
+      "--swiftversion", "5"
+    ])
     try Shell.swiftlint(quiet: false)
 
-    // delete data and build for docs
+    // build and tests
+    try Shell.swifttest(arguments: ["--enable-code-coverage"])
 
-    try Shell.swifttest()
+    // docs
     try Shell.sourcekitten(module: "ChangeLoggerKit", destination: Shell.cwd + "/docs/source.json")
     try Shell.jazzy()
 
@@ -35,6 +40,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "made functions public")
+    try Shell.gitCommit(message: "CLI. Markdown command. No Arguments.")
   }
 }
