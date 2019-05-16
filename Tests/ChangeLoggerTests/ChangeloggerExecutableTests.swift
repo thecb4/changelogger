@@ -2,6 +2,46 @@ import XCTest
 import Path
 
 final class ChangeloggerExecutableTests: XCTestCase {
+  static let logYAML =
+    """
+    title: Changelogger Changelog
+    logs:
+    - version: unreleased
+      date: 2019-05-16T23:08:50.770277976Z
+      commit:
+        summary: Fixing workflow
+        added:
+        - Some new feature
+        changed: []
+        deprecated: []
+        removed: []
+        fixed: []
+        security: []
+    - version: unreleased
+      date: 2019-05-12T23:25:07.905285954Z
+      commit:
+        summary: Feature flags
+        added:
+        - Feature flag all the things
+        changed: []
+        deprecated: []
+        removed: []
+        fixed: []
+        security: []
+    - version: unreleased
+      date: 2019-05-12T19:57:00.496031045Z
+      commit:
+        summary: Fixed a bunch of workflow stuff
+        added:
+        - Some new feature
+        changed: []
+        deprecated: []
+        removed: []
+        fixed: []
+        security: []
+
+    """
+
   func testRunNoArguments() {
     do {
       let actualOutput = try TestableExecutable.run("changelogger", using: [String]())
@@ -16,6 +56,7 @@ final class ChangeloggerExecutableTests: XCTestCase {
 
         SUBCOMMANDS:
           init                    initialize directory for changelogger
+          markdown                Write CHANGELOG markdown
 
         """
       // swiftformat:enable consecutiveBlankLines
@@ -77,6 +118,60 @@ final class ChangeloggerExecutableTests: XCTestCase {
       XCTAssertEqual(actualOutput, expectedOutput)
       XCTAssertTrue((Path.cwd / "Tests/fixtures/executable/commit.yml").exists)
       XCTAssertTrue((Path.cwd / "Tests/fixtures/executable/.changelog/changelog.yml").exists)
+
+    } catch {
+      XCTFail("\(error)")
+    }
+  }
+
+  func testMarkdownNoArguments() {
+    do {
+      try ChangeloggerExecutableTests.logYAML.write(to: Path.cwd / ".changelog/changelog.yml")
+
+      let actualOutput = try TestableExecutable.run("changelogger", using: ["markdown"])
+
+      // swiftformat:disable consecutiveBlankLines
+      let expectedOutput =
+        """
+        Wring CHANGELOG markdown
+        ### Changelogger Changelog
+
+        All notable changes to this project will be documented in this file.
+
+        * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
+        * This project adheres to [Semantic Versioning](http://semver.org/).
+
+        #### [unreleased] - 2019-May-16.
+        ##### Added
+        - Some new feature
+        - Feature flag all the things
+        - Some new feature
+
+        ##### Changed
+        -
+
+        ##### Deprecated
+        -
+
+        ##### Removed
+        -
+
+        ##### Fixed
+        -
+
+        ##### Security
+        -
+
+
+
+
+        """
+      // swiftformat:enable consecutiveBlankLines
+
+      // then
+      XCTAssertEqual(actualOutput, expectedOutput)
+      XCTAssertTrue((Path.cwd / "commit.yml").exists)
+      XCTAssertTrue((Path.cwd / ".changelog/changelog.yml").exists)
 
     } catch {
       XCTFail("\(error)")

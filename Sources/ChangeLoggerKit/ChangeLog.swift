@@ -141,6 +141,16 @@ extension Changelog {
     return descriptor
   }
 
+  public func release(using version: String) -> Changelog {
+    var changelog = Changelog(title: title, logs: releasedEntries)
+
+    var squashed = squashedUnreleased
+    squashed.version = version
+    changelog.update(using: squashed)
+
+    return changelog
+  }
+
   // public static func revise(changelog changelogPath: String = Changelog.defaultLogEntryFilePath.string, using commitPath: String = CommitEntry.defaultCommitFilePath.string ) throws {
   //
   //   let changelog = Changelog.current(from: changelogPath)

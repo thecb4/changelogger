@@ -169,6 +169,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/Changelog.swift",
+      "line": 144,
+      "symbol": "Changelog.release(using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
       "line": 4,
       "symbol": "CommitEntry",

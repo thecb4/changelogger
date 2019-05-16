@@ -40,6 +40,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "changelogger cli testing, init command")
+    try Shell.gitCommit(message: "CLI. Markdown command. No Arguments.")
   }
 }

@@ -11,6 +11,7 @@ public class ChangeLoggerCommandLine {
 
   public init() {
     registry.register(command: InitCommand.self)
+    registry.register(command: MarkdownCommand.self)
     // registry.register(command: PublishCommand.self)
   }
 

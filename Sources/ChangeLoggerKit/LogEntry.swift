@@ -2,7 +2,7 @@ import Foundation
 import Yams
 
 public struct LogEntry: Codable {
-  public let version: String
+  public var version: String
   public let date: Date
   // public let date: String
   public let commit: CommitEntry

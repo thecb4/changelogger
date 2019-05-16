@@ -24,7 +24,7 @@ struct InitCommand: Command {
 
     changelogFileOption = subparser.add(
       option: "--log-entry-file",
-      shortName: "-lef",
+      shortName: "-lf",
       kind: String.self,
       usage: "path for log entry file"
     )
