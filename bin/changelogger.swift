@@ -2,7 +2,6 @@
 
 import Foundation
 import Shelltr // https://gitlab.com/thecb4/Shelltr == 0.2.0
-// import ChangeLogger // https://gitlab.com/thecb4/changelogger == 0.1.0
 
 @available(macOS 10.13, *)
 extension Shell {
@@ -40,6 +39,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "CLI. Markdown command. No Arguments.")
+    try Shell.gitCommit(message: "Changed test paths, added ChangeLoggerKit to swift sh file")
   }
 }

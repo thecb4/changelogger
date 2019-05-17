@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 
 #### [unreleased] - 2019-May-17.
 ##### Added
+- Some new feature
 - Feature flag all the things
 - Some new feature
 
