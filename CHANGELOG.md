@@ -5,11 +5,10 @@ All notable changes to this project will be documented in this file.
 * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
 * This project adheres to [Semantic Versioning](http://semver.org/).
 
-#### [unreleased] - 2019-May-16.
+#### [0.3.0] - 2019-May-16.
 ##### Added
-- Some new feature
-- Feature flag all the things
-- Some new feature
+- Init command to initialize current directory with commit file and changelog directory
+- Markdown command to generate markdown from current log entries
 
 ##### Changed
 -
@@ -25,5 +24,3 @@ All notable changes to this project will be documented in this file.
 
 ##### Security
 -
-
-
