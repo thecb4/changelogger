@@ -1,47 +1,26 @@
-# ChangeLogger Change Log
+### Changelogger Changelog
+
 All notable changes to this project will be documented in this file.
 
 * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
 * This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [unreleased] - 2019-Mar-10.
-### Added
+#### [0.3.0] - 2019-May-16.
+##### Added
+- Init command to initialize current directory with commit file and changelog directory
+- Markdown command to generate markdown from current log entries
+
+##### Changed
 -
 
-### Changed
-- made CommitEntry summary public
-- made ChangeLog revise public
-
-### Deprecated
+##### Deprecated
 -
 
-### Removed
-- Removed CLI to support swift sh
-
-### Fixed
+##### Removed
 -
 
-### Security
+##### Fixed
 -
 
-
-## [0.1.0] - 2019-Mar-10.
-### Added
-- use commit.yaml for commit message and changelog update
-- use ./changelog/changelog.yaml to create CHANGELOG.md file
-
-
-### Changed
--
-
-### Deprecated
--
-
-### Removed
--
-
-### Fixed
--
-
-### Security
+##### Security
 -

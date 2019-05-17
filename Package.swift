@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,7 +13,8 @@ let package = Package(
   dependencies: [
     // Dependencies declare other packages that this package depends on.
     .package(url: "https://github.com/jpsim/Yams", .exact("1.0.1")),
-    .package(url: "https://github.com/apple/swift-package-manager", .branch("swift-4.2-branch"))
+    .package(url: "https://github.com/apple/swift-package-manager", .branch("swift-5.0-branch")),
+    .package(url: "https://github.com/mxcl/Path.swift.git", .exact("0.16.2"))
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -24,11 +25,11 @@ let package = Package(
     ),
     .target(
       name: "ChangeLoggerCLI",
-      dependencies: ["ChangeLoggerKit", "Utility"]
+      dependencies: ["ChangeLoggerKit", "SPMUtility"]
     ),
     .target(
       name: "ChangeLoggerKit",
-      dependencies: ["Yams"]
+      dependencies: ["Yams", "Path"]
     ),
     .testTarget(
       name: "ChangeLoggerKitTests",
