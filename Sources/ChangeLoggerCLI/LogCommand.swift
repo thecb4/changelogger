@@ -4,14 +4,14 @@ import Basic
 import ChangeLoggerKit
 import Path
 
-struct MarkdownCommand: Command {
-  let command = "markdown"
-  let overview = "Write CHANGELOG markdown"
+struct LogCommand: Command {
+  let command = "log"
+  let overview = "log commit to log entry file"
 
   private let commitFileOption: OptionArgument<String>
   private let logEntryFileOption: OptionArgument<String>
-  private let markdownFileOption: OptionArgument<String>
-  private let versionTagOption: OptionArgument<String>
+  // private let markdownFileOption: OptionArgument<String>
+  // private let releaseTagOption: OptionArgument<String>
 
   init(parser: ArgumentParser) {
     let subparser = parser.add(subparser: command, overview: overview)
@@ -30,19 +30,19 @@ struct MarkdownCommand: Command {
       usage: "path for log entry file"
     )
 
-    markdownFileOption = subparser.add(
-      option: "--markdown",
-      shortName: "-md",
-      kind: String.self,
-      usage: "Path for changelog markdown file"
-    )
-
-    versionTagOption = subparser.add(
-      option: "--version",
-      shortName: "-r",
-      kind: String.self,
-      usage: "Release tag info"
-    )
+    // markdownFileOption = subparser.add(
+    //   option: "--markdown",
+    //   shortName: "-md",
+    //   kind: String.self,
+    //   usage: "Path for changelog markdown file"
+    // )
+    //
+    // releaseTagOption = subparser.add(
+    //   option: "--release",
+    //   shortName: "-r",
+    //   kind: String.self,
+    //   usage: "Release tag info"
+    // )
   }
 
   func commitFileOptionAction(_ arguments: ArgumentParser.Result) throws -> Path {
@@ -78,28 +78,36 @@ struct MarkdownCommand: Command {
   }
 
   func run(with arguments: ArgumentParser.Result) throws {
-    print("Wring CHANGELOG markdown")
+    let commitFilePath = try commitFileOptionAction(arguments)
 
-    // let commitFilePath = try commitFileOptionAction(arguments)
+    let logEntryFilePath = try logEntryFileOptionAction(arguments)
 
-    let changelogFilePath = try logEntryFileOptionAction(arguments)
+    let commit = try CommitEntry.current(from: commitFilePath.string)
 
-    // let commit = CommitEntry.current(from: commitFilePath.string)
+    var changelog = try Changelog.current(from: logEntryFilePath.string)
 
-    let changelog = try Changelog.current(from: changelogFilePath.string)
+    let log = LogEntry(from: commit)
 
-    // change this to an optional flag
-    // changelog.update(using: commit)
+    changelog.update(using: log)
 
-    print(changelog.markdown)
+    let yaml = try changelog.yaml()
 
-    let changelogPath = Changelog.defaultChangelogMarkdownPath
+    try yaml.write(to: logEntryFilePath)
 
-    try changelog.markdown.write(to: changelogPath)
+    let result =
+      """
+      Log updated | \(log.date.iso8601StringWithFullNanosecond)
 
-    let releaselogPath = Changelog.defaultReleaselogMarkdownPath
+      \(yaml)
+      """
 
-    try changelog.squashedUnreleased.markdown.write(to: releaselogPath)
+    print(result)
+
+    // print(changelog.markdown)
+
+    // let changelogPath = Changelog.defaultChangelogMarkdownPath
+    //
+    // try changelog.markdown.write(to: changelogPath)
 
     // if changelogFilePath.parent == Path.cwd {
     //   try "".write(to: changelogFilePath)

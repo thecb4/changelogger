@@ -29,7 +29,11 @@ public struct Changelog: Codable {
 
   public static var changelogMarkdownFile = "CHANGELOG.md"
 
+  public static var releaselogMarkdownFile = "RELEASE.md"
+
   public static let defaultChangelogMarkdownPath = Path.cwd / changelogMarkdownFile
+
+  public static let defaultReleaselogMarkdownPath = Path.cwd / releaselogMarkdownFile
 
   public static var changelogMarkdownPath = defaultChangelogMarkdownPath
 

@@ -22,7 +22,7 @@
         <a class="header-link" href="index.html">
           ChangeLoggerKit Docs
         </a>
-         (7% documented)
+         (6% documented)
       </p>
     
       <p class="header-col--secondary">
@@ -103,7 +103,10 @@
             
             <h1 id='changelogger' class='heading'>ChangeLogger</h1>
 
-<p>One Paragraph of project description goes here</p>
+<p>Take control of your changelogs!</p>
+
+<p>Programmatically generate a <a href="https://keepachangelog.com/en/1.0.0/">CHANGELOG.md</a> from a YAML formatted file.
+Also generates a RELEASE.md with just the latest release info.</p>
 <h2 id='license' class='heading'>License</h2>
 
 <p>This project is licensed under the MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for details</p>
@@ -113,23 +116,38 @@
 <h2 id='built-with' class='heading'>Built With</h2>
 
 <ul>
-<li><a href="http://www.dropwizard.io/1.0.2/docs/">Dropwizard</a> - The web framework used</li>
-<li><a href="https://maven.apache.org/">Maven</a> - Dependency Management</li>
-<li><a href="https://rometools.github.io/rome/">ROME</a> - Used to generate RSS Feeds</li>
+<li><a href="https://github.com/apple/swift-package-manager">Swift Package Manager</a> - Command Line Interface</li>
+<li><a href="https://github.com/jpsim/Yams">Yams</a> - Read/Write YAML</li>
+<li><a href="https://github.com/mxcl/Path.swift">Path.swift</a> - File path management</li>
 </ul>
 <h3 id='prerequisites' class='heading'>Prerequisites</h3>
 
-<p>What things you need to install the software and how to install them</p>
+<ul>
+<li><a href="https://swift.org">Swift</a>, 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
+*</li>
+</ul>
 <pre class="highlight plaintext"><code>Give examples
 </code></pre>
 <h3 id='installing' class='heading'>Installing</h3>
 
-<p>Package Manager</p>
-<pre class="highlight plaintext"><code>code steps for package manager
+<p><a href="https://github.com/yonaskolb/Mint">Mint</a> is a swift based package manager</p>
+<pre class="highlight plaintext"><code>mint install https://gitlab.com/thecb4/changelogger // install latest version
+mint install https://gitlab.com/thecb4/changelogger@0.3.0 // install specific version
+mint install https://gitlab.com/thecb4/changelogger --no-link // install locally
+mint install https://gitlab.com/thecb4/changelogger --force // force reinstall
 </code></pre>
 <h2 id='using' class='heading'>Using</h2>
+<h3 id='init' class='heading'>Init</h3>
 
-<p>Explain how to run the automated tests for this system</p>
+<p>Initialize your current directory with two files</p>
+
+<ul>
+<li>commit.yml, Where you will keep track of your changes.</li>
+<li>.changelog/changelog.yml, Where the tool will keep track of all your changes</li>
+</ul>
+<h3 id='update-commit-yml' class='heading'>Update commit.yml</h3>
+
+<p>Write whatever you need to write as a list of changes as specified by </p>
 <h3 id='break-down-into-end-to-end-tests' class='heading'>Break down into end to end tests</h3>
 
 <p>Explain what these tests test and why</p>
@@ -138,7 +156,7 @@
 <h2 id='roadmap-and-contributing' class='heading'>Roadmap and Contributing</h2>
 <h3 id='versioning' class='heading'>Versioning</h3>
 
-<p>We use <a href="http://semver.org/">SemVer</a> for versioning. For the versions available, see the <a href="https://github.com/your/project/tags">tags on this repository</a>. </p>
+<p>We use <a href="http://semver.org/">SemVer</a> for versioning. For the versions available, see the <a href="https://github.com/your/project/tags">tags on this repository</a>.</p>
 <h3 id='roadmap' class='heading'>Roadmap</h3>
 
 <p>Please read <a href="ROADMAP.md">ROADMAP</a> for an outline of how we would like to evolve the library.</p>
@@ -147,7 +165,7 @@
 <p>Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for changes to us.</p>
 <h3 id='changes' class='heading'>Changes</h3>
 
-<p>Please read <a href="CHANGELOG.md">CHANGELOG</a> for details on changes to the library. </p>
+<p>Please read <a href="CHANGELOG.md">CHANGELOG</a> for details on changes to the library.</p>
 <h2 id='authors' class='heading'>Authors</h2>
 
 <ul>

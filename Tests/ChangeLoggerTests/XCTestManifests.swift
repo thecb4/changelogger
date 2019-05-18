@@ -8,6 +8,7 @@
     static let __allTests__ChangeloggerExecutableTests = [
       ("testInitNoArguments", testInitNoArguments),
       ("testInitWithArguments", testInitWithArguments),
+      ("testLogNoArguments", testLogNoArguments),
       ("testMarkdownNoArguments", testMarkdownNoArguments),
       ("testRunNoArguments", testRunNoArguments)
     ]

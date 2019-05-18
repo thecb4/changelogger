@@ -1,6 +1,9 @@
 # ChangeLogger
 
-One Paragraph of project description goes here
+Take control of your changelogs!
+
+Programmatically generate a [CHANGELOG.md](https://keepachangelog.com/en/1.0.0/) from a YAML formatted file.
+Also generates a RELEASE.md with just the latest release info.
 
 ## License
 
@@ -12,13 +15,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Swift Package Manager](https://github.com/apple/swift-package-manager) - Command Line Interface
+* [Yams](https://github.com/jpsim/Yams) - Read/Write YAML
+* [Path.swift](https://github.com/mxcl/Path.swift) - File path management
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+* [Swift](https://swift.org), 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
+*
+
 
 ```
 Give examples
@@ -26,15 +31,25 @@ Give examples
 
 ### Installing
 
-Package Manager
+[Mint](https://github.com/yonaskolb/Mint) is a swift based package manager
 
 ```
-code steps for package manager
+mint install https://gitlab.com/thecb4/changelogger // install latest version
+mint install https://gitlab.com/thecb4/changelogger@0.3.0 // install specific version
+mint install https://gitlab.com/thecb4/changelogger --no-link // install locally
+mint install https://gitlab.com/thecb4/changelogger --force // force reinstall
 ```
 
 ## Using
 
-Explain how to run the automated tests for this system
+### Init
+Initialize your current directory with two files
+- commit.yml, Where you will keep track of your changes.
+- .changelog/changelog.yml, Where the tool will keep track of all your changes
+
+### Update commit.yml
+Write whatever you need to write as a list of changes as specified by 
+
 
 ### Break down into end to end tests
 
@@ -48,7 +63,7 @@ Give an example
 
 ### Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 
 
@@ -62,7 +77,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ### Changes
 
-Please read [CHANGELOG](CHANGELOG.md) for details on changes to the library. 
+Please read [CHANGELOG](CHANGELOG.md) for details on changes to the library.
 
 
 ## Authors
