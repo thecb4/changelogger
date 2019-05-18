@@ -1,7 +1,8 @@
-summary: Initial Entry
+summary: "Fixed workflow"
 added: []
 changed: []
 deprecated: []
 removed: []
-fixed: []
+fixed:
+  - missing 'changelogger' from mint call in workflow
 security: []

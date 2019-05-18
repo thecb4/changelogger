@@ -2,13 +2,6 @@
   "warnings": [
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": null,
-      "symbol": "Changelog",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
       "line": 5,
       "symbol": "Changelog",
       "symbol_kind": "source.lang.swift.decl.struct",
@@ -124,6 +117,13 @@
       "line": 40,
       "symbol": "Changelog.init(title:logs:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
+      "line": 46,
+      "symbol": "Changelog",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -394,13 +394,6 @@
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/LogEntry.swift",
-      "line": null,
-      "symbol": "LogEntry",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/LogEntry.swift",
       "line": 4,
       "symbol": "LogEntry",
       "symbol_kind": "source.lang.swift.decl.struct",
@@ -460,6 +453,13 @@
       "line": 15,
       "symbol": "LogEntry.Error.badDate(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/LogEntry.swift",
+      "line": 19,
+      "symbol": "LogEntry",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {

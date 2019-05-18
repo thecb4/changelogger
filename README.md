@@ -21,7 +21,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+* [Swift](https://swift.org), 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
+*
+
 
 ```
 Give examples
@@ -29,15 +31,25 @@ Give examples
 
 ### Installing
 
-Package Manager
+[Mint](https://github.com/yonaskolb/Mint) is a swift based package manager
 
 ```
-code steps for package manager
+mint install https://gitlab.com/thecb4/changelogger // install latest version
+mint install https://gitlab.com/thecb4/changelogger@0.3.0 // install specific version
+mint install https://gitlab.com/thecb4/changelogger --no-link // install locally
+mint install https://gitlab.com/thecb4/changelogger --force // force reinstall
 ```
 
 ## Using
 
-Explain how to run the automated tests for this system
+### Init
+Initialize your current directory with two files
+- commit.yml, Where you will keep track of your changes.
+- .changelog/changelog.yml, Where the tool will keep track of all your changes
+
+### Update commit.yml
+Write whatever you need to write as a list of changes as specified by 
+
 
 ### Break down into end to end tests
 
