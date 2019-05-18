@@ -4,7 +4,7 @@ import Path
 extension String: Error {}
 
 final class TestableExecutable {
-  public static func run(_ binaryName: String, using arguments: [String], workingDirectory: String = "./", buildPath: String = "./.build") throws -> String {
+  public static func run(_ binaryName: String, using arguments: [String], workingDirectory: Path = Path.cwd, buildPath: String = "./.build") throws -> String {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct
     // results.
@@ -26,7 +26,7 @@ final class TestableExecutable {
 
     process.executableURL = swiftExecutableURL
 
-    process.currentDirectoryURL = Path.cwd.url
+    process.currentDirectoryURL = workingDirectory.url
 
     process.arguments = ["run", binaryName] + arguments
 
