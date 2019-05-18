@@ -7,6 +7,7 @@ public struct Changelog: Codable {
     case badPath(String)
     case dataNotConvertableFromString(String)
     case notDecodable(String)
+    case noUnreleasedLogs
   }
 
   public let title: String
@@ -145,11 +146,16 @@ extension Changelog {
     return descriptor
   }
 
-  public func release(using version: String) -> Changelog {
-    var changelog = Changelog(title: title, logs: releasedEntries)
+  public func release(_ version: String, with summary: String) throws -> Changelog {
+    if unreleasedEntries.isEmpty {
+      throw Error.noUnreleasedLogs
+    }
 
+    var changelog = Changelog(title: title, logs: releasedEntries)
     var squashed = squashedUnreleased
+
     squashed.version = version
+    squashed.summary = summary
     changelog.update(using: squashed)
 
     return changelog

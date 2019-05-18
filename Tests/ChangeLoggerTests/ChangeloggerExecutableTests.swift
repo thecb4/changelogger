@@ -89,6 +89,7 @@ final class ChangeloggerExecutableTests: XCTestCase {
           init                    initialize directory for changelogger
           log                     log commit to log entry file
           markdown                Write CHANGELOG markdown
+          release                 squash unreleased logs into version
 
         """
       // swiftformat:enable consecutiveBlankLines
@@ -215,6 +216,75 @@ final class ChangeloggerExecutableTests: XCTestCase {
           commit:
             summary: Fixed a bunch of workflow stuff
             added:
+            - Some new feature
+            changed: []
+            deprecated: []
+            removed: []
+            fixed: []
+            security: []
+
+        """
+      // swiftformat:enable consecutiveBlankLines
+
+      let actualOutput = try String(contentsOf: loggingFile)
+
+      // then
+      XCTAssertEqual(actualOutput, expectedOutput)
+      // XCTAssertTrue((ChangeloggerExecutableTests.testFolderPath / "commit.yml").exists)
+      // XCTAssertTrue((ChangeloggerExecutableTests.testFolderPath / ".changelog/changelog.yml").exists)
+
+    } catch {
+      XCTFail("\(error)")
+    }
+  }
+
+  func testReleaseVersionArguments() {
+    do {
+      let testRunPath = Path.cwd / "Tests/test-runs"
+
+      let testLogFileNotEmpty = Path.cwd / "Tests/fixtures/changelog/test-squash-unreleased.yml"
+      // let testCommitFile = Path.cwd / "Tests/fixtures/new-commit.yml"
+
+      let testDir = testRunPath.join("testReleaseNoArguments")
+
+      try testDir.mkdir()
+      try testDir.join(".changelog").mkdir()
+
+      let loggingFile = testDir.join(".changelog/changelog.yml")
+
+      // let commitFile = testDir.join("commit.yml")
+
+      try loggingFile.delete()
+      // try commitFile.delete()
+
+      try testLogFileNotEmpty.copy(to: loggingFile)
+      // try testCommitFile.copy(to: commitFile)
+
+      let summary = "New Release, get it hot!"
+      let version = "0.2.0"
+
+      let consoleOutput = try TestableExecutable.run(
+        "changelogger",
+        using: ["release", summary, "--version-tag", version],
+        workingDirectory: testDir
+      )
+
+      print(consoleOutput)
+      // print(consoleOutput.split(separator: "\n")[0])
+
+      let timestamp = consoleOutput.split(separator: "\n")[0].split(separator: "|")[1].trimmingCharacters(in: .whitespacesAndNewlines)
+
+      // swiftformat:disable consecutiveBlankLines
+      let expectedOutput =
+        """
+        title: Changelogger Changelog
+        logs:
+        - version: \(version)
+          date: \(timestamp)
+          commit:
+            summary: \(summary)
+            added:
+            - Feature flag all the things
             - Some new feature
             changed: []
             deprecated: []

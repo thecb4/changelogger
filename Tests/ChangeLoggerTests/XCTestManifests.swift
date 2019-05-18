@@ -10,6 +10,7 @@
       ("testInitWithArguments", testInitWithArguments),
       ("testLogNoArguments", testLogNoArguments),
       ("testMarkdownNoArguments", testMarkdownNoArguments),
+      ("testReleaseVersionArguments", testReleaseVersionArguments),
       ("testRunNoArguments", testRunNoArguments)
     ]
   }

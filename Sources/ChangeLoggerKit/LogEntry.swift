@@ -5,7 +5,7 @@ public struct LogEntry: Codable {
   public var version: String
   public let date: Date
   // public let date: String
-  public let commit: CommitEntry
+  public var commit: CommitEntry
 
   public static var dateFormat = "yyyy-MMM-dd"
   public static var timeZone = TimeZone(secondsFromGMT: 0)
@@ -23,6 +23,15 @@ extension LogEntry {
     // date = DateManager.formatter.string(from: Date())
     date = Date()
     self.commit = commit
+  }
+
+  public var summary: String {
+    get {
+      return commit.summary
+    }
+    set {
+      commit.summary = newValue
+    }
   }
 
   public var markdown: String {

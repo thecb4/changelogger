@@ -1,8 +1,8 @@
-summary: "Fixed workflow"
-added: []
+summary: "Release Command"
+added:
+  - release command for updating changelog.yml
 changed: []
 deprecated: []
 removed: []
-fixed:
-  - missing 'changelogger' from mint call in workflow
+fixed: []
 security: []
