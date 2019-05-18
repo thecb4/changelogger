@@ -1,6 +1,9 @@
 # ChangeLogger
 
-Take control of your changelogs
+Take control of your changelogs!
+
+Programmatically generate a [CHANGELOG.md](https://keepachangelog.com/en/1.0.0/) from a YAML formatted file.
+Also generates a RELEASE.md with just the latest release info.
 
 ## License
 

@@ -94,83 +94,97 @@
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
       "line": 32,
-      "symbol": "Changelog.defaultChangelogMarkdownPath",
+      "symbol": "Changelog.releaselogMarkdownFile",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
       "line": 34,
-      "symbol": "Changelog.changelogMarkdownPath",
+      "symbol": "Changelog.defaultChangelogMarkdownPath",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
       "line": 36,
+      "symbol": "Changelog.defaultReleaselogMarkdownPath",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
+      "line": 38,
+      "symbol": "Changelog.changelogMarkdownPath",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
+      "line": 40,
       "symbol": "Changelog.init(title:logs:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 43,
+      "line": 47,
       "symbol": "Changelog.current(from:using:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 62,
+      "line": 66,
       "symbol": "Changelog.update(using:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 66,
+      "line": 70,
       "symbol": "Changelog.yaml()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 72,
+      "line": 76,
       "symbol": "Changelog.squashedUnreleased",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 110,
+      "line": 114,
       "symbol": "Changelog.write(to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 115,
+      "line": 119,
       "symbol": "Changelog.unreleasedEntries",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 119,
+      "line": 123,
       "symbol": "Changelog.releasedEntries",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 123,
+      "line": 127,
       "symbol": "Changelog.markdown",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 144,
+      "line": 148,
       "symbol": "Changelog.release(using:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

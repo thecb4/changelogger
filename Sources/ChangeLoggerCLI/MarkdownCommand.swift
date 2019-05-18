@@ -11,7 +11,7 @@ struct MarkdownCommand: Command {
   private let commitFileOption: OptionArgument<String>
   private let logEntryFileOption: OptionArgument<String>
   private let markdownFileOption: OptionArgument<String>
-  private let releaseTagOption: OptionArgument<String>
+  private let versionTagOption: OptionArgument<String>
 
   init(parser: ArgumentParser) {
     let subparser = parser.add(subparser: command, overview: overview)
@@ -37,8 +37,8 @@ struct MarkdownCommand: Command {
       usage: "Path for changelog markdown file"
     )
 
-    releaseTagOption = subparser.add(
-      option: "--release",
+    versionTagOption = subparser.add(
+      option: "--version",
       shortName: "-r",
       kind: String.self,
       usage: "Release tag info"
@@ -96,6 +96,10 @@ struct MarkdownCommand: Command {
     let changelogPath = Changelog.defaultChangelogMarkdownPath
 
     try changelog.markdown.write(to: changelogPath)
+
+    let releaselogPath = Changelog.defaultReleaselogMarkdownPath
+
+    try changelog.squashedUnreleased.markdown.write(to: releaselogPath)
 
     // if changelogFilePath.parent == Path.cwd {
     //   try "".write(to: changelogFilePath)
