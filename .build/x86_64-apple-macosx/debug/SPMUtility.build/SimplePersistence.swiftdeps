@@ -1,0 +1,299 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SimplePersistanceProtocol"
+- "SimplePersistence"
+provides-nominal:
+- "10SPMUtility25SimplePersistanceProtocolP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "10SPMUtility17SimplePersistenceC"
+provides-member:
+- ["10SPMUtility25SimplePersistanceProtocolP", ""]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", ""]
+- ["10SPMUtility17SimplePersistenceC", ""]
+- ["10SPMUtility25SimplePersistanceProtocolP", "restore"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AbsolutePath"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "CustomStringConvertible"
+- "FileSystem"
+- "Int"
+- "JSON"
+- "JSONSerializable"
+- "Set"
+- "SimplePersistanceProtocol"
+- "SimplePersistence"
+- "String"
+- "Swift"
+- !private "assert"
+- !private "~="
+depends-member:
+- !private ["5Basic12AbsolutePathV", "parentDirectory"]
+- !private ["s18AdditiveArithmeticP", "toJSON"]
+- !private ["10SPMUtility12ArgumentKindP", "toJSON"]
+- !private ["Sz", "toJSON"]
+- ["5Basic14ByteStreamableP", "dictionary"]
+- !private ["5Basic14ByteStreamableP", "get"]
+- !private ["5Basic14ByteStreamableP", "init"]
+- !private ["5Basic14ByteStreamableP", "toBytes"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toJSON"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "parentDirectory"]
+- !private ["SL", "toJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "parentDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toJSON"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "dictionary"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "invalidSchemaVersion"]
+- !private ["s23CustomStringConvertibleP", "parentDirectory"]
+- ["s23CustomStringConvertibleP", "restoreFailure"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toBytes"]
+- !private ["s23CustomStringConvertibleP", "toJSON"]
+- !private ["Se", "contains"]
+- !private ["Se", "init"]
+- !private ["Se", "parentDirectory"]
+- !private ["Se", "subscript"]
+- !private ["Se", "toJSON"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["5Basic19DiagnosticParameterP", "toJSON"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "contains"]
+- !private ["SE", "init"]
+- !private ["SE", "parentDirectory"]
+- !private ["SE", "subscript"]
+- !private ["SE", "toJSON"]
+- !private ["SQ", "contains"]
+- ["SQ", "dictionary"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "parentDirectory"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toBytes"]
+- !private ["SQ", "toJSON"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "AbsolutePath"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "Int"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "String"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "Swift"]
+- ["s5ErrorP", ""]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "_code"]
+- ["s5ErrorP", "_code"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "_domain"]
+- ["s5ErrorP", "_domain"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "_userInfo"]
+- ["s5ErrorP", "_userInfo"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "deinit"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "description"]
+- ["s5ErrorP", "description"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "invalidSchemaVersion"]
+- ["s5ErrorP", "invalidSchemaVersion"]
+- ["10SPMUtility17SimplePersistenceC5ErrorO", "restoreFailure"]
+- ["s5ErrorP", "restoreFailure"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "toJSON"]
+- !private ["5Basic10FileSystemP", "createDirectory"]
+- !private ["5Basic10FileSystemP", "exists"]
+- !private ["5Basic10FileSystemP", "readFileContents"]
+- !private ["5Basic10FileSystemP", "writeFileContents"]
+- !private ["s17FixedWidthIntegerP", "toJSON"]
+- !private ["SH", "contains"]
+- !private ["SH", "init"]
+- !private ["SH", "parentDirectory"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toJSON"]
+- !private ["Si", "toJSON"]
+- ["5Basic4JSONO", "dictionary"]
+- !private ["5Basic4JSONO", "get"]
+- !private ["5Basic4JSONO", "init"]
+- !private ["5Basic4JSONO", "toBytes"]
+- !private ["5Basic12JSONMappableP", "toJSON"]
+- ["5Basic16JSONSerializableP", "Int"]
+- ["5Basic16JSONSerializableP", "JSON"]
+- ["5Basic16JSONSerializableP", ""]
+- ["5Basic16JSONSerializableP", "dictionary"]
+- !private ["5Basic16JSONSerializableP", "get"]
+- !private ["5Basic16JSONSerializableP", "init"]
+- !private ["5Basic16JSONSerializableP", "parentDirectory"]
+- ["5Basic16JSONSerializableP", "restore"]
+- !private ["5Basic16JSONSerializableP", "subscript"]
+- !private ["5Basic16JSONSerializableP", "toBytes"]
+- !private ["5Basic16JSONSerializableP", "toJSON"]
+- !private ["s25LosslessStringConvertibleP", "toJSON"]
+- !private ["s10MirrorPathP", "toJSON"]
+- !private ["Sj", "toJSON"]
+- !private ["s10SIMDScalarP", "toJSON"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "contains"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["SZ", "toJSON"]
+- !private ["s13SignedNumericP", "toJSON"]
+- ["10SPMUtility25SimplePersistanceProtocolP", "Int"]
+- ["10SPMUtility25SimplePersistanceProtocolP", "JSON"]
+- ["10SPMUtility25SimplePersistanceProtocolP", "restore"]
+- !private ["10SPMUtility25SimplePersistanceProtocolP", "toJSON"]
+- ["10SPMUtility17SimplePersistenceC", "AbsolutePath"]
+- ["10SPMUtility17SimplePersistenceC", "Bool"]
+- ["10SPMUtility17SimplePersistenceC", "Error"]
+- ["10SPMUtility17SimplePersistenceC", "FileSystem"]
+- ["10SPMUtility17SimplePersistenceC", "Int"]
+- ["10SPMUtility17SimplePersistenceC", "JSON"]
+- ["10SPMUtility17SimplePersistenceC", "Set"]
+- ["10SPMUtility17SimplePersistenceC", "SimplePersistanceProtocol"]
+- !private ["10SPMUtility17SimplePersistenceC", "String"]
+- ["10SPMUtility17SimplePersistenceC", "Swift"]
+- !private ["10SPMUtility17SimplePersistenceC", "_restoreState"]
+- !private ["10SPMUtility17SimplePersistenceC", "assert"]
+- !private ["10SPMUtility17SimplePersistenceC", "fileSystem"]
+- ["10SPMUtility17SimplePersistenceC", "init"]
+- !private ["10SPMUtility17SimplePersistenceC", "merge"]
+- !private ["10SPMUtility17SimplePersistenceC", "prettyPrint"]
+- ["10SPMUtility17SimplePersistenceC", "restoreState"]
+- ["10SPMUtility17SimplePersistenceC", "saveState"]
+- !private ["10SPMUtility17SimplePersistenceC", "schemaVersion"]
+- ["10SPMUtility17SimplePersistenceC", "stateFileExists"]
+- !private ["10SPMUtility17SimplePersistenceC", "statePath"]
+- !private ["10SPMUtility17SimplePersistenceC", "supportedSchemaVersions"]
+- !private ["Sx", "toJSON"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toJSON"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "toJSON"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "toJSON"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toJSON"]
+depends-nominal:
+- !private "5Basic12AbsolutePathV"
+- !private "s18AdditiveArithmeticP"
+- !private "10SPMUtility12ArgumentKindP"
+- !private "Sz"
+- "5Basic14ByteStreamableP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "5Basic19DiagnosticParameterP"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- "10SPMUtility17SimplePersistenceC5ErrorO"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "5Basic10FileSystemP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- "5Basic4JSONO"
+- !private "5Basic12JSONMappableP"
+- "5Basic16JSONSerializableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "10SPMUtility25SimplePersistanceProtocolP"
+- "10SPMUtility17SimplePersistenceC"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/POSIX.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildNinja.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBasic.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmDemangle.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCore.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/CYaml.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBuildSystem.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCommands.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmSupport.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/gtest.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "464869c06d1642f07f584af102d2d592"

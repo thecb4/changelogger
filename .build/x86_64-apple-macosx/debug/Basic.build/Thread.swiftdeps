@@ -1,0 +1,138 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Thread"
+provides-nominal:
+- "5Basic6ThreadC"
+provides-member:
+- ["5Basic6ThreadC", ""]
+provides-dynamic-lookup:
+- "main"
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "Condition"
+- "Foundation"
+- "Thread"
+- "ThreadImpl"
+- "Void"
+- !private "precondition"
+depends-member:
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "task"]
+- !private ["5Basic9ConditionV", "broadcast"]
+- !private ["5Basic9ConditionV", "init"]
+- !private ["5Basic9ConditionV", "wait"]
+- !private ["5Basic9ConditionV", "whileLocked"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "task"]
+- !private ["s17CustomReflectableP", "start"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "task"]
+- !private ["Se", "start"]
+- !private ["SE", "start"]
+- !private ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "start"]
+- !private ["SQ", "task"]
+- !private ["s23ExpressibleByNilLiteralP", "start"]
+- !private ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "start"]
+- !private ["SH", "task"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "task"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "start"]
+- !private ["So8NSObjectP", "task"]
+- !private ["Sq", "start"]
+- ["5Basic6ThreadC", "Bool"]
+- ["5Basic6ThreadC", "Condition"]
+- ["5Basic6ThreadC", "ThreadImpl"]
+- ["5Basic6ThreadC", "Void"]
+- ["So8NSThreadC", "Void"]
+- !private ["So8NSThreadC", ""]
+- !private ["5Basic6ThreadC", "finishedCondition"]
+- ["5Basic6ThreadC", "init"]
+- ["So8NSThreadC", "init"]
+- !private ["5Basic6ThreadC", "isFinished"]
+- ["5Basic6ThreadC", "join"]
+- ["So8NSThreadC", "main"]
+- !private ["5Basic6ThreadC", "precondition"]
+- ["5Basic6ThreadC", "start"]
+- !private ["So8NSThreadC", "start"]
+- ["So8NSThreadC", "task"]
+- !private ["5Basic6ThreadC", "thread"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "task"]
+- !private ["s21_ObjectiveCBridgeableP", "start"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "5Basic9ConditionV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- "5Basic6ThreadC"
+- "So8NSThreadC"
+- "5Basic6ThreadC"
+- "So8NSThreadC"
+- "5Basic6ThreadC"
+- "So8NSThreadC"
+- "5Basic6ThreadC"
+- "So8NSThreadC"
+- !private "5Basic6ThreadC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/POSIX.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildNinja.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBasic.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmDemangle.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCore.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/CYaml.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBuildSystem.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCommands.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmSupport.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/gtest.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a423349af9d63a64349bb0902f53c794"

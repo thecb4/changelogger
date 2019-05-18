@@ -1,0 +1,467 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DateManager"
+provides-nominal:
+- "15ChangeLoggerKit11DateManagerV"
+provides-member:
+- ["15ChangeLoggerKit11DateManagerV", ""]
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DateV", "formatter"]
+- ["10Foundation4DateV", "defaultFormat"]
+- ["10Foundation4DateV", "iso8601WithoutZFormatter"]
+- ["10Foundation4DateV", "iso8601Formatter"]
+- ["10Foundation4DateV", "string"]
+- ["10Foundation4DateV", "iso8601StringWithFullNanosecond"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- "AssignmentPrecedence"
+- !private "Calendar"
+- !private "CharacterSet"
+- "Date"
+- "DateFormatter"
+- "DateManager"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Locale"
+- "String"
+- "StringLiteralType"
+- "TimeZone"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "trimmingCharacters"]
+- ["s7CVarArgP", "dateFormat"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- ["s7CVarArgP", "timeZone"]
+- !private ["s7CVarArgP", "trimmingCharacters"]
+- !private ["10Foundation8CalendarV", "component"]
+- !private ["10Foundation8CalendarV", "init"]
+- !private ["10Foundation12CharacterSetV", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "trimmingCharacters"]
+- !private ["SL", "Calendar"]
+- !private ["SL", "CharacterSet"]
+- !private ["SL", "Date"]
+- ["SL", "DateFormatter"]
+- ["SL", "Locale"]
+- !private ["SL", "String"]
+- ["SL", "TimeZone"]
+- !private ["SL", "defaultFormat"]
+- !private ["SL", "formatter"]
+- !private ["SL", "init"]
+- !private ["SL", "iso8601Formatter"]
+- !private ["SL", "iso8601WithoutZFormatter"]
+- !private ["SL", "trimmingCharacters"]
+- !private ["10Foundation8CalendarV9ComponentO", "nanosecond"]
+- !private ["s28CustomDebugStringConvertibleP", "Calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "TimeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "component"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "formatter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "iso8601Formatter"]
+- !private ["s28CustomDebugStringConvertibleP", "iso8601WithoutZFormatter"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "trimmingCharacters"]
+- !private ["s17CustomReflectableP", "Calendar"]
+- !private ["s17CustomReflectableP", "CharacterSet"]
+- !private ["s17CustomReflectableP", "Date"]
+- ["s17CustomReflectableP", "DateFormatter"]
+- ["s17CustomReflectableP", "Locale"]
+- !private ["s17CustomReflectableP", "String"]
+- ["s17CustomReflectableP", "TimeZone"]
+- !private ["s17CustomReflectableP", "component"]
+- !private ["s17CustomReflectableP", "defaultFormat"]
+- !private ["s17CustomReflectableP", "formatter"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "iso8601Formatter"]
+- !private ["s17CustomReflectableP", "iso8601WithoutZFormatter"]
+- !private ["s17CustomReflectableP", "trimmingCharacters"]
+- !private ["s23CustomStringConvertibleP", "Calendar"]
+- !private ["s23CustomStringConvertibleP", "CharacterSet"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "TimeZone"]
+- !private ["s23CustomStringConvertibleP", "component"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "defaultFormat"]
+- !private ["s23CustomStringConvertibleP", "formatter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "iso8601Formatter"]
+- !private ["s23CustomStringConvertibleP", "iso8601WithoutZFormatter"]
+- ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "trimmingCharacters"]
+- !private ["10Foundation4DateV", "Calendar"]
+- !private ["10Foundation4DateV", "CharacterSet"]
+- !private ["10Foundation4DateV", "Date"]
+- ["10Foundation4DateV", "DateFormatter"]
+- ["10Foundation4DateV", "Locale"]
+- ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", "TimeZone"]
+- ["10Foundation4DateV", "defaultFormat"]
+- ["10Foundation4DateV", "formatter"]
+- ["10Foundation4DateV", "iso8601Formatter"]
+- ["10Foundation4DateV", "iso8601StringWithFullNanosecond"]
+- ["10Foundation4DateV", "iso8601WithoutZFormatter"]
+- ["10Foundation4DateV", "string"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
+- ["So15NSDateFormatterC", "timeZone"]
+- ["15ChangeLoggerKit11DateManagerV", "DateFormatter"]
+- ["15ChangeLoggerKit11DateManagerV", "Locale"]
+- ["15ChangeLoggerKit11DateManagerV", "TimeZone"]
+- ["15ChangeLoggerKit11DateManagerV", "defaultFormat"]
+- ["15ChangeLoggerKit11DateManagerV", "formatter"]
+- ["15ChangeLoggerKit11DateManagerV", "init"]
+- ["15ChangeLoggerKit11DateManagerV", "iso8601Formatter"]
+- ["15ChangeLoggerKit11DateManagerV", "iso8601WithoutZFormatter"]
+- !private ["Se", "Calendar"]
+- !private ["Se", "CharacterSet"]
+- !private ["Se", "Date"]
+- ["Se", "DateFormatter"]
+- ["Se", "Locale"]
+- !private ["Se", "String"]
+- ["Se", "TimeZone"]
+- !private ["Se", "component"]
+- !private ["Se", "defaultFormat"]
+- !private ["Se", "formatter"]
+- ["Se", "init"]
+- !private ["Se", "iso8601Formatter"]
+- !private ["Se", "iso8601WithoutZFormatter"]
+- !private ["Se", "trimmingCharacters"]
+- !private ["SE", "Calendar"]
+- !private ["SE", "CharacterSet"]
+- !private ["SE", "Date"]
+- ["SE", "DateFormatter"]
+- ["SE", "Locale"]
+- !private ["SE", "String"]
+- ["SE", "TimeZone"]
+- !private ["SE", "component"]
+- !private ["SE", "defaultFormat"]
+- !private ["SE", "formatter"]
+- ["SE", "init"]
+- !private ["SE", "iso8601Formatter"]
+- !private ["SE", "iso8601WithoutZFormatter"]
+- !private ["SE", "trimmingCharacters"]
+- !private ["SQ", "Calendar"]
+- !private ["SQ", "CharacterSet"]
+- !private ["SQ", "Date"]
+- ["SQ", "DateFormatter"]
+- ["SQ", "Locale"]
+- !private ["SQ", "String"]
+- ["SQ", "TimeZone"]
+- !private ["SQ", "component"]
+- ["SQ", "dateFormat"]
+- !private ["SQ", "defaultFormat"]
+- !private ["SQ", "formatter"]
+- !private ["SQ", "gregorian"]
+- ["SQ", "init"]
+- !private ["SQ", "iso8601Formatter"]
+- !private ["SQ", "iso8601WithoutZFormatter"]
+- ["SQ", "locale"]
+- !private ["SQ", "nanosecond"]
+- !private ["SQ", "string"]
+- ["SQ", "timeZone"]
+- !private ["SQ", "trimmingCharacters"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "trimmingCharacters"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "trimmingCharacters"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "trimmingCharacters"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
+- ["So11NSFormatterC", "timeZone"]
+- !private ["SH", "Calendar"]
+- !private ["SH", "CharacterSet"]
+- !private ["SH", "Date"]
+- ["SH", "DateFormatter"]
+- ["SH", "Locale"]
+- !private ["SH", "String"]
+- ["SH", "TimeZone"]
+- !private ["SH", "component"]
+- ["SH", "dateFormat"]
+- !private ["SH", "defaultFormat"]
+- !private ["SH", "formatter"]
+- !private ["SH", "gregorian"]
+- ["SH", "init"]
+- !private ["SH", "iso8601Formatter"]
+- !private ["SH", "iso8601WithoutZFormatter"]
+- ["SH", "locale"]
+- !private ["SH", "nanosecond"]
+- !private ["SH", "string"]
+- ["SH", "timeZone"]
+- !private ["SH", "trimmingCharacters"]
+- !private ["10Foundation8CalendarV10IdentifierO", "gregorian"]
+- ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "trimmingCharacters"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "trimmingCharacters"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- ["So8NSCodingP", "timeZone"]
+- !private ["So8NSCodingP", "trimmingCharacters"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- ["So9NSCopyingP", "timeZone"]
+- !private ["So9NSCopyingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderReadingP", "trimmingCharacters"]
+- !private ["So21NSItemProviderWritingP", "trimmingCharacters"]
+- !private ["So16NSMutableCopyingP", "trimmingCharacters"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "timeZone"]
+- !private ["So8NSObjectC", "trimmingCharacters"]
+- ["So8NSObjectP", "dateFormat"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "string"]
+- ["So8NSObjectP", "timeZone"]
+- !private ["So8NSObjectP", "trimmingCharacters"]
+- !private ["So14NSSecureCodingP", "trimmingCharacters"]
+- !private ["So8NSStringC", "trimmingCharacters"]
+- !private ["4Yams17NodeRepresentableP", "Calendar"]
+- !private ["4Yams17NodeRepresentableP", "CharacterSet"]
+- !private ["4Yams17NodeRepresentableP", "Date"]
+- ["4Yams17NodeRepresentableP", "DateFormatter"]
+- ["4Yams17NodeRepresentableP", "Locale"]
+- !private ["4Yams17NodeRepresentableP", "String"]
+- ["4Yams17NodeRepresentableP", "TimeZone"]
+- !private ["4Yams17NodeRepresentableP", "defaultFormat"]
+- !private ["4Yams17NodeRepresentableP", "formatter"]
+- !private ["4Yams17NodeRepresentableP", "init"]
+- !private ["4Yams17NodeRepresentableP", "iso8601Formatter"]
+- !private ["4Yams17NodeRepresentableP", "iso8601WithoutZFormatter"]
+- !private ["4Yams17NodeRepresentableP", "trimmingCharacters"]
+- !private ["Sm", "init"]
+- !private ["Sm", "trimmingCharacters"]
+- !private ["10Foundation20ReferenceConvertibleP", "Calendar"]
+- !private ["10Foundation20ReferenceConvertibleP", "CharacterSet"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- ["10Foundation20ReferenceConvertibleP", "DateFormatter"]
+- ["10Foundation20ReferenceConvertibleP", "Locale"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- ["10Foundation20ReferenceConvertibleP", "TimeZone"]
+- !private ["10Foundation20ReferenceConvertibleP", "component"]
+- !private ["10Foundation20ReferenceConvertibleP", "defaultFormat"]
+- !private ["10Foundation20ReferenceConvertibleP", "formatter"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "iso8601Formatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "iso8601WithoutZFormatter"]
+- !private ["4Yams19ScalarConstructibleP", "Calendar"]
+- !private ["4Yams19ScalarConstructibleP", "CharacterSet"]
+- !private ["4Yams19ScalarConstructibleP", "Date"]
+- ["4Yams19ScalarConstructibleP", "DateFormatter"]
+- ["4Yams19ScalarConstructibleP", "Locale"]
+- !private ["4Yams19ScalarConstructibleP", "String"]
+- ["4Yams19ScalarConstructibleP", "TimeZone"]
+- !private ["4Yams19ScalarConstructibleP", "defaultFormat"]
+- !private ["4Yams19ScalarConstructibleP", "formatter"]
+- !private ["4Yams19ScalarConstructibleP", "init"]
+- !private ["4Yams19ScalarConstructibleP", "iso8601Formatter"]
+- !private ["4Yams19ScalarConstructibleP", "iso8601WithoutZFormatter"]
+- !private ["4Yams19ScalarConstructibleP", "trimmingCharacters"]
+- !private ["4Yams19ScalarRepresentableP", "Calendar"]
+- !private ["4Yams19ScalarRepresentableP", "CharacterSet"]
+- !private ["4Yams19ScalarRepresentableP", "Date"]
+- ["4Yams19ScalarRepresentableP", "DateFormatter"]
+- ["4Yams19ScalarRepresentableP", "Locale"]
+- !private ["4Yams19ScalarRepresentableP", "String"]
+- ["4Yams19ScalarRepresentableP", "TimeZone"]
+- !private ["4Yams19ScalarRepresentableP", "defaultFormat"]
+- !private ["4Yams19ScalarRepresentableP", "formatter"]
+- !private ["4Yams19ScalarRepresentableP", "init"]
+- !private ["4Yams19ScalarRepresentableP", "iso8601Formatter"]
+- !private ["4Yams19ScalarRepresentableP", "iso8601WithoutZFormatter"]
+- !private ["4Yams19ScalarRepresentableP", "trimmingCharacters"]
+- !private ["ST", "init"]
+- !private ["ST", "trimmingCharacters"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "trimmingCharacters"]
+- !private ["Sy", "init"]
+- !private ["Sy", "trimmingCharacters"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "trimmingCharacters"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "trimmingCharacters"]
+- ["10Foundation8TimeZoneV", "init"]
+- !private ["4Yams13YAMLEncodableP", "Calendar"]
+- !private ["4Yams13YAMLEncodableP", "CharacterSet"]
+- !private ["4Yams13YAMLEncodableP", "Date"]
+- ["4Yams13YAMLEncodableP", "DateFormatter"]
+- ["4Yams13YAMLEncodableP", "Locale"]
+- !private ["4Yams13YAMLEncodableP", "String"]
+- ["4Yams13YAMLEncodableP", "TimeZone"]
+- !private ["4Yams13YAMLEncodableP", "defaultFormat"]
+- !private ["4Yams13YAMLEncodableP", "formatter"]
+- !private ["4Yams13YAMLEncodableP", "init"]
+- !private ["4Yams13YAMLEncodableP", "iso8601Formatter"]
+- !private ["4Yams13YAMLEncodableP", "iso8601WithoutZFormatter"]
+- !private ["4Yams13YAMLEncodableP", "trimmingCharacters"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Calendar"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "CharacterSet"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Date"]
+- ["s30_CustomPlaygroundQuickLookableP", "DateFormatter"]
+- ["s30_CustomPlaygroundQuickLookableP", "Locale"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "String"]
+- ["s30_CustomPlaygroundQuickLookableP", "TimeZone"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "defaultFormat"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "formatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "iso8601Formatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "iso8601WithoutZFormatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "trimmingCharacters"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "trimmingCharacters"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "trimmingCharacters"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "trimmingCharacters"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "trimmingCharacters"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "trimmingCharacters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trimmingCharacters"]
+- !private ["10Foundation14_MutableBoxingP", "component"]
+- !private ["10Foundation14_MutableBoxingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Calendar"]
+- !private ["s21_ObjectiveCBridgeableP", "CharacterSet"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- ["s21_ObjectiveCBridgeableP", "DateFormatter"]
+- ["s21_ObjectiveCBridgeableP", "Locale"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "TimeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "component"]
+- !private ["s21_ObjectiveCBridgeableP", "defaultFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "formatter"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "iso8601Formatter"]
+- !private ["s21_ObjectiveCBridgeableP", "iso8601WithoutZFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "trimmingCharacters"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "10Foundation12CharacterSetV"
+- !private "Sl"
+- "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "So15NSDateFormatterC"
+- "15ChangeLoggerKit11DateManagerV"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11NSFormatterC"
+- "SH"
+- !private "10Foundation8CalendarV10IdentifierO"
+- "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "4Yams17NodeRepresentableP"
+- !private "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "4Yams19ScalarConstructibleP"
+- "4Yams19ScalarRepresentableP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10Foundation8TimeZoneV"
+- "4Yams13YAMLEncodableP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation14_MutableBoxingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Path.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Yams.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Yams/Sources/CYaml/include/CYaml.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Yams/Sources/CYaml/include/yaml.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildNinja.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBasic.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmDemangle.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCore.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/CYaml.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBuildSystem.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCommands.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmSupport.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/gtest.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9f884228f2d13d513e8533decb378cc1"

@@ -1,0 +1,318 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InitCommand"
+provides-nominal:
+- "15ChangeLoggerCLI11InitCommandV"
+provides-member:
+- ["15ChangeLoggerCLI11InitCommandV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- !private "=="
+- !private "??"
+- "ArgumentParser"
+- "AssignmentPrecedence"
+- !private "Changelog"
+- "Command"
+- !private "CommandLineError"
+- !private "CommitEntry"
+- !private "FloatLiteralType"
+- "InitCommand"
+- !private "IntegerLiteralType"
+- "OptionArgument"
+- "Path"
+- "String"
+- !private "print"
+depends-member:
+- !private ["10SPMUtility12ArgumentKindP", "isEmpty"]
+- !private ["10SPMUtility12ArgumentKindP", "write"]
+- ["10SPMUtility14ArgumentParserC", "Result"]
+- !private ["10SPMUtility14ArgumentParserC", "add"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "write"]
+- !private ["5Basic14ByteStreamableP", "isEmpty"]
+- !private ["5Basic14ByteStreamableP", "write"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "write"]
+- !private ["15ChangeLoggerKit9ChangelogV", "defaultLogEntryFilePath"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "write"]
+- !private ["15ChangeLoggerCLI7CommandP", "Changelog"]
+- !private ["15ChangeLoggerCLI7CommandP", "CommandLineError"]
+- !private ["15ChangeLoggerCLI7CommandP", "CommitEntry"]
+- !private ["15ChangeLoggerCLI7CommandP", "Path"]
+- !private ["15ChangeLoggerCLI7CommandP", "String"]
+- ["15ChangeLoggerCLI7CommandP", ""]
+- !private ["15ChangeLoggerCLI7CommandP", "changelogFileOption"]
+- !private ["15ChangeLoggerCLI7CommandP", "changelogFileOptionAction"]
+- ["15ChangeLoggerCLI7CommandP", "command"]
+- !private ["15ChangeLoggerCLI7CommandP", "commitFileOption"]
+- !private ["15ChangeLoggerCLI7CommandP", "commitFileOptionAction"]
+- ["15ChangeLoggerCLI7CommandP", "init"]
+- ["15ChangeLoggerCLI7CommandP", "overview"]
+- !private ["15ChangeLoggerCLI7CommandP", "print"]
+- ["15ChangeLoggerCLI7CommandP", "run"]
+- !private ["15ChangeLoggerCLI16CommandLineErrorO", "deinit"]
+- !private ["15ChangeLoggerCLI16CommandLineErrorO", "missingChangeLogYAML"]
+- !private ["15ChangeLoggerCLI16CommandLineErrorO", "missingCommitYAML"]
+- !private ["15ChangeLoggerKit11CommitEntryV", "defaultCommitFilePath"]
+- !private ["15ChangeLoggerKit11CommitEntryV", "init"]
+- !private ["15ChangeLoggerKit11CommitEntryV", "yaml"]
+- !private ["SL", "cwd"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "mkdir"]
+- !private ["SL", "parent"]
+- !private ["SL", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "cwd"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "mkdir"]
+- !private ["s28CustomDebugStringConvertibleP", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "cwd"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "mkdir"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["Se", "cwd"]
+- !private ["Se", "defaultCommitFilePath"]
+- !private ["Se", "defaultLogEntryFilePath"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "mkdir"]
+- !private ["Se", "parent"]
+- !private ["Se", "write"]
+- !private ["Se", "yaml"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["5Basic19DiagnosticParameterP", "isEmpty"]
+- !private ["5Basic19DiagnosticParameterP", "write"]
+- !private ["SE", "cwd"]
+- !private ["SE", "defaultCommitFilePath"]
+- !private ["SE", "defaultLogEntryFilePath"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "mkdir"]
+- !private ["SE", "parent"]
+- !private ["SE", "write"]
+- !private ["SE", "yaml"]
+- !private ["SQ", "cwd"]
+- !private ["SQ", "defaultCommitFilePath"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "mkdir"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "write"]
+- !private ["SQ", "yaml"]
+- !private ["s5ErrorP", "missingChangeLogYAML"]
+- !private ["s5ErrorP", "missingCommitYAML"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "write"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "write"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- !private ["SH", "cwd"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "mkdir"]
+- !private ["SH", "parent"]
+- !private ["SH", "write"]
+- ["15ChangeLoggerCLI11InitCommandV", "ArgumentParser"]
+- !private ["15ChangeLoggerCLI11InitCommandV", "Changelog"]
+- !private ["15ChangeLoggerCLI11InitCommandV", "CommandLineError"]
+- !private ["15ChangeLoggerCLI11InitCommandV", "CommitEntry"]
+- ["15ChangeLoggerCLI11InitCommandV", "OptionArgument"]
+- ["15ChangeLoggerCLI11InitCommandV", "Path"]
+- ["15ChangeLoggerCLI11InitCommandV", "String"]
+- !private ["15ChangeLoggerCLI11InitCommandV", "changelogFileOption"]
+- ["15ChangeLoggerCLI11InitCommandV", "changelogFileOptionAction"]
+- ["15ChangeLoggerCLI11InitCommandV", "command"]
+- !private ["15ChangeLoggerCLI11InitCommandV", "commitFileOption"]
+- ["15ChangeLoggerCLI11InitCommandV", "commitFileOptionAction"]
+- ["15ChangeLoggerCLI11InitCommandV", "deinit"]
+- ["15ChangeLoggerCLI11InitCommandV", "init"]
+- ["15ChangeLoggerCLI11InitCommandV", "overview"]
+- !private ["15ChangeLoggerCLI11InitCommandV", "print"]
+- ["15ChangeLoggerCLI11InitCommandV", "run"]
+- !private ["5Basic12JSONMappableP", "isEmpty"]
+- !private ["5Basic12JSONMappableP", "write"]
+- !private ["5Basic16JSONSerializableP", "isEmpty"]
+- !private ["5Basic16JSONSerializableP", "write"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "write"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s10MirrorPathP", "write"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "write"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "write"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "write"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "write"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "write"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "write"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So8NSStringC", "write"]
+- !private ["4Yams17NodeRepresentableP", "isEmpty"]
+- !private ["4Yams17NodeRepresentableP", "write"]
+- !private ["4PathAAV", "cwd"]
+- !private ["4PathAAV", "init"]
+- !private ["4PathAAV", "mkdir"]
+- !private ["4PathAAV", "parent"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "write"]
+- !private ["10SPMUtility14ArgumentParserC6ResultC", "get"]
+- !private ["4Yams19ScalarConstructibleP", "isEmpty"]
+- !private ["4Yams19ScalarConstructibleP", "write"]
+- !private ["4Yams19ScalarRepresentableP", "isEmpty"]
+- !private ["4Yams19ScalarRepresentableP", "write"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "write"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "write"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "isEmpty"]
+- !private ["Sy", "write"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "write"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "write"]
+- !private ["4Yams13YAMLEncodableP", "isEmpty"]
+- !private ["4Yams13YAMLEncodableP", "write"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "write"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "write"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "write"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "write"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+depends-nominal:
+- !private "10SPMUtility12ArgumentKindP"
+- "10SPMUtility14ArgumentParserC"
+- !private "SK"
+- !private "5Basic14ByteStreamableP"
+- !private "s7CVarArgP"
+- !private "15ChangeLoggerKit9ChangelogV"
+- !private "Sl"
+- "15ChangeLoggerCLI7CommandP"
+- !private "15ChangeLoggerCLI16CommandLineErrorO"
+- !private "15ChangeLoggerKit11CommitEntryV"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "5Basic19DiagnosticParameterP"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "15ChangeLoggerCLI11InitCommandV"
+- !private "5Basic12JSONMappableP"
+- !private "5Basic16JSONSerializableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "4Yams17NodeRepresentableP"
+- !private "4PathAAV"
+- !private "Sm"
+- !private "10SPMUtility14ArgumentParserC6ResultC"
+- !private "4Yams19ScalarConstructibleP"
+- !private "4Yams19ScalarRepresentableP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "4Yams13YAMLEncodableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/POSIX.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Path.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Yams.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMUtility.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Yams/Sources/CYaml/include/CYaml.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Yams/Sources/CYaml/include/yaml.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildNinja.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBasic.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmDemangle.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCore.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/CYaml.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBuildSystem.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCommands.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmSupport.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/gtest.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7875334b9b627604e4df41dd663a0d76"

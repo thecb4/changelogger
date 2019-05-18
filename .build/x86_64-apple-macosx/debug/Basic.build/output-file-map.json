@@ -1,0 +1,233 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/master.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Await.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Await.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Await.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Await~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Await.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/ByteString.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ByteString.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ByteString.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ByteString~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ByteString.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/CStringArray.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CStringArray.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CStringArray.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CStringArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CStringArray.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/CacheableSequence.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CacheableSequence.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CacheableSequence.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CacheableSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CacheableSequence.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/CollectionAlgorithms.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionAlgorithms.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionAlgorithms.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionAlgorithms~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionAlgorithms.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/CollectionExtensions.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionExtensions.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionExtensions.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/CollectionExtensions.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Condition.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Condition.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Condition.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Condition~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Condition.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/DeltaAlgorithm.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DeltaAlgorithm.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DeltaAlgorithm.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DeltaAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DeltaAlgorithm.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/DiagnosticsEngine.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DiagnosticsEngine.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DiagnosticsEngine.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DiagnosticsEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DiagnosticsEngine.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/DictionaryExtensions.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryExtensions.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryExtensions.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryExtensions.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/DictionaryLiteralExtensions.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryLiteralExtensions.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryLiteralExtensions.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryLiteralExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/DictionaryLiteralExtensions.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/EditDistance.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/EditDistance.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/EditDistance.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/EditDistance~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/EditDistance.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/FileSystem.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/FileSystem.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/FileSystem.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/FileSystem~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/FileSystem.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/GraphAlgorithms.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/GraphAlgorithms.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/GraphAlgorithms.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/GraphAlgorithms~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/GraphAlgorithms.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/JSON.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSON.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSON.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSON.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/JSONMapper.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSONMapper.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSONMapper.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSONMapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/JSONMapper.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/KeyedPair.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/KeyedPair.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/KeyedPair.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/KeyedPair~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/KeyedPair.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/LazyCache.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/LazyCache.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/LazyCache.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/LazyCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/LazyCache.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Lock.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Lock.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Lock.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Lock~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Lock.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/ObjectIdentifierProtocol.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ObjectIdentifierProtocol.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ObjectIdentifierProtocol.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ObjectIdentifierProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ObjectIdentifierProtocol.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/OrderedDictionary.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedDictionary.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedDictionary.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedDictionary.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/OrderedSet.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedSet.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedSet.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OrderedSet.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/OutputByteStream.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OutputByteStream.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OutputByteStream.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OutputByteStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/OutputByteStream.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Path.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Path.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Path.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Path~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Path.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/PathShims.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/PathShims.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/PathShims.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/PathShims~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/PathShims.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Process.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Process.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Process.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Process~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Process.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/ProcessSet.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ProcessSet.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ProcessSet.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ProcessSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/ProcessSet.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/RegEx.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/RegEx.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/RegEx.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/RegEx~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/RegEx.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Result.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Result.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Result.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Result.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/SHA256.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SHA256.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SHA256.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SHA256~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SHA256.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/SortedArray.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SortedArray.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SortedArray.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SortedArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SortedArray.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/StringConversions.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/StringConversions.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/StringConversions.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/StringConversions~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/StringConversions.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/SynchronizedQueue.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SynchronizedQueue.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SynchronizedQueue.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SynchronizedQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/SynchronizedQueue.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/TemporaryFile.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TemporaryFile.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TemporaryFile.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TemporaryFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TemporaryFile.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/TerminalController.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TerminalController.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TerminalController.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TerminalController~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/TerminalController.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Thread.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Thread.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Thread.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Thread~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Thread.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/Tuple.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Tuple.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Tuple.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Tuple~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/Tuple.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/Basic/misc.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/misc.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/misc.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/misc~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/Basic.build/misc.swiftdeps"
+  }
+}

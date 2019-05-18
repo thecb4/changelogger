@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/master.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ChangeLog.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ChangeLog.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ChangeLog~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ChangeLog.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/CommitEntry.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/CommitEntry.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/CommitEntry~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/CommitEntry.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ContentDecoder.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ContentDecoder.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ContentDecoder.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ContentDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/ContentDecoder.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/DateManager.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/DateManager.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/DateManager.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/DateManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/DateManager.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/LogEntry.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/LogEntry.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/LogEntry.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/LogEntry~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/ChangeLoggerKit.build/LogEntry.swiftdeps"
+  }
+}

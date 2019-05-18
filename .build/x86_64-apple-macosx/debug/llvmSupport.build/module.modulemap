@@ -1,0 +1,4 @@
+module llvmSupport {
+    umbrella "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-llbuild/lib/llvm/Support/include"
+    export *
+}

@@ -1,0 +1,475 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "stat"
+- "exists"
+- "isFile"
+- "isDirectory"
+- "isSymlink"
+- "resolveSymlinks"
+- "makeDirectories"
+- "createSymlink"
+- "currentWorkingDirectory"
+- "walk"
+- "walk"
+- "RecursibleDirectoryContentsGenerator"
+provides-nominal:
+- "5Basic36RecursibleDirectoryContentsGeneratorC"
+provides-member:
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", ""]
+- ["5Basic12AbsolutePathV", ""]
+- ["5Basic12AbsolutePathV", "prettyPath"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "+"
+- !private "=="
+- "AbsolutePath"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "FileManager"
+- "FileSystem"
+- "IndexingIterator"
+- "IteratorProtocol"
+- !private "POSIX"
+- "RecursibleDirectoryContentsGenerator"
+- "SPMLibc"
+- !private "S_IFDIR"
+- !private "S_IFLNK"
+- !private "S_IFMT"
+- !private "S_IFREG"
+- "Sequence"
+- "String"
+- !private "SystemError"
+- "TernaryPrecedence"
+- "createSymlink"
+- "currentWorkingDirectory"
+- !private "errno"
+- "exists"
+- "isDirectory"
+- "isFile"
+- "isSymlink"
+- !private "localFileSystem"
+- !private "lstat"
+- "makeDirectories"
+- "resolveSymlinks"
+- "stat"
+- "walk"
+depends-member:
+- ["5Basic12AbsolutePathV", "AbsolutePath"]
+- ["5Basic12AbsolutePathV", "String"]
+- !private ["5Basic12AbsolutePathV", "appending"]
+- !private ["5Basic12AbsolutePathV", "deinit"]
+- !private ["5Basic12AbsolutePathV", "init"]
+- !private ["5Basic12AbsolutePathV", "localFileSystem"]
+- !private ["5Basic12AbsolutePathV", "parentDirectory"]
+- !private ["5Basic12AbsolutePathV", "pathString"]
+- ["5Basic12AbsolutePathV", "prettyPath"]
+- !private ["5Basic12AbsolutePathV", "relative"]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "makeIterator"]
+- !private ["Sa", "removeFirst"]
+- !private ["SK", "append"]
+- !private ["SK", "hasPrefix"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "makeIterator"]
+- !private ["SK", "removeFirst"]
+- !private ["5Basic14ByteStreamableP", "append"]
+- !private ["5Basic14ByteStreamableP", "hasPrefix"]
+- ["5Basic14ByteStreamableP", "init"]
+- !private ["5Basic14ByteStreamableP", "isEmpty"]
+- !private ["5Basic14ByteStreamableP", "makeIterator"]
+- !private ["5Basic14ByteStreamableP", "removeFirst"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "createDirectory"]
+- !private ["s7CVarArgP", "currentDirectoryPath"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "hasPrefix"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "makeIterator"]
+- !private ["s7CVarArgP", "removeFirst"]
+- !private ["Sl", "append"]
+- !private ["Sl", "hasPrefix"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "removeFirst"]
+- !private ["SL", "appending"]
+- !private ["SL", "hasPrefix"]
+- !private ["SL", "init"]
+- !private ["SL", "localFileSystem"]
+- !private ["SL", "parentDirectory"]
+- !private ["SL", "pathString"]
+- !private ["SL", "relative"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "makeIterator"]
+- !private ["10Foundation15ContiguousBytesP", "removeFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appending"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "currentDirectoryPath"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "localFileSystem"]
+- !private ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "parentDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "pathString"]
+- !private ["s28CustomDebugStringConvertibleP", "relative"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appending"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- !private ["s23CustomStringConvertibleP", "currentDirectoryPath"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "localFileSystem"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "parentDirectory"]
+- !private ["s23CustomStringConvertibleP", "pathString"]
+- !private ["s23CustomStringConvertibleP", "relative"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "symlink"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "makeIterator"]
+- !private ["10Foundation12DataProtocolP", "removeFirst"]
+- !private ["Se", "append"]
+- !private ["Se", "appending"]
+- !private ["Se", "hasPrefix"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "localFileSystem"]
+- !private ["Se", "makeIterator"]
+- !private ["Se", "parentDirectory"]
+- !private ["Se", "pathString"]
+- !private ["Se", "relative"]
+- !private ["Se", "removeFirst"]
+- !private ["5Basic19DiagnosticParameterP", "hasPrefix"]
+- !private ["SE", "append"]
+- !private ["SE", "appending"]
+- !private ["SE", "hasPrefix"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "localFileSystem"]
+- !private ["SE", "makeIterator"]
+- !private ["SE", "parentDirectory"]
+- !private ["SE", "pathString"]
+- !private ["SE", "relative"]
+- !private ["SE", "removeFirst"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appending"]
+- !private ["SQ", "createDirectory"]
+- !private ["SQ", "currentDirectoryPath"]
+- !private ["SQ", "default"]
+- !private ["SQ", "hasPrefix"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "localFileSystem"]
+- !private ["SQ", "makeIterator"]
+- !private ["SQ", "parentDirectory"]
+- !private ["SQ", "pathString"]
+- !private ["SQ", "relative"]
+- !private ["SQ", "removeFirst"]
+- !private ["s5ErrorP", "symlink"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["So13NSFileManagerC", "createDirectory"]
+- !private ["So13NSFileManagerC", "currentDirectoryPath"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["5Basic10FileSystemP", "currentWorkingDirectory"]
+- !private ["5Basic10FileSystemP", "getDirectoryContents"]
+- !private ["5Basic10FileSystemP", "isDirectory"]
+- !private ["5Basic10FileSystemP", "isSymlink"]
+- !private ["SH", "append"]
+- !private ["SH", "appending"]
+- !private ["SH", "createDirectory"]
+- !private ["SH", "currentDirectoryPath"]
+- !private ["SH", "default"]
+- !private ["SH", "hasPrefix"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "localFileSystem"]
+- !private ["SH", "makeIterator"]
+- !private ["SH", "parentDirectory"]
+- !private ["SH", "pathString"]
+- !private ["SH", "relative"]
+- !private ["SH", "removeFirst"]
+- !private ["s16IndexingIteratorV", "next"]
+- ["St", "AbsolutePath"]
+- ["St", "Element"]
+- ["St", "Iterator"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- ["St", "_Default_Iterator"]
+- ["St", "_copyContents"]
+- ["St", "_copyToContiguousArray"]
+- ["St", "_customContainsEquatableElement"]
+- !private ["St", "current"]
+- !private ["St", "fileSystem"]
+- !private ["St", "init"]
+- ["St", "makeIterator"]
+- ["St", "next"]
+- !private ["St", "shouldRecurse"]
+- !private ["St", "towalk"]
+- ["St", "underestimatedCount"]
+- ["St", "withContiguousStorageIfAvailable"]
+- !private ["5Basic12JSONMappableP", "hasPrefix"]
+- !private ["5Basic16JSONSerializableP", "append"]
+- !private ["5Basic16JSONSerializableP", "appending"]
+- !private ["5Basic16JSONSerializableP", "hasPrefix"]
+- ["5Basic16JSONSerializableP", "init"]
+- !private ["5Basic16JSONSerializableP", "isEmpty"]
+- !private ["5Basic16JSONSerializableP", "localFileSystem"]
+- !private ["5Basic16JSONSerializableP", "makeIterator"]
+- !private ["5Basic16JSONSerializableP", "parentDirectory"]
+- !private ["5Basic16JSONSerializableP", "pathString"]
+- !private ["5Basic16JSONSerializableP", "relative"]
+- !private ["5Basic16JSONSerializableP", "removeFirst"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- !private ["SM", "append"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "makeIterator"]
+- !private ["SM", "removeFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "makeIterator"]
+- !private ["10Foundation19MutableDataProtocolP", "removeFirst"]
+- !private ["So8NSCodingP", "hasPrefix"]
+- !private ["So9NSCopyingP", "hasPrefix"]
+- !private ["So21NSItemProviderReadingP", "hasPrefix"]
+- !private ["So21NSItemProviderWritingP", "hasPrefix"]
+- !private ["So16NSMutableCopyingP", "hasPrefix"]
+- !private ["So8NSObjectC", "createDirectory"]
+- !private ["So8NSObjectC", "currentDirectoryPath"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "hasPrefix"]
+- !private ["So8NSObjectP", "createDirectory"]
+- !private ["So8NSObjectP", "currentDirectoryPath"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "hasPrefix"]
+- !private ["So14NSSecureCodingP", "hasPrefix"]
+- !private ["So8NSStringC", "hasPrefix"]
+- !private ["Sk", "append"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "makeIterator"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sm", "append"]
+- !private ["Sm", "hasPrefix"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "makeIterator"]
+- !private ["Sm", "removeFirst"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "AbsolutePath"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "Bool"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "Element"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "FileSystem"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "IndexingIterator"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "Iterator"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "String"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "_Default_Element"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "_Default_Iterator"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "_copyContents"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "_copyToContiguousArray"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "_customContainsEquatableElement"]
+- !private ["5Basic36RecursibleDirectoryContentsGeneratorC", "current"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "deinit"]
+- !private ["5Basic36RecursibleDirectoryContentsGeneratorC", "fileSystem"]
+- !private ["5Basic36RecursibleDirectoryContentsGeneratorC", "init"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "makeIterator"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "next"]
+- !private ["5Basic36RecursibleDirectoryContentsGeneratorC", "shouldRecurse"]
+- !private ["5Basic36RecursibleDirectoryContentsGeneratorC", "towalk"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "underestimatedCount"]
+- ["5Basic36RecursibleDirectoryContentsGeneratorC", "withContiguousStorageIfAvailable"]
+- !private ["5Basic12RelativePathV", "pathString"]
+- ["ST", "AbsolutePath"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "append"]
+- !private ["ST", "current"]
+- !private ["ST", "fileSystem"]
+- !private ["ST", "hasPrefix"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- ["ST", "makeIterator"]
+- ["ST", "next"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "shouldRecurse"]
+- !private ["ST", "towalk"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["SS", "hasPrefix"]
+- !private ["Sy", "hasPrefix"]
+- !private ["5POSIX11SystemErrorO", "symlink"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "makeIterator"]
+- !private ["s14_ArrayProtocolP", "removeFirst"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "makeIterator"]
+- !private ["s19_HasContiguousBytesP", "removeFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "makeIterator"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeFirst"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentDirectoryPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "makeIterator"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFirst"]
+- !private ["So4statV", "st_mode"]
+depends-nominal:
+- "5Basic12AbsolutePathV"
+- "Sa"
+- "SK"
+- "5Basic14ByteStreamableP"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "5Basic19DiagnosticParameterP"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- !private "5Basic10FileSystemP"
+- "SH"
+- !private "s16IndexingIteratorV"
+- "St"
+- !private "5Basic12JSONMappableP"
+- "5Basic16JSONSerializableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sk"
+- "Sm"
+- "5Basic36RecursibleDirectoryContentsGeneratorC"
+- !private "5Basic12RelativePathV"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- !private "5POSIX11SystemErrorO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "So4statV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/POSIX.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildNinja.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBasic.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmDemangle.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCore.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/CYaml.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBuildSystem.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCommands.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmSupport.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/gtest.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "27af9909bfb738692aa6df142d1ebbff"

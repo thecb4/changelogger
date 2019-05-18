@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SystemError"
+provides-nominal:
+- "5POSIX11SystemErrorO"
+provides-member:
+- ["5POSIX11SystemErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "*="
+- !private "<="
+- !private "=="
+- "CustomStringConvertible"
+- !private "EINVAL"
+- !private "ERANGE"
+- !private "FloatLiteralType"
+- "Int32"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- !private "SPMLibc"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "SystemError"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "EINVAL"]
+- !private ["s23CustomStringConvertibleP", "ERANGE"]
+- !private ["s23CustomStringConvertibleP", "Int8"]
+- !private ["s23CustomStringConvertibleP", "SPMLibc"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "chdir"]
+- ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "dirfd"]
+- ["s23CustomStringConvertibleP", "exec"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "fgetc"]
+- ["s23CustomStringConvertibleP", "fread"]
+- ["s23CustomStringConvertibleP", "getcwd"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- ["s23CustomStringConvertibleP", "mkdir"]
+- ["s23CustomStringConvertibleP", "mkdtemp"]
+- ["s23CustomStringConvertibleP", "pipe"]
+- ["s23CustomStringConvertibleP", "popen"]
+- ["s23CustomStringConvertibleP", "posix_spawn"]
+- ["s23CustomStringConvertibleP", "read"]
+- ["s23CustomStringConvertibleP", "readdir"]
+- ["s23CustomStringConvertibleP", "realpath"]
+- ["s23CustomStringConvertibleP", "rename"]
+- ["s23CustomStringConvertibleP", "rmdir"]
+- ["s23CustomStringConvertibleP", "setenv"]
+- ["s23CustomStringConvertibleP", "stat"]
+- ["s23CustomStringConvertibleP", "symlink"]
+- ["s23CustomStringConvertibleP", "symlinkat"]
+- ["s23CustomStringConvertibleP", "unlink"]
+- ["s23CustomStringConvertibleP", "unsetenv"]
+- ["s23CustomStringConvertibleP", "usleep"]
+- ["s23CustomStringConvertibleP", "waitpid"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["s5ErrorP", "EINVAL"]
+- !private ["s5ErrorP", "ERANGE"]
+- !private ["s5ErrorP", "Int8"]
+- !private ["s5ErrorP", "SPMLibc"]
+- !private ["s5ErrorP", "String"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "chdir"]
+- ["s5ErrorP", "close"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "dirfd"]
+- ["s5ErrorP", "exec"]
+- !private ["s5ErrorP", "fatalError"]
+- ["s5ErrorP", "fgetc"]
+- ["s5ErrorP", "fread"]
+- ["s5ErrorP", "getcwd"]
+- ["s5ErrorP", "mkdir"]
+- ["s5ErrorP", "mkdtemp"]
+- ["s5ErrorP", "pipe"]
+- ["s5ErrorP", "popen"]
+- ["s5ErrorP", "posix_spawn"]
+- ["s5ErrorP", "read"]
+- ["s5ErrorP", "readdir"]
+- ["s5ErrorP", "realpath"]
+- ["s5ErrorP", "rename"]
+- ["s5ErrorP", "rmdir"]
+- ["s5ErrorP", "setenv"]
+- ["s5ErrorP", "stat"]
+- ["s5ErrorP", "symlink"]
+- ["s5ErrorP", "symlinkat"]
+- ["s5ErrorP", "unlink"]
+- ["s5ErrorP", "unsetenv"]
+- ["s5ErrorP", "usleep"]
+- ["s5ErrorP", "waitpid"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["5POSIX11SystemErrorO", "EINVAL"]
+- !private ["5POSIX11SystemErrorO", "ERANGE"]
+- ["5POSIX11SystemErrorO", "Int32"]
+- !private ["5POSIX11SystemErrorO", "Int8"]
+- !private ["5POSIX11SystemErrorO", "SPMLibc"]
+- ["5POSIX11SystemErrorO", "String"]
+- ["5POSIX11SystemErrorO", "_code"]
+- ["5POSIX11SystemErrorO", "_domain"]
+- ["5POSIX11SystemErrorO", "_getEmbeddedNSError"]
+- ["5POSIX11SystemErrorO", "_userInfo"]
+- ["5POSIX11SystemErrorO", "chdir"]
+- ["5POSIX11SystemErrorO", "close"]
+- ["5POSIX11SystemErrorO", "deinit"]
+- ["5POSIX11SystemErrorO", "description"]
+- ["5POSIX11SystemErrorO", "dirfd"]
+- ["5POSIX11SystemErrorO", "exec"]
+- !private ["5POSIX11SystemErrorO", "fatalError"]
+- ["5POSIX11SystemErrorO", "fgetc"]
+- ["5POSIX11SystemErrorO", "fread"]
+- ["5POSIX11SystemErrorO", "getcwd"]
+- ["5POSIX11SystemErrorO", "mkdir"]
+- ["5POSIX11SystemErrorO", "mkdtemp"]
+- ["5POSIX11SystemErrorO", "pipe"]
+- ["5POSIX11SystemErrorO", "popen"]
+- ["5POSIX11SystemErrorO", "posix_spawn"]
+- ["5POSIX11SystemErrorO", "read"]
+- ["5POSIX11SystemErrorO", "readdir"]
+- ["5POSIX11SystemErrorO", "realpath"]
+- ["5POSIX11SystemErrorO", "rename"]
+- ["5POSIX11SystemErrorO", "rmdir"]
+- ["5POSIX11SystemErrorO", "setenv"]
+- ["5POSIX11SystemErrorO", "stat"]
+- ["5POSIX11SystemErrorO", "symlink"]
+- ["5POSIX11SystemErrorO", "symlinkat"]
+- ["5POSIX11SystemErrorO", "unlink"]
+- ["5POSIX11SystemErrorO", "unsetenv"]
+- ["5POSIX11SystemErrorO", "usleep"]
+- ["5POSIX11SystemErrorO", "waitpid"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "5POSIX11SystemErrorO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildNinja.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBasic.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmDemangle.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCore.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/CYaml.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildBuildSystem.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llbuildCommands.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/llvmSupport.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/gtest.build/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+interface-hash: "2df499c7063abc3ff3596e005abbd501"

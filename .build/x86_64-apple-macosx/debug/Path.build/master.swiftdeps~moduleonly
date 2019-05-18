@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "366dd664b40ab9e596fbb4f4f275a6e8"
+build_time: [1558206293, 162423000]
+inputs:
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Extensions.swift": [1558206289, 766884445]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path+Attributes.swift": [1558206289, 767101373]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path+Codable.swift": [1558206289, 767314130]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path+CommonDirectories.swift": [1558206289, 767552405]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path+FileManager.swift": [1558206289, 767700241]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path+StringConvertibles.swift": [1558206289, 767823270]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path+ls.swift": [1558206289, 767947653]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path->Bool.swift": [1558206289, 768077005]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Path.swift/Sources/Path.swift": [1558206289, 768287785]

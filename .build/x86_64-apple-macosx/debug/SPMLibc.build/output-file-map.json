@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.build/master.swiftdeps"
+  },
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/SPMLibc/libc.swift": {
+    "dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.build/libc.d",
+    "object": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.build/libc.swift.o",
+    "swiftmodule": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.build/libc~partial.swiftmodule",
+    "swift-dependencies": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/x86_64-apple-macosx/debug/SPMLibc.build/libc.swiftdeps"
+  }
+}
