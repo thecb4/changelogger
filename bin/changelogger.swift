@@ -39,6 +39,6 @@ if #available(macOS 10.13, *) {
 
     // add + commit
     try Shell.gitAdd(.all)
-    try Shell.gitCommit(message: "Changed test paths, added ChangeLoggerKit to swift sh file")
+    try Shell.gitCommit(message: "Removed ChangeLoggerKit from swift sh, added 'log' command")
   }
 }

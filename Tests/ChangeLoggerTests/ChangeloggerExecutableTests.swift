@@ -10,6 +10,22 @@ final class ChangeloggerExecutableTests: XCTestCase {
     return formatter
   }()
 
+  public static let iso8601Formatter: DateFormatter = {
+    var formatter = DateFormatter()
+    formatter.locale = Locale(identifier: "en_US_POSIX")
+    formatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'"
+    formatter.timeZone = TimeZone(secondsFromGMT: 0)
+    return formatter
+  }()
+
+  public static var iso8601WithoutZFormatter: DateFormatter = {
+    var formatter = DateFormatter()
+    formatter.locale = Locale(identifier: "en_US_POSIX")
+    formatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ss"
+    formatter.timeZone = TimeZone(secondsFromGMT: 0)
+    return formatter
+  }()
+
   static let testFolderPath = Path.cwd / "Tests/fixtures/executable"
   static let testFolderCustomPath = Path.cwd / "Tests/fixtures/custom-path"
 
@@ -71,6 +87,7 @@ final class ChangeloggerExecutableTests: XCTestCase {
 
         SUBCOMMANDS:
           init                    initialize directory for changelogger
+          log                     log commit to log entry file
           markdown                Write CHANGELOG markdown
 
         """
@@ -138,6 +155,82 @@ final class ChangeloggerExecutableTests: XCTestCase {
       XCTAssertEqual(actualOutput, expectedOutput)
       XCTAssertTrue((ChangeloggerExecutableTests.testFolderCustomPath / "commit.yml").exists)
       XCTAssertTrue((ChangeloggerExecutableTests.testFolderCustomPath / ".changelog/changelog.yml").exists)
+
+    } catch {
+      XCTFail("\(error)")
+    }
+  }
+
+  func testLogNoArguments() {
+    do {
+      let testRunPath = Path.cwd / "Tests/test-runs"
+
+      let testLogFileNotEmpty = Path.cwd / "Tests/fixtures/changelog/changelog-notempty.yml"
+      let testCommitFile = Path.cwd / "Tests/fixtures/new-commit.yml"
+
+      let testDir = testRunPath.join("testLogNoArguments")
+
+      try testDir.mkdir()
+      try testDir.join(".changelog").mkdir()
+
+      let loggingFile = testDir.join(".changelog/changelog.yml")
+
+      let commitFile = testDir.join("commit.yml")
+
+      try loggingFile.delete()
+      try commitFile.delete()
+
+      try testLogFileNotEmpty.copy(to: loggingFile)
+      try testCommitFile.copy(to: commitFile)
+
+      let consoleOutput = try TestableExecutable.run(
+        "changelogger",
+        using: ["log"],
+        workingDirectory: testDir
+      )
+
+      print(consoleOutput)
+      // print(consoleOutput.split(separator: "\n")[0])
+
+      let timestamp = consoleOutput.split(separator: "\n")[0].split(separator: "|")[1].trimmingCharacters(in: .whitespacesAndNewlines)
+
+      // swiftformat:disable consecutiveBlankLines
+      let expectedOutput =
+        """
+        title: Changelogger Changelog
+        logs:
+        - version: unreleased
+          date: \(timestamp)
+          commit:
+            summary: Feature flags
+            added:
+            - Feature flag all the things
+            changed: []
+            deprecated: []
+            removed: []
+            fixed: []
+            security: []
+        - version: unreleased
+          date: 2019-05-12T19:57:00.496031045Z
+          commit:
+            summary: Fixed a bunch of workflow stuff
+            added:
+            - Some new feature
+            changed: []
+            deprecated: []
+            removed: []
+            fixed: []
+            security: []
+
+        """
+      // swiftformat:enable consecutiveBlankLines
+
+      let actualOutput = try String(contentsOf: loggingFile)
+
+      // then
+      XCTAssertEqual(actualOutput, expectedOutput)
+      // XCTAssertTrue((ChangeloggerExecutableTests.testFolderPath / "commit.yml").exists)
+      // XCTAssertTrue((ChangeloggerExecutableTests.testFolderPath / ".changelog/changelog.yml").exists)
 
     } catch {
       XCTFail("\(error)")

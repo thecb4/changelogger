@@ -1881,7 +1881,7 @@
 }, {
   "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift" : {
     "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-    "key.length" : 2163,
+    "key.length" : 2838,
     "key.offset" : 0,
     "key.substructure" : [
       {
@@ -2027,7 +2027,7 @@
       {
         "key.accessibility" : "source.lang.swift.accessibility.internal",
         "key.annotated_decl" : "<Declaration>struct Date : <Type usr=\"s:10Foundation20ReferenceConvertibleP\">ReferenceConvertible<\/Type>, <Type usr=\"s:SL\">Comparable<\/Type>, <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
-        "key.bodylength" : 842,
+        "key.bodylength" : 1517,
         "key.bodyoffset" : 1319,
         "key.doc.declaration" : "struct Date : ReferenceConvertible, Comparable, Equatable",
         "key.doc.discussion" : [
@@ -2041,7 +2041,7 @@
         "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Date<\/decl.name> : <ref.protocol usr=\"s:10Foundation20ReferenceConvertibleP\">ReferenceConvertible<\/ref.protocol>, <ref.protocol usr=\"s:SL\">Comparable<\/ref.protocol>, <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.struct>",
         "key.is_system" : true,
         "key.kind" : "source.lang.swift.decl.extension",
-        "key.length" : 859,
+        "key.length" : 1534,
         "key.modulename" : "Foundation",
         "key.name" : "Date",
         "key.namelength" : 4,
@@ -2050,7 +2050,7 @@
         "key.substructure" : [
           {
             "key.accessibility" : "source.lang.swift.accessibility.public",
-            "key.annotated_decl" : "<Declaration>public func string(using formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type> = DateManager.formatter, with format: <Type usr=\"s:SS\">String<\/Type> = DateManager.defaultFormat) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.annotated_decl" : "<Declaration>public static let formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type><\/Declaration>",
             "key.attributes" : [
               {
                 "key.attribute" : "source.decl.attribute.public",
@@ -2058,19 +2058,120 @@
                 "key.offset" : 1322
               }
             ],
-            "key.bodylength" : 187,
-            "key.bodyoffset" : 1469,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
-            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>string<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>using<\/decl.var.parameter.argument_label> <decl.var.parameter.name>formatter<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.parameter.type> = DateManager.formatter<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>with<\/decl.var.parameter.argument_label> <decl.var.parameter.name>format<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type> = DateManager.defaultFormat<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
-            "key.kind" : "source.lang.swift.decl.function.method.instance",
-            "key.length" : 328,
-            "key.name" : "string(using:with:)",
-            "key.namelength" : 123,
-            "key.nameoffset" : 1334,
+            "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>formatter<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.type><\/decl.var.static>",
+            "key.kind" : "source.lang.swift.decl.var.static",
+            "key.length" : 38,
+            "key.name" : "formatter",
+            "key.namelength" : 9,
+            "key.nameoffset" : 1340,
             "key.offset" : 1329,
-            "key.parsed_declaration" : "public func string(\n  using formatter: DateFormatter = DateManager.formatter,\n  with format: String = DateManager.defaultFormat\n) -> String",
-            "key.parsed_scope.end" : 45,
+            "key.parsed_declaration" : "public static let formatter = DateFormatter()",
+            "key.parsed_scope.end" : 37,
             "key.parsed_scope.start" : 37,
+            "key.typename" : "DateFormatter",
+            "key.typeusr" : "$sSo15NSDateFormatterCD",
+            "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE9formatterSo15NSDateFormatterCvpZ"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public static let defaultFormat: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 1370
+              }
+            ],
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
+            "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>defaultFormat<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+            "key.kind" : "source.lang.swift.decl.var.static",
+            "key.length" : 55,
+            "key.name" : "defaultFormat",
+            "key.namelength" : 13,
+            "key.nameoffset" : 1388,
+            "key.offset" : 1377,
+            "key.parsed_declaration" : "public static let defaultFormat = \"yyyy-MM-dd'T'HH:mm:ss.SSSS\"",
+            "key.parsed_scope.end" : 38,
+            "key.parsed_scope.start" : 38,
+            "key.typename" : "String",
+            "key.typeusr" : "$sSSD",
+            "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE13defaultFormatSSvpZ"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public static var iso8601WithoutZFormatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 1436
+              }
+            ],
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
+            "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>iso8601WithoutZFormatter<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.type><\/decl.var.static>",
+            "key.kind" : "source.lang.swift.decl.var.static",
+            "key.length" : 286,
+            "key.name" : "iso8601WithoutZFormatter",
+            "key.namelength" : 24,
+            "key.nameoffset" : 1454,
+            "key.offset" : 1443,
+            "key.parsed_declaration" : "public static var iso8601WithoutZFormatter: DateFormatter =",
+            "key.parsed_scope.end" : 40,
+            "key.parsed_scope.start" : 40,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.public",
+            "key.typename" : "DateFormatter",
+            "key.typeusr" : "$sSo15NSDateFormatterCD",
+            "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE24iso8601WithoutZFormatterSo15NSDateFormatterCvpZ"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public static let iso8601Formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 1733
+              }
+            ],
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
+            "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>iso8601Formatter<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.type><\/decl.var.static>",
+            "key.kind" : "source.lang.swift.decl.var.static",
+            "key.length" : 281,
+            "key.name" : "iso8601Formatter",
+            "key.namelength" : 16,
+            "key.nameoffset" : 1751,
+            "key.offset" : 1740,
+            "key.parsed_declaration" : "public static let iso8601Formatter: DateFormatter =",
+            "key.parsed_scope.end" : 48,
+            "key.parsed_scope.start" : 48,
+            "key.typename" : "DateFormatter",
+            "key.typeusr" : "$sSo15NSDateFormatterCD",
+            "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE16iso8601FormatterSo06NSDateG0CvpZ"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public func string(using formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type> = Date.formatter, with format: <Type usr=\"s:SS\">String<\/Type> = Date.defaultFormat) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 2025
+              }
+            ],
+            "key.bodylength" : 187,
+            "key.bodyoffset" : 2158,
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>string<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>using<\/decl.var.parameter.argument_label> <decl.var.parameter.name>formatter<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.parameter.type> = Date.formatter<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>with<\/decl.var.parameter.argument_label> <decl.var.parameter.name>format<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type> = Date.defaultFormat<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 314,
+            "key.name" : "string(using:with:)",
+            "key.namelength" : 109,
+            "key.nameoffset" : 2037,
+            "key.offset" : 2032,
+            "key.parsed_declaration" : "public func string(\n  using formatter: DateFormatter = Date.formatter,\n  with format: String = Date.defaultFormat\n) -> String",
+            "key.parsed_scope.end" : 64,
+            "key.parsed_scope.start" : 56,
             "key.substructure" : [
 
             ],
@@ -2085,22 +2186,22 @@
               {
                 "key.attribute" : "source.decl.attribute.public",
                 "key.length" : 6,
-                "key.offset" : 1661
+                "key.offset" : 2350
               }
             ],
-            "key.bodylength" : 446,
-            "key.bodyoffset" : 1713,
+            "key.bodylength" : 432,
+            "key.bodyoffset" : 2402,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
             "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>iso8601StringWithFullNanosecond<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
             "key.kind" : "source.lang.swift.decl.var.instance",
-            "key.length" : 492,
+            "key.length" : 478,
             "key.name" : "iso8601StringWithFullNanosecond",
             "key.namelength" : 31,
-            "key.nameoffset" : 1672,
-            "key.offset" : 1668,
+            "key.nameoffset" : 2361,
+            "key.offset" : 2357,
             "key.parsed_declaration" : "public var iso8601StringWithFullNanosecond: String",
-            "key.parsed_scope.end" : 57,
-            "key.parsed_scope.start" : 47,
+            "key.parsed_scope.end" : 76,
+            "key.parsed_scope.start" : 66,
             "key.typename" : "String",
             "key.typeusr" : "$sSSD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvp"
@@ -2113,11 +2214,11 @@
             "key.length" : 54,
             "key.name" : "characterSetZero",
             "key.namelength" : 16,
-            "key.nameoffset" : 1722,
-            "key.offset" : 1718,
+            "key.nameoffset" : 2411,
+            "key.offset" : 2407,
             "key.parsed_declaration" : "let characterSetZero = CharacterSet(charactersIn: \"0\")",
-            "key.parsed_scope.end" : 48,
-            "key.parsed_scope.start" : 48,
+            "key.parsed_scope.end" : 67,
+            "key.parsed_scope.start" : 67,
             "key.typename" : "CharacterSet",
             "key.typeusr" : "$s10Foundation12CharacterSetVD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvg16characterSetZeroL_AA09CharacterL0Vvp"
@@ -2130,11 +2231,11 @@
             "key.length" : 47,
             "key.name" : "calendar",
             "key.namelength" : 8,
-            "key.nameoffset" : 1781,
-            "key.offset" : 1777,
+            "key.nameoffset" : 2470,
+            "key.offset" : 2466,
             "key.parsed_declaration" : "let calendar = Calendar(identifier: .gregorian)",
-            "key.parsed_scope.end" : 49,
-            "key.parsed_scope.start" : 49,
+            "key.parsed_scope.end" : 68,
+            "key.parsed_scope.start" : 68,
             "key.typename" : "Calendar",
             "key.typeusr" : "$s10Foundation8CalendarVD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvg8calendarL_AA8CalendarVvp"
@@ -2147,11 +2248,11 @@
             "key.length" : 60,
             "key.name" : "nanosecond",
             "key.namelength" : 10,
-            "key.nameoffset" : 1833,
-            "key.offset" : 1829,
+            "key.nameoffset" : 2522,
+            "key.offset" : 2518,
             "key.parsed_declaration" : "let nanosecond = calendar.component(.nanosecond, from: self)",
-            "key.parsed_scope.end" : 50,
-            "key.parsed_scope.start" : 50,
+            "key.parsed_scope.end" : 69,
+            "key.parsed_scope.start" : 69,
             "key.typename" : "Int",
             "key.typeusr" : "$sSiD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvg10nanosecondL_Sivp"
@@ -2287,7 +2388,8 @@
             "key.attributes" : [
               {
                 "key.attribute" : "source.decl.attribute.public",
-                "key.length" : 6,"key.offset" : 183
+                "key.length" : 6,
+                "key.offset" : 183
               }
             ],
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift",
@@ -2316,8 +2418,7 @@
                 "key.offset" : 230
               }
             ],
-            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift",
-            "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>timeZone<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation8TimeZoneV\">TimeZone<\/ref.struct>?<\/decl.var.type><\/decl.var.static>",
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift","key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>timeZone<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation8TimeZoneV\">TimeZone<\/ref.struct>?<\/decl.var.type><\/decl.var.static>",
             "key.kind" : "source.lang.swift.decl.var.static",
             "key.length" : 49,
             "key.name" : "timeZone",
@@ -2350,7 +2451,8 @@
             "key.namelength" : 17,
             "key.nameoffset" : 307,
             "key.offset" : 296,
-            "key.parsed_declaration" : "public static var unreleasedVersion = \"unreleased\"","key.parsed_scope.end" : 12,
+            "key.parsed_declaration" : "public static var unreleasedVersion = \"unreleased\"",
+            "key.parsed_scope.end" : 12,
             "key.parsed_scope.start" : 12,
             "key.setter_accessibility" : "source.lang.swift.accessibility.public",
             "key.typename" : "String",
@@ -2383,8 +2485,7 @@
                 "key.name" : "Swift.Error"
               }
             ],
-            "key.kind" : "source.lang.swift.decl.enum",
-            "key.length" : 54,
+            "key.kind" : "source.lang.swift.decl.enum","key.length" : 54,
             "key.name" : "Error",
             "key.namelength" : 5,
             "key.nameoffset" : 355,
@@ -2426,7 +2527,7 @@
             "key.usr" : "s:15ChangeLoggerKit8LogEntryV5ErrorO"
           }
         ],
-        "key.typename": "LogEntry.Type",
+        "key.typename" : "LogEntry.Type",
         "key.typeusr" : "$s15ChangeLoggerKit8LogEntryVmD",
         "key.usr" : "s:15ChangeLoggerKit8LogEntryV"
       },
@@ -2571,8 +2672,7 @@
                 "key.nameoffset" : 1466,
                 "key.offset" : 1462,
                 "key.parsed_declaration" : "let workDescription = work.isEmpty ? \"-\" : work.map { \"- \\($0)\" }.joined(separator: newLine)",
-                "key.parsed_scope.end" : 54,
-                "key.parsed_scope.start" : 54,
+                "key.parsed_scope.end" : 54,"key.parsed_scope.start" : 54,
                 "key.typename" : "String",
                 "key.typeusr" : "$sSSD",
                 "key.usr" : "s:15ChangeLoggerKit8LogEntryV21convertItemToMarkDown6titled5usingS2S_SaySSGtF15workDescriptionL_SSvp"
