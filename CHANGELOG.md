@@ -5,6 +5,64 @@ All notable changes to this project will be documented in this file.
 * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
 * This project adheres to [Semantic Versioning](http://semver.org/).
 
+#### [unreleased] - 2019-May-18.
+##### Added
+-
+
+##### Changed
+-
+
+##### Deprecated
+-
+
+##### Removed
+-
+
+##### Fixed
+-
+
+##### Security
+-
+
+
+#### [0.5.0] - 2019-May-18.
+##### Added
+- release command for updating unreleased log entries in changelog.yml to a released version
+
+##### Changed
+-
+
+##### Deprecated
+-
+
+##### Removed
+-
+
+##### Fixed
+-
+
+##### Security
+-
+
+#### [0.4.0] - 2019-May-17.
+##### Added
+- Log command for adding commit.yml entry to changelog.yml
+
+##### Changed
+-
+
+##### Deprecated
+-
+
+##### Removed
+-
+
+##### Fixed
+-
+
+##### Security
+-
+
 #### [0.3.0] - 2019-May-16.
 ##### Added
 - Init command to initialize current directory with commit file and changelog directory

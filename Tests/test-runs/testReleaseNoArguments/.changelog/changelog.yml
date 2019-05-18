@@ -1,0 +1,14 @@
+title: Changelogger Changelog
+logs:
+- version: 0.2.0
+  date: 2019-05-18T19:00:34.935410976Z
+  commit:
+    summary: New Release, get it hot!
+    added:
+    - Feature flag all the things
+    - Some new feature
+    changed: []
+    deprecated: []
+    removed: []
+    fixed: []
+    security: []

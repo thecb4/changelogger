@@ -30,4 +30,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Swift
+.build/
+
 # End of https://www.gitignore.io/api/macOS

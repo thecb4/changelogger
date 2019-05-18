@@ -123,11 +123,8 @@ Also generates a RELEASE.md with just the latest release info.</p>
 <h3 id='prerequisites' class='heading'>Prerequisites</h3>
 
 <ul>
-<li><a href="https://swift.org">Swift</a>, 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
-*</li>
+<li><a href="https://swift.org">Swift</a>, 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)</li>
 </ul>
-<pre class="highlight plaintext"><code>Give examples
-</code></pre>
 <h3 id='installing' class='heading'>Installing</h3>
 
 <p><a href="https://github.com/yonaskolb/Mint">Mint</a> is a swift based package manager</p>
@@ -145,13 +142,37 @@ mint install https://gitlab.com/thecb4/changelogger --force // force reinstall
 <li>commit.yml, Where you will keep track of your changes.</li>
 <li>.changelog/changelog.yml, Where the tool will keep track of all your changes</li>
 </ul>
+<pre class="highlight plaintext"><code>changelogger init
+</code></pre>
 <h3 id='update-commit-yml' class='heading'>Update commit.yml</h3>
 
-<p>Write whatever you need to write as a list of changes as specified by </p>
-<h3 id='break-down-into-end-to-end-tests' class='heading'>Break down into end to end tests</h3>
+<p>Write whatever you need to write as a list of changes as specified by</p>
+<pre class="highlight plaintext"><code>summary: Fixing workflow
 
-<p>Explain what these tests test and why</p>
-<pre class="highlight plaintext"><code>Give an example
+added:
+  - Some new feature
+changed: []
+deprecated: []
+removed: []
+fixed: []
+security: []
+
+</code></pre>
+<h3 id='log-commit-yml-to-changelog-yml' class='heading'>Log commit.yml to changelog.yml</h3>
+<pre class="highlight plaintext"><code>changelogger log
+</code></pre>
+<h3 id='create-changelog-md-with-unreleased-logs' class='heading'>Create CHANGELOG.md with unreleased logs</h3>
+<pre class="highlight plaintext"><code>changelogger markdown
+</code></pre>
+<h3 id='create-new-release-in-changelog-yml' class='heading'>Create new release in changelog.yml</h3>
+
+<p>Currently version tag can be anything</p>
+<pre class="highlight plaintext"><code>changelogger release "brilliant summary" --version-tag 0.2.0
+</code></pre>
+<h3 id='release-a-new-changelog' class='heading'>Release a new changelog</h3>
+
+<p>Currently version tag can be anything</p>
+<pre class="highlight plaintext"><code>changelogger markdown
 </code></pre>
 <h2 id='roadmap-and-contributing' class='heading'>Roadmap and Contributing</h2>
 <h3 id='versioning' class='heading'>Versioning</h3>

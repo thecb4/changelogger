@@ -22,12 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * [Swift](https://swift.org), 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
-*
 
-
-```
-Give examples
-```
 
 ### Installing
 
@@ -47,17 +42,49 @@ Initialize your current directory with two files
 - commit.yml, Where you will keep track of your changes.
 - .changelog/changelog.yml, Where the tool will keep track of all your changes
 
+```
+changelogger init
+```
+
 ### Update commit.yml
-Write whatever you need to write as a list of changes as specified by 
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Write whatever you need to write as a list of changes as specified by
 
 ```
-Give an example
+summary: Fixing workflow
+
+added:
+  - Some new feature
+changed: []
+deprecated: []
+removed: []
+fixed: []
+security: []
+
 ```
+
+### Log commit.yml to changelog.yml
+```
+changelogger log
+```
+
+### Create CHANGELOG.md with unreleased logs
+```
+changelogger markdown
+```
+
+### Create new release in changelog.yml
+Currently version tag can be anything
+```
+changelogger release "brilliant summary" --version-tag 0.2.0
+```
+
+### Release a new changelog
+Currently version tag can be anything
+```
+changelogger markdown
+```
+
+
 
 ## Roadmap and Contributing
 

@@ -14,7 +14,7 @@ public struct CommitEntry: Codable {
     case notDecodable(String)
   }
 
-  public let summary: String
+  public var summary: String
   public let added: [String]
   public let changed: [String]
   public let deprecated: [String]
