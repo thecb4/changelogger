@@ -1,4 +1,0 @@
-module llbuildNinja {
-    umbrella "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-llbuild/lib/Ninja/include"
-    export *
-}

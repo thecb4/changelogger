@@ -1,4 +1,0 @@
-module CYaml {
-    umbrella header "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/Yams/Sources/CYaml/include/CYaml.h"
-    export *
-}
