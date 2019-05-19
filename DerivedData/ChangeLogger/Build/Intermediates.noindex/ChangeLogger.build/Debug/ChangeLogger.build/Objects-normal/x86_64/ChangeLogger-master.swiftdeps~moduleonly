@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "980dc574b6dc6428533774c84153cd24"
-build_time: [1558298800, 463615000]
-inputs:
-  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLogger/main.swift": [1552255512, 947522168]

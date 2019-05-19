@@ -581,6 +581,12 @@
 		"ChangeLogger::ChangeLoggerKit::Product" /* ChangeLoggerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChangeLoggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ChangeLogger::ChangeLoggerKitTests::Product" /* ChangeLoggerKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChangeLoggerKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ChangeLogger::ChangeLoggerTests::Product" /* ChangeLoggerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChangeLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A29B2E2292200D00380030 /* changelog.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = changelog.yml; sourceTree = "<group>"; };
+		E9A29B2F2292200D00380030 /* .gitlab-ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitlab-ci.yml"; sourceTree = "<group>"; };
+		E9A29B302292200D00380030 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		E9A29B312292200D00380030 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E9A29B322292200D00380030 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		E9A29B332292200D00380030 /* .jazzy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .jazzy.yaml; sourceTree = "<group>"; };
 		OBJ_100 /* readdir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readdir.swift; sourceTree = "<group>"; };
 		OBJ_101 /* realpath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realpath.swift; sourceTree = "<group>"; };
 		OBJ_102 /* rename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rename.swift; sourceTree = "<group>"; };
@@ -879,6 +885,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9A29B2D2292200D00380030 /* .changelog */ = {
+			isa = PBXGroup;
+			children = (
+				E9A29B2E2292200D00380030 /* changelog.yml */,
+			);
+			path = .changelog;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* ChangeLoggerCLI */ = {
 			isa = PBXGroup;
 			children = (
@@ -1234,7 +1248,7 @@
 			path = .build/checkouts/Path.swift/Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1248,13 +1262,18 @@
 				OBJ_196 /* LICENSE.md */,
 				OBJ_197 /* CHANGELOG.md */,
 				OBJ_198 /* Makefile */,
+				E9A29B2D2292200D00380030 /* .changelog */,
+				E9A29B312292200D00380030 /* .gitignore */,
+				E9A29B2F2292200D00380030 /* .gitlab-ci.yml */,
+				E9A29B332292200D00380030 /* .jazzy.yaml */,
+				E9A29B302292200D00380030 /* .swiftformat */,
+				E9A29B322292200D00380030 /* .swiftlint.yml */,
 				OBJ_199 /* README.md */,
 				OBJ_200 /* RELEASE.md */,
 				OBJ_201 /* ROADMAP.md */,
 				OBJ_202 /* CONTRIBUTING.md */,
 				OBJ_203 /* commit.yml */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* SwiftPM */ = {
@@ -1774,7 +1793,7 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_179 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
