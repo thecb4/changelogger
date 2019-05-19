@@ -71,7 +71,7 @@ release:
   dependencies:
     - pages
   before_script:
-    - LC_ALL="en_US.UTF-8"
+    - export LC_ALL="en_US.UTF-8"
     - locale
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
