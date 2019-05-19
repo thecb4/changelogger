@@ -85,7 +85,9 @@ release:
     - brew install mxcl/made/swift-sh
   script:
     - swift sh bin/homebrew.swift
-    - brew create https://gitlab.com/thecb4/changelogger --set-name changelogger
+    - ls -alF
+    - cd $HOME
+    - ls -alF
   # artifacts:
   #   paths:
   #   - public
