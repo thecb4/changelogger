@@ -1,8 +1,10 @@
-summary: "Fix Empty RELEASE.md"
+summary: "Homebrew support"
 added: []
-changed: []
+changed:
+  - gitlab-ci to include release stage
+  - gitlab-ci to include SPM 5.0.1 compile on Ubuntu-xenial
+  - gitlab-ci to include SPM 5.0.1 compile on Ubuntu-bionic
 deprecated: []
 removed: []
-fixed:
-  - emtpy release caused by not checking if commit is empty
+fixed: []
 security: []

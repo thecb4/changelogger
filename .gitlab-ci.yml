@@ -1,12 +1,85 @@
-image: alpine:latest
+# Author: Cavelle Benjamin
+
+variables:
+  LC_ALL: "C.UTF-8"
+  DOMAIN: "thecb4.io"
+  EMAIL: "cavelle@thecb4.io"
+
+stages:
+  - build-test
+  - docs
+  - release
+
+spm_501_xenial:
+  image:
+    name: swift:5.0.1-xenial
+    entrypoint: [""]
+  stage: build-test
+  script:
+    - swift package update
+    - swift test --generate-linuxmain
+    - swift build --build-tests -c debug
+    - swift test -c debug
+    - swift build -c release
+  only:
+    - master
+
+spm_501_bonic:
+  image:
+    name: swift:5.0.1-bionic
+    entrypoint: [""]
+  stage: build-test
+  script:
+    - swift package update
+    - swift test --generate-linuxmain
+    - swift build --build-tests -c debug
+    - swift test -c debug
+    - swift build -c release
+  only:
+    - master
+
+# xcode_501_macOS:
+#   stage: build
+#   script:
+#     - xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
+#     - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
+#   tags:
+#     - ios_9-2
+#     - xcode_7-2
+#     - osx_10-11
 
 pages:
-  stage: deploy
+  image:
+    name: alpine:latest
+  stage: docs
+  dependencies:
+    - spm_501_xenial
+    - spm_501_bonic
   script:
-  - mkdir public
-  - cp -a docs/api/. public/
+    - mkdir public
+    - cp -a docs/api/. public/
   artifacts:
     paths:
     - public
   only:
-  - master
+    - master
+
+release:
+  image:
+    name: alpine:latest
+  stage: release
+  dependencies:
+    - docs
+  before_script:
+    - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+    - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+    - test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+    - test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
+    - echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+  script:
+    - bin/release.sh
+  artifacts:
+    paths:
+    - public
+  only:
+    - feature/homebrew
