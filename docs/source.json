@@ -1,7 +1,7 @@
 [{
   "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ChangeLog.swift" : {
     "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-    "key.length" : 5296,
+    "key.length" : 5435,
     "key.offset" : 0,
     "key.substructure" : [
       {
@@ -530,18 +530,18 @@
       {
         "key.accessibility" : "source.lang.swift.accessibility.internal",
         "key.annotated_decl" : "<Declaration>public struct Changelog : <Type usr=\"s:s7Codablea\">Codable<\/Type><\/Declaration>",
-        "key.bodylength" : 3956,
+        "key.bodylength" : 4095,
         "key.bodyoffset" : 1338,
         "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ChangeLog.swift",
         "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Changelog<\/decl.name> : <ref.typealias usr=\"s:s7Codablea\">Codable<\/ref.typealias><\/decl.struct>",
         "key.kind" : "source.lang.swift.decl.extension",
-        "key.length" : 3978,
+        "key.length" : 4117,
         "key.name" : "Changelog",
         "key.namelength" : 9,
         "key.nameoffset" : 1327,
         "key.offset" : 1317,
         "key.parsed_declaration" :"extension Changelog",
-        "key.parsed_scope.end" : 190,
+        "key.parsed_scope.end" : 198,
         "key.parsed_scope.start" : 47,
         "key.substructure" : [
           {
@@ -971,18 +971,18 @@
                 "key.offset" : 3342
               }
             ],
-            "key.bodylength" : 346,
+            "key.bodylength" : 485,
             "key.bodyoffset" : 3371,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ChangeLog.swift",
             "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>markdown<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
             "key.kind" : "source.lang.swift.decl.var.instance",
-            "key.length" : 369,
+            "key.length" : 508,
             "key.name" : "markdown",
             "key.namelength" : 8,
             "key.nameoffset" : 3353,
             "key.offset" : 3349,
             "key.parsed_declaration" : "public var markdown: String",
-            "key.parsed_scope.end" : 147,
+            "key.parsed_scope.end" : 155,
             "key.parsed_scope.start" : 128,
             "key.typename" : "String",
             "key.typeusr" : "$sSSD",
@@ -1044,12 +1044,12 @@
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ChangeLog.swift",
             "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>descriptor<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.local>",
             "key.kind" : "source.lang.swift.decl.var.local",
-            "key.length" : 140,
+            "key.length" : 279,
             "key.name" : "descriptor",
             "key.namelength" : 10,
             "key.nameoffset" : 3555,
             "key.offset" : 3551,
-            "key.parsed_declaration" : "let descriptor =",
+            "key.parsed_declaration" : "let descriptor = squashedUnreleased.commit.isEmpty ?",
             "key.parsed_scope.end" : 135,
             "key.parsed_scope.start" : 135,
             "key.typename" : "String",
@@ -1063,35 +1063,35 @@
               {
                 "key.attribute" : "source.decl.attribute.public",
                 "key.length" : 6,
-                "key.offset" : 3722
+                "key.offset" : 3861
               }
             ],
             "key.bodylength" : 308,
-            "key.bodyoffset" : 3804,
+            "key.bodyoffset" : 3943,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ChangeLog.swift",
             "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>release<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>version<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>with<\/decl.var.parameter.argument_label> <decl.var.parameter.name>summary<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:15ChangeLoggerKit9ChangelogV\">Changelog<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
             "key.kind" : "source.lang.swift.decl.function.method.instance",
             "key.length" : 384,
             "key.name" : "release(_:with:)",
             "key.namelength" : 48,
-            "key.nameoffset" : 3734,
-            "key.offset" : 3729,
+            "key.nameoffset" : 3873,
+            "key.offset" : 3868,
             "key.parsed_declaration" : "public func release(_ version: String, with summary: String) throws -> Changelog",
-            "key.parsed_scope.end" : 162,
-            "key.parsed_scope.start" : 149,
+            "key.parsed_scope.end" : 170,
+            "key.parsed_scope.start" : 157,
             "key.substructure" : [
               {
                 "key.annotated_decl" : "<Declaration>var changelog: <Type usr=\"s:15ChangeLoggerKit9ChangelogV\">Changelog<\/Type><\/Declaration>",
                 "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ChangeLog.swift",
                 "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>changelog<\/decl.name>: <decl.var.type><ref.struct usr=\"s:15ChangeLoggerKit9ChangelogV\">Changelog<\/ref.struct><\/decl.var.type><\/decl.var.local>",
-                "key.kind" : "source.lang.swift.decl.var.local",
-                "key.length" : 62,"key.name" : "changelog",
+                "key.kind" : "source.lang.swift.decl.var.local","key.length" : 62,
+                "key.name" : "changelog",
                 "key.namelength" : 9,
-                "key.nameoffset" : 3890,
-                "key.offset" : 3886,
+                "key.nameoffset" : 4029,
+                "key.offset" : 4025,
                 "key.parsed_declaration" : "var changelog = Changelog(title: title, logs: releasedEntries)",
-                "key.parsed_scope.end" : 154,
-                "key.parsed_scope.start" : 154,
+                "key.parsed_scope.end" : 162,
+                "key.parsed_scope.start" : 162,
                 "key.typename" : "Changelog",
                 "key.typeusr" : "$s15ChangeLoggerKit9ChangelogVD",
                 "key.usr" : "s:15ChangeLoggerKit9ChangelogV7release_4withACSS_SStKF9changelogL_ACvp"
@@ -1104,11 +1104,11 @@
                 "key.length" : 33,
                 "key.name" : "squashed",
                 "key.namelength" : 8,
-                "key.nameoffset" : 3957,
-                "key.offset" : 3953,
+                "key.nameoffset" : 4096,
+                "key.offset" : 4092,
                 "key.parsed_declaration" : "var squashed = squashedUnreleased",
-                "key.parsed_scope.end" : 155,
-                "key.parsed_scope.start" : 155,
+                "key.parsed_scope.end" : 163,
+                "key.parsed_scope.start" : 163,
                 "key.typename" : "LogEntry",
                 "key.typeusr" : "$s15ChangeLoggerKit8LogEntryVD",
                 "key.usr" : "s:15ChangeLoggerKit9ChangelogV7release_4withACSS_SStKF8squashedL_AA8LogEntryVvp"
@@ -1128,7 +1128,7 @@
 }, {
   "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/CommitEntry.swift" : {
     "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-    "key.length" : 1665,
+    "key.length" : 1857,
     "key.offset" : 0,
     "key.substructure" : [
       {
@@ -1141,7 +1141,7 @@
             "key.offset" : 25
           }
         ],
-        "key.bodylength" : 1565,
+        "key.bodylength" : 1757,
         "key.bodyoffset" : 61,
         "key.elements" : [
           {
@@ -1158,15 +1158,15 @@
           }
         ],
         "key.kind" : "source.lang.swift.decl.struct",
-        "key.length" : 1595,
+        "key.length" : 1787,
         "key.name" : "CommitEntry",
         "key.namelength" : 11,
         "key.nameoffset" : 39,
         "key.offset" : 32,
         "key.parsed_declaration" : "public struct CommitEntry: Codable",
-        "key.parsed_scope.end" : 64,
-        "key.parsed_scope.start" : 4,
-        "key.substructure" : [{
+        "key.parsed_scope.end" : 74,
+        "key.parsed_scope.start" : 4,"key.substructure" : [
+          {
             "key.accessibility" : "source.lang.swift.accessibility.public",
             "key.annotated_decl" : "<Declaration>public static var file: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
             "key.attributes" : [
@@ -1230,7 +1230,8 @@
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/CommitEntry.swift",
             "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>commitFilePath<\/decl.name>: <decl.var.type><ref.struct usr=\"s:4PathAAV\">Path<\/ref.struct><\/decl.var.type><\/decl.var.static>",
             "key.kind" : "source.lang.swift.decl.var.static",
-            "key.length" : 49,"key.name" : "commitFilePath",
+            "key.length" : 49,
+            "key.name" : "commitFilePath",
             "key.namelength" : 14,
             "key.nameoffset" : 196,
             "key.offset" : 185,
@@ -1301,7 +1302,8 @@
                     "key.parsed_scope.start" : 12,
                     "key.typename" : "(CommitEntry.Error.Type) -> (String) -> CommitEntry.Error",
                     "key.typeusr" : "$sy15ChangeLoggerKit11CommitEntryV5ErrorOSScAEmcD",
-                    "key.usr" : "s:15ChangeLoggerKit11CommitEntryV5ErrorO7badPathyAESScAEmF"}
+                    "key.usr" : "s:15ChangeLoggerKit11CommitEntryV5ErrorO7badPathyAESScAEmF"
+                  }
                 ]
               },
               {
@@ -1365,7 +1367,8 @@
           },
           {
             "key.accessibility" : "source.lang.swift.accessibility.public",
-            "key.annotated_decl" : "<Declaration>public var summary: <Type usr=\"s:SS\">String<\/Type><\/Declaration>","key.attributes" : [
+            "key.annotated_decl" : "<Declaration>public var summary: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.attributes" : [
               {
                 "key.attribute" : "source.decl.attribute.public",
                 "key.length" : 6,
@@ -1438,7 +1441,8 @@
             "key.typeusr" : "$sSaySSGD",
             "key.usr" : "s:15ChangeLoggerKit11CommitEntryV7changedSaySSGvp"
           },
-          {"key.accessibility" : "source.lang.swift.accessibility.public",
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
             "key.annotated_decl" : "<Declaration>public let deprecated: [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
             "key.attributes" : [
               {
@@ -1507,7 +1511,7 @@
             "key.offset" : 540,
             "key.parsed_declaration" : "public let fixed: [String]",
             "key.parsed_scope.end" : 22,
-            "key.parsed_scope.start" : 22,
+            "key.parsed_scope.start" :22,
             "key.typename" : "[String]",
             "key.typeusr" : "$sSaySSGD",
             "key.usr" : "s:15ChangeLoggerKit11CommitEntryV5fixedSaySSGvp"
@@ -1574,7 +1578,7 @@
           },
           {
             "key.accessibility" : "source.lang.swift.accessibility.public",
-            "key.annotated_decl" : "<Declaration>public static func current(from path: <Type usr=\"s:SS\">String<\/Type> = CommitEntry.defaultCommitFilePath.string, using decoder: <Type usr=\"s:15ChangeLoggerKit14ContentDecoderP\">ContentDecoder<\/Type> = YAMLDecoder()) throws -&gt; <Type usr=\"s:15ChangeLoggerKit11CommitEntryV\">CommitEntry<\/Type><\/Declaration>",
+            "key.annotated_decl" : "<Declaration>public var isEmpty: <Type usr=\"s:Sb\">Bool<\/Type> { get }<\/Declaration>",
             "key.attributes" : [
               {
                 "key.attribute" : "source.decl.attribute.public",
@@ -1582,19 +1586,46 @@
                 "key.offset" : 968
               }
             ],
+            "key.bodylength" : 161,
+            "key.bodyoffset" : 994,
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/CommitEntry.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>isEmpty<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 181,
+            "key.name" : "isEmpty",
+            "key.namelength" : 7,
+            "key.nameoffset" : 979,
+            "key.offset" : 975,
+            "key.parsed_declaration" : "public var isEmpty: Bool",
+            "key.parsed_scope.end" : 51,
+            "key.parsed_scope.start" : 43,
+            "key.typename" : "Bool",
+            "key.typeusr" : "$sSbD",
+            "key.usr" : "s:15ChangeLoggerKit11CommitEntryV7isEmptySbvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public static func current(from path: <Type usr=\"s:SS\">String<\/Type> = CommitEntry.defaultCommitFilePath.string, using decoder: <Type usr=\"s:15ChangeLoggerKit14ContentDecoderP\">ContentDecoder<\/Type> = YAMLDecoder()) throws -&gt; <Type usr=\"s:15ChangeLoggerKit11CommitEntryV\">CommitEntry<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 1160
+              }
+            ],
             "key.bodylength" : 364,
-            "key.bodyoffset" : 1127,
+            "key.bodyoffset" : 1319,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/CommitEntry.swift",
             "key.fully_annotated_decl" : "<decl.function.method.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>current<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>from<\/decl.var.parameter.argument_label> <decl.var.parameter.name>path<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type> = CommitEntry.defaultCommitFilePath.string<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>using<\/decl.var.parameter.argument_label> <decl.var.parameter.name>decoder<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.protocol usr=\"s:15ChangeLoggerKit14ContentDecoderP\">ContentDecoder<\/ref.protocol><\/decl.var.parameter.type> = YAMLDecoder()<\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:15ChangeLoggerKit11CommitEntryV\">CommitEntry<\/ref.struct><\/decl.function.returntype><\/decl.function.method.static>",
             "key.kind" : "source.lang.swift.decl.function.method.static",
             "key.length" : 517,
             "key.name" : "current(from:using:)",
             "key.namelength" : 116,
-            "key.nameoffset" : 987,
-            "key.offset" : 975,
+            "key.nameoffset" : 1179,
+            "key.offset" : 1167,
             "key.parsed_declaration" : "public static func current(from path: String = CommitEntry.defaultCommitFilePath.string, using decoder: ContentDecoder = YAMLDecoder()) throws -> CommitEntry",
-            "key.parsed_scope.end" : 57,
-            "key.parsed_scope.start" : 43,
+            "key.parsed_scope.end" : 67,
+            "key.parsed_scope.start" : 53,
             "key.substructure" : [
 
             ],
@@ -1609,22 +1640,22 @@
               {
                 "key.attribute" : "source.decl.attribute.public",
                 "key.length" : 6,
-                "key.offset" : 1496
+                "key.offset" : 1688
               }
             ],
             "key.bodylength" : 91,
-            "key.bodyoffset" : 1533,
+            "key.bodyoffset" : 1725,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/CommitEntry.swift",
             "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>yaml<\/decl.name>() <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
             "key.kind" : "source.lang.swift.decl.function.method.instance",
             "key.length" : 122,
             "key.name" : "yaml()",
             "key.namelength" : 6,
-            "key.nameoffset" : 1508,
-            "key.offset" : 1503,
+            "key.nameoffset" : 1700,
+            "key.offset" : 1695,
             "key.parsed_declaration" : "public func yaml() throws -> String",
-            "key.parsed_scope.end" : 63,
-            "key.parsed_scope.start" : 59,
+            "key.parsed_scope.end" : 73,
+            "key.parsed_scope.start" : 69,
             "key.substructure" : [
               {
                 "key.annotated_decl" : "<Declaration>let encoder: <Type usr=\"s:4Yams11YAMLEncoderC\">YAMLEncoder<\/Type><\/Declaration>",
@@ -1634,11 +1665,10 @@
                 "key.length" : 27,
                 "key.name" : "encoder",
                 "key.namelength" : 7,
-                "key.nameoffset" : 1542,
-                "key.offset" : 1538,
+                "key.nameoffset" : 1734,"key.offset" : 1730,
                 "key.parsed_declaration" : "let encoder = YAMLEncoder()",
-                "key.parsed_scope.end" : 60,
-                "key.parsed_scope.start" : 60,
+                "key.parsed_scope.end" : 70,
+                "key.parsed_scope.start" : 70,
                 "key.typename" : "YAMLEncoder",
                 "key.typeusr" : "$s4Yams11YAMLEncoderCD",
                 "key.usr" : "s:15ChangeLoggerKit11CommitEntryV4yamlSSyKF7encoderL_4Yams11YAMLEncoderCvp"
@@ -1651,14 +1681,15 @@
                 "key.length" : 35,
                 "key.name" : "yaml",
                 "key.namelength" : 4,
-                "key.nameoffset" : 1574,
-                "key.offset" : 1570,
+                "key.nameoffset" : 1766,
+                "key.offset" : 1762,
                 "key.parsed_declaration" : "let yaml = try encoder.encode(self)",
-                "key.parsed_scope.end" : 61,
-                "key.parsed_scope.start" : 61,
+                "key.parsed_scope.end" : 71,
+                "key.parsed_scope.start" : 71,
                 "key.related_decls" : [
                   {
-                    "key.annotated_decl" : "<RelatedName usr=\"s:15ChangeLoggerKit11CommitEntryV4yamlSSyKF\">yaml()<\/RelatedName>"}
+                    "key.annotated_decl" : "<RelatedName usr=\"s:15ChangeLoggerKit11CommitEntryV4yamlSSyKF\">yaml()<\/RelatedName>"
+                  }
                 ],
                 "key.typename" : "String",
                 "key.typeusr" : "$sSSD",
@@ -1678,12 +1709,12 @@
         "key.accessibility" : "source.lang.swift.accessibility.internal",
         "key.annotated_decl" : "<Declaration>public struct CommitEntry : <Type usr=\"s:s7Codablea\">Codable<\/Type><\/Declaration>",
         "key.bodylength" : 0,
-        "key.bodyoffset" : 1663,
+        "key.bodyoffset" : 1855,
         "key.elements" : [
           {
             "key.kind" : "source.lang.swift.structure.elem.typeref",
             "key.length" : 9,
-            "key.offset" : 1652
+            "key.offset" : 1844
           }
         ],
         "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/CommitEntry.swift",
@@ -1697,11 +1728,11 @@
         "key.length" : 35,
         "key.name" : "CommitEntry",
         "key.namelength" : 11,
-        "key.nameoffset" : 1639,
-        "key.offset" : 1629,
+        "key.nameoffset" : 1831,
+        "key.offset" : 1821,
         "key.parsed_declaration" : "extension CommitEntry: Equatable",
-        "key.parsed_scope.end" : 66,
-        "key.parsed_scope.start" : 66,
+        "key.parsed_scope.end" : 76,
+        "key.parsed_scope.start" : 76,
         "key.typename" : "CommitEntry.Type",
         "key.typeusr" : "$s15ChangeLoggerKit11CommitEntryVmD",
         "key.usr" : "s:15ChangeLoggerKit11CommitEntryV"
@@ -1777,7 +1808,8 @@
             "key.docoffset" : 66,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/ContentDecoder.swift",
             "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>decode<\/decl.name>&lt;<decl.generic_type_param usr=\"s:15ChangeLoggerKit14ContentDecoderP6decode_4fromqd__qd__m_10Foundation4DataVtKSeRd__lF1TL_qd__mfp\"><decl.generic_type_param.name>T<\/decl.generic_type_param.name><\/decl.generic_type_param>&gt;(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>type<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.generic_type_param usr=\"s:15ChangeLoggerKit14ContentDecoderP6decode_4fromqd__qd__m_10Foundation4DataVtKSeRd__lF1TL_qd__mfp\">T<\/ref.generic_type_param>.Type<\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>from<\/decl.var.parameter.argument_label> <decl.var.parameter.name>data<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation4DataV\">Data<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) <syntaxtype.keyword>throws<\/syntaxtype.keyword> -&gt; <decl.function.returntype><ref.generic_type_param usr=\"s:15ChangeLoggerKit14ContentDecoderP6decode_4fromqd__qd__m_10Foundation4DataVtKSeRd__lF1TL_qd__mfp\">T<\/ref.generic_type_param><\/decl.function.returntype> <syntaxtype.keyword>where<\/syntaxtype.keyword> <decl.generic_type_requirement>T : <ref.protocol usr=\"s:Se\">Decodable<\/ref.protocol><\/decl.generic_type_requirement><\/decl.function.method.instance>",
-            "key.kind" : "source.lang.swift.decl.function.method.instance","key.length" : 70,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 70,
             "key.name" : "decode(_:from:)",
             "key.namelength" : 53,
             "key.nameoffset" : 273,
@@ -1822,8 +1854,7 @@
           }
         ],
         "key.typename" : "ContentDecoder.Protocol",
-        "key.typeusr" : "$s15ChangeLoggerKit14ContentDecoder_pmD",
-        "key.usr" : "s:15ChangeLoggerKit14ContentDecoderP"
+        "key.typeusr" : "$s15ChangeLoggerKit14ContentDecoder_pmD","key.usr" : "s:15ChangeLoggerKit14ContentDecoderP"
       },
       {
         "key.accessibility" : "source.lang.swift.accessibility.internal",
@@ -1935,7 +1966,7 @@
                 "key.fully_annotated_decl" : "<decl.generic_type_param><decl.generic_type_param.name>T<\/decl.generic_type_param.name> : <decl.generic_type_param.constraint><ref.protocol usr=\"s:Se\">Decodable<\/ref.protocol><\/decl.generic_type_param.constraint><\/decl.generic_type_param>",
                 "key.inheritedtypes" : [
                   {
-                    "key.name" : "Decodable"
+                    "key.name" :"Decodable"
                   }
                 ],
                 "key.kind" : "source.lang.swift.decl.generic_type_param",
@@ -1966,7 +1997,7 @@
 }, {
   "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift" : {
     "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
-    "key.length" : 2838,
+    "key.length" : 3214,
     "key.offset" : 0,
     "key.substructure" : [
       {
@@ -2017,7 +2048,8 @@
             "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>formatter<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.type><\/decl.var.static>",
             "key.kind" : "source.lang.swift.decl.var.static",
             "key.length" : 38,
-            "key.name" : "formatter","key.namelength" : 9,
+            "key.name" : "formatter",
+            "key.namelength" : 9,
             "key.nameoffset" : 618,
             "key.offset" : 607,
             "key.parsed_declaration" : "public static let formatter = DateFormatter()",
@@ -2083,7 +2115,8 @@
             "key.annotated_decl" : "<Declaration>public static let iso8601Formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type><\/Declaration>",
             "key.attributes" : [
               {
-                "key.attribute" : "source.decl.attribute.public","key.length" : 6,
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
                 "key.offset" : 1011
               }
             ],
@@ -2110,7 +2143,7 @@
       {
         "key.accessibility" : "source.lang.swift.accessibility.internal",
         "key.annotated_decl" : "<Declaration>struct Date : <Type usr=\"s:10Foundation20ReferenceConvertibleP\">ReferenceConvertible<\/Type>, <Type usr=\"s:SL\">Comparable<\/Type>, <Type usr=\"s:SQ\">Equatable<\/Type><\/Declaration>",
-        "key.bodylength" : 1517,
+        "key.bodylength" : 1893,
         "key.bodyoffset" : 1319,
         "key.doc.declaration" : "struct Date : ReferenceConvertible, Comparable, Equatable",
         "key.doc.discussion" : [
@@ -2124,14 +2157,14 @@
         "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>Date<\/decl.name> : <ref.protocol usr=\"s:10Foundation20ReferenceConvertibleP\">ReferenceConvertible<\/ref.protocol>, <ref.protocol usr=\"s:SL\">Comparable<\/ref.protocol>, <ref.protocol usr=\"s:SQ\">Equatable<\/ref.protocol><\/decl.struct>",
         "key.is_system" : true,
         "key.kind" : "source.lang.swift.decl.extension",
-        "key.length" : 1534,
+        "key.length" : 1910,
         "key.modulename" : "Foundation",
         "key.name" : "Date",
         "key.namelength" : 4,
         "key.nameoffset" : 1313,
         "key.offset" : 1303,
         "key.parsed_declaration" : "extension Date",
-        "key.parsed_scope.end" : 77,
+        "key.parsed_scope.end" : 89,
         "key.parsed_scope.start" : 36,
         "key.substructure" : [
           {
@@ -2237,7 +2270,7 @@
           },
           {
             "key.accessibility" : "source.lang.swift.accessibility.public",
-            "key.annotated_decl" : "<Declaration>public func string(using formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type> = Date.formatter, with format: <Type usr=\"s:SS\">String<\/Type> = Date.defaultFormat) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.annotated_decl" : "<Declaration>public static let markdownDayFormatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type><\/Declaration>",
             "key.attributes" : [
               {
                 "key.attribute" : "source.decl.attribute.public",
@@ -2245,19 +2278,44 @@
                 "key.offset" : 2025
               }
             ],
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
+            "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>markdownDayFormatter<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.type><\/decl.var.static>",
+            "key.kind" : "source.lang.swift.decl.var.static",
+            "key.length" : 269,
+            "key.name" : "markdownDayFormatter",
+            "key.namelength" : 20,
+            "key.nameoffset" : 2043,
+            "key.offset" : 2032,
+            "key.parsed_declaration" : "public static let markdownDayFormatter: DateFormatter =",
+            "key.parsed_scope.end" : 56,
+            "key.parsed_scope.start" : 56,
+            "key.typename" : "DateFormatter",
+            "key.typeusr" : "$sSo15NSDateFormatterCD",
+            "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE20markdownDayFormatterSo06NSDateH0CvpZ"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public func string(using formatter: <Type usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/Type> = Date.formatter, with format: <Type usr=\"s:SS\">String<\/Type> = Date.defaultFormat) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 2305
+              }
+            ],
             "key.bodylength" : 187,
-            "key.bodyoffset" : 2158,
+            "key.bodyoffset" : 2438,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
             "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>string<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>using<\/decl.var.parameter.argument_label> <decl.var.parameter.name>formatter<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)NSDateFormatter\">DateFormatter<\/ref.class><\/decl.var.parameter.type> = Date.formatter<\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>with<\/decl.var.parameter.argument_label> <decl.var.parameter.name>format<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type> = Date.defaultFormat<\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
             "key.kind" : "source.lang.swift.decl.function.method.instance",
             "key.length" : 314,
             "key.name" : "string(using:with:)",
             "key.namelength" : 109,
-            "key.nameoffset" : 2037,
-            "key.offset" : 2032,
+            "key.nameoffset" : 2317,
+            "key.offset" : 2312,
             "key.parsed_declaration" : "public func string(\n  using formatter: DateFormatter = Date.formatter,\n  with format: String = Date.defaultFormat\n) -> String",
-            "key.parsed_scope.end" : 64,
-            "key.parsed_scope.start" : 56,
+            "key.parsed_scope.end" : 72,
+            "key.parsed_scope.start" : 64,
             "key.substructure" : [
 
             ],
@@ -2272,22 +2330,22 @@
               {
                 "key.attribute" : "source.decl.attribute.public",
                 "key.length" : 6,
-                "key.offset" : 2350
+                "key.offset" : 2630
               }
             ],
             "key.bodylength" : 432,
-            "key.bodyoffset" : 2402,
+            "key.bodyoffset" : 2682,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
             "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>iso8601StringWithFullNanosecond<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
             "key.kind" : "source.lang.swift.decl.var.instance",
             "key.length" : 478,
             "key.name" : "iso8601StringWithFullNanosecond",
             "key.namelength" : 31,
-            "key.nameoffset" : 2361,
-            "key.offset" : 2357,
+            "key.nameoffset" : 2641,
+            "key.offset" : 2637,
             "key.parsed_declaration" : "public var iso8601StringWithFullNanosecond: String",
-            "key.parsed_scope.end" : 76,
-            "key.parsed_scope.start" : 66,
+            "key.parsed_scope.end" : 84,
+            "key.parsed_scope.start" : 74,
             "key.typename" : "String",
             "key.typeusr" : "$sSSD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvp"
@@ -2300,11 +2358,11 @@
             "key.length" : 54,
             "key.name" : "characterSetZero",
             "key.namelength" : 16,
-            "key.nameoffset" : 2411,
-            "key.offset" : 2407,
+            "key.nameoffset" : 2691,
+            "key.offset" : 2687,
             "key.parsed_declaration" : "let characterSetZero = CharacterSet(charactersIn: \"0\")",
-            "key.parsed_scope.end" : 67,
-            "key.parsed_scope.start" : 67,
+            "key.parsed_scope.end" : 75,
+            "key.parsed_scope.start" : 75,
             "key.typename" : "CharacterSet",
             "key.typeusr" : "$s10Foundation12CharacterSetVD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvg16characterSetZeroL_AA09CharacterL0Vvp"
@@ -2317,11 +2375,11 @@
             "key.length" : 47,
             "key.name" : "calendar",
             "key.namelength" : 8,
-            "key.nameoffset" : 2470,
-            "key.offset" : 2466,
+            "key.nameoffset" : 2750,
+            "key.offset" : 2746,
             "key.parsed_declaration" : "let calendar = Calendar(identifier: .gregorian)",
-            "key.parsed_scope.end" : 68,
-            "key.parsed_scope.start" : 68,
+            "key.parsed_scope.end" : 76,
+            "key.parsed_scope.start" : 76,
             "key.typename" : "Calendar",
             "key.typeusr" : "$s10Foundation8CalendarVD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvg8calendarL_AA8CalendarVvp"
@@ -2334,14 +2392,41 @@
             "key.length" : 60,
             "key.name" : "nanosecond",
             "key.namelength" : 10,
-            "key.nameoffset" : 2522,
-            "key.offset" : 2518,
+            "key.nameoffset" : 2802,
+            "key.offset" : 2798,
             "key.parsed_declaration" : "let nanosecond = calendar.component(.nanosecond, from: self)",
-            "key.parsed_scope.end" : 69,
-            "key.parsed_scope.start" : 69,
+            "key.parsed_scope.end" : 77,
+            "key.parsed_scope.start" : 77,
             "key.typename" : "Int",
             "key.typeusr" : "$sSiD",
             "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE31iso8601StringWithFullNanosecondSSvg10nanosecondL_Sivp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.public",
+            "key.annotated_decl" : "<Declaration>public var markdownDay: <Type usr=\"s:SS\">String<\/Type> { get }<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.public",
+                "key.length" : 6,
+                "key.offset" : 3119
+              }
+            ],
+            "key.bodylength" : 59,
+            "key.bodyoffset" : 3151,
+            "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/DateManager.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>markdownDay<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> }<\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 85,
+            "key.name" : "markdownDay",
+            "key.namelength" : 11,
+            "key.nameoffset" : 3130,
+            "key.offset" : 3126,
+            "key.parsed_declaration" : "public var markdownDay: String",
+            "key.parsed_scope.end" : 88,
+            "key.parsed_scope.start" : 86,
+            "key.typename" : "String",
+            "key.typeusr" : "$sSSD",
+            "key.usr" : "s:10Foundation4DateV15ChangeLoggerKitE11markdownDaySSvp"
           }
         ],
         "key.typename" : "Date.Type",
@@ -2392,8 +2477,7 @@
         "key.parsed_scope.end" : 17,
         "key.parsed_scope.start" : 4,
         "key.substructure" : [
-          {
-            "key.accessibility" : "source.lang.swift.accessibility.public",
+          {"key.accessibility" : "source.lang.swift.accessibility.public",
             "key.annotated_decl" : "<Declaration>public var version: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
             "key.attributes" : [
               {
@@ -2461,8 +2545,7 @@
             "key.namelength" : 6,
             "key.nameoffset" : 160,
             "key.offset" : 156,
-            "key.parsed_declaration" : "public var commit: CommitEntry",
-            "key.parsed_scope.end" : 8,
+            "key.parsed_declaration" : "public var commit: CommitEntry","key.parsed_scope.end" : 8,
             "key.parsed_scope.start" : 8,
             "key.setter_accessibility" : "source.lang.swift.accessibility.public",
             "key.typename" : "CommitEntry",
@@ -2538,7 +2621,8 @@
             "key.name" : "unreleasedVersion",
             "key.namelength" : 17,
             "key.nameoffset" : 307,
-            "key.offset" : 296,"key.parsed_declaration" : "public static var unreleasedVersion = \"unreleased\"",
+            "key.offset" : 296,
+            "key.parsed_declaration" : "public static var unreleasedVersion = \"unreleased\"",
             "key.parsed_scope.end" : 12,
             "key.parsed_scope.start" : 12,
             "key.setter_accessibility" : "source.lang.swift.accessibility.public",
@@ -2599,8 +2683,7 @@
                     "key.name" : "badDate(_:)",
                     "key.namelength" : 15,
                     "key.nameoffset" : 385,
-                    "key.offset" : 385,
-                    "key.parsed_declaration" : "case badDate(String)",
+                    "key.offset" : 385,"key.parsed_declaration" : "case badDate(String)",
                     "key.parsed_scope.end" : 15,
                     "key.parsed_scope.start" : 15,
                     "key.typename" : "(LogEntry.Error.Type) -> (String) -> LogEntry.Error",
@@ -2670,7 +2753,7 @@
             "key.substructure" : [
 
             ],
-            "key.typename" : "(LogEntry.Type) -> (CommitEntry) -> LogEntry",
+            "key.typename" : "(LogEntry.Type) -> (CommitEntry) ->LogEntry",
             "key.typeusr" : "$s4from15ChangeLoggerKit8LogEntryVAB06CommitF0V_tcD",
             "key.usr" : "s:15ChangeLoggerKit8LogEntryV4fromAcA06CommitE0V_tcfc"
           },
@@ -2684,7 +2767,7 @@
                 "key.offset" : 681
               }
             ],
-            "key.bodylength" :95,
+            "key.bodylength" : 95,
             "key.bodyoffset" : 709,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift",
             "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>summary<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type> { <syntaxtype.keyword>get<\/syntaxtype.keyword> <syntaxtype.keyword>set<\/syntaxtype.keyword> }<\/decl.var.instance>",
@@ -2748,7 +2831,8 @@
           },
           {
             "key.accessibility" : "source.lang.swift.accessibility.internal",
-            "key.annotated_decl" : "<Declaration>func convertItemToMarkDown(titled: <Type usr=\"s:SS\">String<\/Type>, using work: [<Type usr=\"s:SS\">String<\/Type>]) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>","key.bodylength" : 236,
+            "key.annotated_decl" : "<Declaration>func convertItemToMarkDown(titled: <Type usr=\"s:SS\">String<\/Type>, using work: [<Type usr=\"s:SS\">String<\/Type>]) -&gt; <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.bodylength" : 236,
             "key.bodyoffset" : 1561,
             "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift",
             "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>convertItemToMarkDown<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>titled<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>using<\/decl.var.parameter.argument_label> <decl.var.parameter.name>work<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
@@ -2798,7 +2882,7 @@
               },
               {
                 "key.annotated_decl" : "<Declaration>let descriptor: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
-                "key.filepath": "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift",
+                "key.filepath" : "\/Users\/cavellebenjamin\/Development\/toolbox\/ChangeLogger\/Sources\/ChangeLoggerKit\/LogEntry.swift",
                 "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>descriptor<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.local>",
                 "key.kind" : "source.lang.swift.decl.var.local",
                 "key.length" : 83,

@@ -1,11 +1,23 @@
 title: Changelogger Changelog
 logs:
+- version: 0.5.1
+  date: 2019-05-19T11:12:44.446885943Z
+  commit:
+    summary: Fix Empty RELEASE.md
+    added: []
+    changed: []
+    deprecated: []
+    removed: []
+    fixed:
+    - emtpy release caused by not checking if commit is empty
+    security: []
 - version: 0.5.0
   date: 2019-05-18T19:07:29.997470974Z
   commit:
     summary: Bump release to 0.5
     added:
-    - release command for updating unreleased log entries in changelog.yml to a released version
+    - release command for updating unreleased log entries in changelog.yml to a released
+      version
     changed: []
     deprecated: []
     removed: []
@@ -16,7 +28,7 @@ logs:
   commit:
     summary: Bump release to 0.4
     added:
-      - Log command for adding commit.yml entry to changelog.yml
+    - Log command for adding commit.yml entry to changelog.yml
     changed: []
     deprecated: []
     removed: []
@@ -27,8 +39,9 @@ logs:
   commit:
     summary: Bump release to 0.3
     added:
-      - Init command to initialize current directory with commit file and changelog directory
-      - Markdown command to generate markdown from current log entries
+    - Init command to initialize current directory with commit file and changelog
+      directory
+    - Markdown command to generate markdown from current log entries
     changed: []
     deprecated: []
     removed: []

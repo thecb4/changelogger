@@ -1,8 +1,8 @@
-summary: "Release Command"
-added:
-  - release command for updating changelog.yml
+summary: "Fix Empty RELEASE.md"
+added: []
 changed: []
 deprecated: []
 removed: []
-fixed: []
+fixed:
+  - emtpy release caused by not checking if commit is empty
 security: []

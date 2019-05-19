@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
 * This project adheres to [Semantic Versioning](http://semver.org/).
 
-#### [unreleased] - 2019-May-18.
+#### [0.5.1] - 2019-May-19.
 ##### Added
 -
 
@@ -19,11 +19,10 @@ All notable changes to this project will be documented in this file.
 -
 
 ##### Fixed
--
+- emtpy release caused by not checking if commit is empty
 
 ##### Security
 -
-
 
 #### [0.5.0] - 2019-May-18.
 ##### Added

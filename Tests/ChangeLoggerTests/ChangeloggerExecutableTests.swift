@@ -309,20 +309,40 @@ final class ChangeloggerExecutableTests: XCTestCase {
 
   func testMarkdownNoArguments() {
     do {
-      let loggingFile = Path.cwd / "Tests/fixtures/executable/.changelog/changelog.yml"
+      let testRunPath = Path.cwd / "Tests/test-runs"
 
-      try ChangeloggerExecutableTests.logYAML.write(to: loggingFile)
+      let sampleLogFile = Path.cwd / "Tests/fixtures/changelog/test-write-changelog-markdown.yml"
+      // let testCommitFile = Path.cwd / "Tests/fixtures/new-commit.yml"
+
+      let testDir = testRunPath.join("testMarkdownNoArguments")
+
+      try testDir.mkdir()
+      try testDir.join(".changelog").mkdir()
+
+      let loggingFile = testDir.join(".changelog/changelog.yml")
+
+      // let commitFile = testDir.join("commit.yml")
+
+      try loggingFile.delete()
+      // try commitFile.delete()
+
+      try sampleLogFile.copy(to: loggingFile)
+      // try testCommitFile.copy(to: commitFile)
+
+      // let loggingFile = Path.cwd / "Tests/fixtures/executable/.changelog/changelog.yml"
+
+      // try ChangeloggerExecutableTests.logYAML.write(to: loggingFile)
 
       let actualOutput = try TestableExecutable.run(
         "changelogger",
         using: ["markdown"],
-        workingDirectory: ChangeloggerExecutableTests.testFolderPath
+        workingDirectory: testDir
       )
 
       // swiftformat:disable consecutiveBlankLines
       let expectedOutput =
         """
-        Wring CHANGELOG markdown
+        Writing CHANGELOG markdown
         ### Changelogger Changelog
 
         All notable changes to this project will be documented in this file.
@@ -330,7 +350,7 @@ final class ChangeloggerExecutableTests: XCTestCase {
         * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
         * This project adheres to [Semantic Versioning](http://semver.org/).
 
-        #### [unreleased] - \(ChangeloggerExecutableTests.changelogDateFormatter.string(from: Date())).
+        #### [unreleased] - 2019-May-19.
         ##### Added
         - Some new feature
         - Feature flag all the things
@@ -359,8 +379,8 @@ final class ChangeloggerExecutableTests: XCTestCase {
 
       // then
       XCTAssertEqual(actualOutput, expectedOutput)
-      XCTAssertTrue((ChangeloggerExecutableTests.testFolderPath / "commit.yml").exists)
-      XCTAssertTrue((ChangeloggerExecutableTests.testFolderPath / ".changelog/changelog.yml").exists)
+      XCTAssertTrue((testDir / "CHANGELOG.md").exists)
+      XCTAssertTrue((testDir / "RELEASE.md").exists)
 
     } catch {
       XCTFail("\(error)")
