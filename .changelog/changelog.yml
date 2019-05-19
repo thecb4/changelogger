@@ -1,20 +1,9 @@
 title: Changelogger Changelog
 logs:
-- version: unreleased
-  date: 2019-05-19T12:43:57.572510004Z
-  commit:
-    summary: Fix Empty RELEASE.md
-    added: []
-    changed: []
-    deprecated: []
-    removed: []
-    fixed:
-    - emtpy release caused by not checking if commit is empty
-    security: []
 - version: 0.5.1
   date: 2019-05-19T11:12:44.446885943Z
   commit:
-    summary: Bump release to 0.5.1
+    summary: Fix Empty RELEASE.md
     added: []
     changed: []
     deprecated: []
