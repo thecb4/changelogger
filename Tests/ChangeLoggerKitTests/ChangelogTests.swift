@@ -1,6 +1,7 @@
 import XCTest
 import ChangeLoggerKit
 import Yams
+import Path
 
 final class ChangelogTests: XCTestCase {
   func testChangelogFilePaths() {
@@ -314,12 +315,23 @@ final class ChangelogTests: XCTestCase {
 
   func testCreateMarkdown() {
     do {
-      // given
-      try Changelog.testWriteChangelogPath.delete()
-      let sut = try Changelog.current(from: Changelog.testSquashEntryPath.string)
-      DateManager.formatter.dateFormat = LogEntry.dateFormat
+      let testRunPath = Path.cwd / "Tests/test-runs"
+
+      let sampleLogFile = Path.cwd / "Tests/fixtures/changelog/test-write-changelog-markdown.yml"
+
+      let testDir = testRunPath.join("testCreateMarkdown")
+
+      try testDir.mkdir()
+      try testDir.join(".changelog").mkdir()
+
+      let loggingFile = testDir.join(".changelog/changelog.yml")
+
+      try loggingFile.delete()
+
+      try sampleLogFile.copy(to: loggingFile)
 
       // when
+      let sut = try Changelog.current(from: loggingFile.string)
       let actualMarkdown = sut.markdown
 
       // swiftformat:disable consecutiveBlankLines
@@ -332,8 +344,9 @@ final class ChangelogTests: XCTestCase {
         * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
         * This project adheres to [Semantic Versioning](http://semver.org/).
 
-        #### [unreleased] - \(DateManager.formatter.string(from: Date())).
+        #### [unreleased] - \(Date().markdownDay).
         ##### Added
+        - Some new feature
         - Feature flag all the things
         - Some new feature
 

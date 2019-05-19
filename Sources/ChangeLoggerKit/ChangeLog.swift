@@ -132,7 +132,15 @@ extension Changelog {
 
     let releasedMarkdown = releases.map { $0.markdown }.joined(separator: "\n")
 
-    let descriptor =
+    let descriptor = squashedUnreleased.commit.isEmpty ?
+      """
+      ### \(title)
+
+      \(Changelog.preamble)
+
+      \(releasedMarkdown)
+      """
+      :
       """
       ### \(title)
 

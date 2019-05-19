@@ -40,6 +40,16 @@ public struct CommitEntry: Codable {
     self.security = security
   }
 
+  public var isEmpty: Bool {
+    return
+      added.isEmpty &&
+      changed.isEmpty &&
+      deprecated.isEmpty &&
+      removed.isEmpty &&
+      fixed.isEmpty &&
+      security.isEmpty
+  }
+
   public static func current(from path: String = CommitEntry.defaultCommitFilePath.string, using decoder: ContentDecoder = YAMLDecoder()) throws -> CommitEntry {
     guard let string = try? String(contentsOfFile: path) else {
       throw Error.badPath(path)

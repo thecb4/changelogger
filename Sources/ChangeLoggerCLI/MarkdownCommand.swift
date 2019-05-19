@@ -78,7 +78,7 @@ struct MarkdownCommand: Command {
   }
 
   func run(with arguments: ArgumentParser.Result) throws {
-    print("Wring CHANGELOG markdown")
+    print("Writing CHANGELOG markdown")
 
     // let commitFilePath = try commitFileOptionAction(arguments)
 
@@ -99,7 +99,11 @@ struct MarkdownCommand: Command {
 
     let releaselogPath = Changelog.defaultReleaselogMarkdownPath
 
-    try changelog.squashedUnreleased.markdown.write(to: releaselogPath)
+    if changelog.squashedUnreleased.commit.isEmpty {
+      try changelog.releasedEntries[0].markdown.write(to: releaselogPath)
+    } else {
+      try changelog.squashedUnreleased.markdown.write(to: releaselogPath)
+    }
 
     // if changelogFilePath.parent == Path.cwd {
     //   try "".write(to: changelogFilePath)

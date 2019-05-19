@@ -191,7 +191,7 @@
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift",
-      "line": 149,
+      "line": 157,
       "symbol": "Changelog.release(_:with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -311,13 +311,20 @@
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
       "line": 43,
+      "symbol": "CommitEntry.isEmpty",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
+      "line": 53,
       "symbol": "CommitEntry.current(from:using:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift",
-      "line": 59,
+      "line": 69,
       "symbol": "CommitEntry.yaml()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -388,14 +395,28 @@
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/DateManager.swift",
       "line": 56,
+      "symbol": "Date.markdownDayFormatter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/DateManager.swift",
+      "line": 64,
       "symbol": "Date.string(using:with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/DateManager.swift",
-      "line": 66,
+      "line": 74,
       "symbol": "Date.iso8601StringWithFullNanosecond",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/DateManager.swift",
+      "line": 86,
+      "symbol": "Date.markdownDay",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
