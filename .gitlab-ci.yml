@@ -71,6 +71,7 @@ release:
   dependencies:
     - pages
   before_script:
+    - locale
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
