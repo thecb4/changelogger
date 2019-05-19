@@ -71,14 +71,16 @@ release:
   dependencies:
     - pages
   before_script:
+    - sudo apt-get update
+    - sudo apt-get install libcurl3 curl
     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   script:
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
     - test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
     - test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
     - echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-  artifacts:
-    paths:
-    - public
+  # artifacts:
+  #   paths:
+  #   - public
   only:
     - feature/homebrew
