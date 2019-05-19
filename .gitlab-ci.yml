@@ -71,8 +71,8 @@ release:
   dependencies:
     - pages
   before_script:
-    - sudo apt-get update
-    - sudo apt-get install libcurl3 curl
+    - apt-get update
+    - apt-get install libcurl3 curl
     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   script:
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
