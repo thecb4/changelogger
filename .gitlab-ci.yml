@@ -75,7 +75,7 @@ release:
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
     - useradd -m -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
-    - su linuxbrew
+    - su -l linuxbrew
     - whoami
     - cd $HOME
     - ls -alF
