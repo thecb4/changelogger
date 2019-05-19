@@ -71,14 +71,11 @@ release:
   dependencies:
     - pages
   before_script:
-    - export LC_CTYPE=en_US.UTF-8
-    - export LC_ALL=en_US.UTF-8
     # - update-locale LANG=en_US.UTF-8
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
-    - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
+    - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl language-pack-en
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
-    - cat /etc/passwd
     # https://docs.brew.sh/Homebrew-on-Linux
     - su -l linuxbrew -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
