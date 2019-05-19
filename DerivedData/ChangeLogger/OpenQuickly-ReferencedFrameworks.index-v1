@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>POSIX</string>
+	<string>clibc</string>
+	<string>missing</string>
+	<string>Dispatch</string>
+	<string>CoreFoundation</string>
+	<string>SPMUtility</string>
+	<string>ChangeLoggerCLI</string>
+	<string>Glibc</string>
+	<string>XCTest</string>
+	<string>ChangeLoggerKit</string>
+	<string>Basic</string>
+	<string>Darwin</string>
+	<string>Foundation</string>
+	<string>Path</string>
+	<string>PackageDescription</string>
+	<string>Shelltr</string>
+	<string>Yams</string>
+	<string>SPMLibc</string>
+	<string>CYaml</string>
+</array>
+</plist>

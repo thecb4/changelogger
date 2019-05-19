@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "e56004fcf1af1d97dcb6a6837c6aab0f"
+build_time: [1558298799, 687190000]
+inputs:
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/Command.swift": [1558056156, 38087742]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/CommandLineError.swift": [1558206997, 550364031]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/CommandLineInterface.swift": [1558206997, 550892096]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/InitCommand.swift": [1558056156, 40188654]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/LogCommand.swift": [1558198206, 117518353]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/MarkdownCommand.swift": [1558270777, 737143160]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/Registry.swift": [1558056156, 41262919]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerCLI/ReleaseCommand.swift": [1558206997, 551315492]

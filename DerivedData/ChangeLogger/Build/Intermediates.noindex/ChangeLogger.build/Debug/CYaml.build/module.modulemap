@@ -1,0 +1,6 @@
+framework module CYaml {
+  umbrella header "CYaml.h"
+
+  export *
+  module * { export * }
+}

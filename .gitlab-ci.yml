@@ -85,7 +85,6 @@ release:
     - brew install mxcl/made/swift-sh
   script:
     - swift sh bin/homebrew.swift
-    - tree /home/linuxbrew/
   # artifacts:
   #   paths:
   #   - public

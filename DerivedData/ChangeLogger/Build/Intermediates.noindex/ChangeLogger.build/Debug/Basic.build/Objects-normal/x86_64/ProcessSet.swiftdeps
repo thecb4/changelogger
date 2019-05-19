@@ -1,0 +1,213 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProcessSetError"
+- "ProcessSet"
+provides-nominal:
+- "5Basic15ProcessSetErrorO"
+- "5Basic10ProcessSetC"
+provides-member:
+- ["5Basic15ProcessSetErrorO", ""]
+- ["5Basic10ProcessSetC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "Basic"
+- "Condition"
+- !private "Date"
+- "DispatchQueue"
+- "Double"
+- "Int32"
+- "Process"
+- "ProcessSet"
+- "ProcessSetError"
+- !private "SIGINT"
+- !private "SIGKILL"
+- "Set"
+- "Swift"
+- !private "Thread"
+depends-member:
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["Sl", "insert"]
+- !private ["SL", "init"]
+- ["5Basic9ConditionV", "init"]
+- !private ["5Basic9ConditionV", "signal"]
+- !private ["5Basic9ConditionV", "wait"]
+- !private ["5Basic9ConditionV", "whileLocked"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "insert"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["SE", "init"]
+- !private ["SE", "insert"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "cancelled"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "sync"]
+- !private ["SQ", "waitUntilExit"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "cancelled"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "cancelled"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "signal"]
+- !private ["SH", "sync"]
+- !private ["SH", "waitUntilExit"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["5Basic24ObjectIdentifierProtocolP", "signal"]
+- !private ["5Basic24ObjectIdentifierProtocolP", "waitUntilExit"]
+- ["5Basic7ProcessC", "deinit"]
+- !private ["5Basic7ProcessC", "signal"]
+- !private ["5Basic7ProcessC", "waitUntilExit"]
+- ["5Basic10ProcessSetC", "Basic"]
+- ["5Basic10ProcessSetC", "Condition"]
+- !private ["5Basic10ProcessSetC", "Date"]
+- ["5Basic10ProcessSetC", "DispatchQueue"]
+- ["5Basic10ProcessSetC", "Double"]
+- ["5Basic10ProcessSetC", "Int32"]
+- ["5Basic10ProcessSetC", "Process"]
+- !private ["5Basic10ProcessSetC", "ProcessSetError"]
+- !private ["5Basic10ProcessSetC", "SIGINT"]
+- !private ["5Basic10ProcessSetC", "SIGKILL"]
+- ["5Basic10ProcessSetC", "Set"]
+- ["5Basic10ProcessSetC", "add"]
+- !private ["5Basic10ProcessSetC", "cancelled"]
+- ["5Basic10ProcessSetC", "init"]
+- ["5Basic10ProcessSetC", "killTimeout"]
+- !private ["5Basic10ProcessSetC", "killingCondition"]
+- !private ["5Basic10ProcessSetC", "processes"]
+- !private ["5Basic10ProcessSetC", "serialQueue"]
+- !private ["5Basic10ProcessSetC", "shouldKill"]
+- !private ["5Basic10ProcessSetC", "signalAll"]
+- ["5Basic10ProcessSetC", "terminate"]
+- ["5Basic15ProcessSetErrorO", "=="]
+- ["5Basic15ProcessSetErrorO", "__derived_enum_equals"]
+- ["5Basic15ProcessSetErrorO", "_code"]
+- ["5Basic15ProcessSetErrorO", "_domain"]
+- ["5Basic15ProcessSetErrorO", "_getEmbeddedNSError"]
+- ["5Basic15ProcessSetErrorO", "_rawHashValue"]
+- ["5Basic15ProcessSetErrorO", "_userInfo"]
+- ["5Basic15ProcessSetErrorO", "cancelled"]
+- ["5Basic15ProcessSetErrorO", "deinit"]
+- ["5Basic15ProcessSetErrorO", "hash"]
+- ["5Basic15ProcessSetErrorO", "hashValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "insert"]
+- !private ["Sh", "insert"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["5Basic6ThreadC", "init"]
+- !private ["5Basic6ThreadC", "join"]
+- !private ["5Basic6ThreadC", "start"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "5Basic9ConditionV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- !private "5Basic24ObjectIdentifierProtocolP"
+- "5Basic7ProcessC"
+- "5Basic10ProcessSetC"
+- "5Basic15ProcessSetErrorO"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "5Basic6ThreadC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/POSIX.framework/Modules/POSIX.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/SPMLibc.framework/Modules/SPMLibc.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "423f2177b4f2676159c9a2e557bbce16"

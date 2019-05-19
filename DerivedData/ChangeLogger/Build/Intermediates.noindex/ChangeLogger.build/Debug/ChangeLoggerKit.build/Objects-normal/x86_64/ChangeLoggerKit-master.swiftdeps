@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "8f2ea82a02bf8d94ee3ac2820b63a126"
+build_time: [1558298791, 706147000]
+inputs:
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ChangeLog.swift": [1558270777, 737663373]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/CommitEntry.swift": [1558270777, 738075092]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/ContentDecoder.swift": [1558056156, 42412625]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/DateManager.swift": [1558270777, 738487696]
+  "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/Sources/ChangeLoggerKit/LogEntry.swift": [1558206997, 552930941]

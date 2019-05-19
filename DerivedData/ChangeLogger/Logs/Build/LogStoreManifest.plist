@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>089C2AB8-2038-46ED-BF56-879BFB07BD2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>089C2AB8-2038-46ED-BF56-879BFB07BD2F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579998519.42871702</real>
+			<key>timeStoppedRecording</key>
+			<real>579998520.67720199</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>089C2AB8-2038-46ED-BF56-879BFB07BD2F</string>
+		</dict>
+		<key>32337904-1259-4258-88D9-3040C2F24927</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>32337904-1259-4258-88D9-3040C2F24927.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579997033.09190297</real>
+			<key>timeStoppedRecording</key>
+			<real>579997034.24252796</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>32337904-1259-4258-88D9-3040C2F24927</string>
+		</dict>
+		<key>3CC2A1F0-7707-4BBF-998B-88525E02CEAF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3CC2A1F0-7707-4BBF-998B-88525E02CEAF.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579996784.57513297</real>
+			<key>timeStoppedRecording</key>
+			<real>579996785.657166</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>3CC2A1F0-7707-4BBF-998B-88525E02CEAF</string>
+		</dict>
+		<key>438F5017-3E5E-48C0-980D-585DFCDDA970</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>438F5017-3E5E-48C0-980D-585DFCDDA970.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579998696.76992297</real>
+			<key>timeStoppedRecording</key>
+			<real>579998697.94716597</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>438F5017-3E5E-48C0-980D-585DFCDDA970</string>
+		</dict>
+		<key>6312CDB7-47EC-4FCA-B8F1-29C53841C24B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6312CDB7-47EC-4FCA-B8F1-29C53841C24B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579998543.21777594</real>
+			<key>timeStoppedRecording</key>
+			<real>579998543.38392603</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>6312CDB7-47EC-4FCA-B8F1-29C53841C24B</string>
+		</dict>
+		<key>7171454C-E9C5-43B0-8718-FC4254BAFB7B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7171454C-E9C5-43B0-8718-FC4254BAFB7B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>580000952.83150697</real>
+			<key>timeStoppedRecording</key>
+			<real>580000953.92877901</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>7171454C-E9C5-43B0-8718-FC4254BAFB7B</string>
+		</dict>
+		<key>A29ABE67-323F-4A9E-B980-8586643CC029</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A29ABE67-323F-4A9E-B980-8586643CC029.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579998840.88867402</real>
+			<key>timeStoppedRecording</key>
+			<real>579998841.04565096</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>A29ABE67-323F-4A9E-B980-8586643CC029</string>
+		</dict>
+		<key>B99A7F79-825B-4B8E-80DE-FCFC568E9250</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B99A7F79-825B-4B8E-80DE-FCFC568E9250.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>580000662.140571</real>
+			<key>timeStoppedRecording</key>
+			<real>580000663.45078003</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>B99A7F79-825B-4B8E-80DE-FCFC568E9250</string>
+		</dict>
+		<key>E62CCF30-835B-4637-BD92-844FDD10545F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E62CCF30-835B-4637-BD92-844FDD10545F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChangeLogger project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HomebrewWorkflow</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>timeStartedRecording</key>
+			<real>579998905.03345799</real>
+			<key>timeStoppedRecording</key>
+			<real>579998906.25249302</real>
+			<key>title</key>
+			<string>Build HomebrewWorkflow</string>
+			<key>uniqueIdentifier</key>
+			<string>E62CCF30-835B-4637-BD92-844FDD10545F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

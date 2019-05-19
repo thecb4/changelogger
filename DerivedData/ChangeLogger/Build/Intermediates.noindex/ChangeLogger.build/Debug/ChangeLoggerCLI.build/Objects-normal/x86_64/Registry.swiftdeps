@@ -1,0 +1,260 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommandRegistry"
+provides-nominal:
+- "15ChangeLoggerCLI15CommandRegistryV"
+provides-member:
+- ["15ChangeLoggerCLI15CommandRegistryV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "ArgumentParser"
+- !private "ArgumentParserError"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Command"
+- !private "CommandLineError"
+- "CommandRegistry"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "ProcessInfo"
+- "String"
+- !private "StringLiteralType"
+- !private "print"
+- !private "stdoutStream"
+depends-member:
+- ["10SPMUtility14ArgumentParserC", "Result"]
+- !private ["10SPMUtility14ArgumentParserC", "init"]
+- !private ["10SPMUtility14ArgumentParserC", "parse"]
+- !private ["10SPMUtility14ArgumentParserC", "printUsage"]
+- !private ["10SPMUtility19ArgumentParserErrorO", "description"]
+- !private ["Sa", "append"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["SK", "append"]
+- !private ["SK", "dropFirst"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["5Basic14ByteStreamableP", "append"]
+- !private ["5Basic14ByteStreamableP", "dropFirst"]
+- !private ["5Basic14ByteStreamableP", "first"]
+- !private ["5Basic14ByteStreamableP", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arguments"]
+- !private ["s7CVarArgP", "dropFirst"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["Sl", "append"]
+- !private ["Sl", "dropFirst"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["15ChangeLoggerCLI7CommandP", "command"]
+- !private ["15ChangeLoggerCLI7CommandP", "init"]
+- !private ["15ChangeLoggerCLI7CommandP", "run"]
+- ["15ChangeLoggerCLI15CommandRegistryV", "ArgumentParser"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "ArgumentParserError"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "Array"]
+- ["15ChangeLoggerCLI15CommandRegistryV", "Command"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "CommandLineError"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "ProcessInfo"]
+- ["15ChangeLoggerCLI15CommandRegistryV", "String"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "commands"]
+- ["15ChangeLoggerCLI15CommandRegistryV", "init"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "parse"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "parser"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "print"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "process"]
+- ["15ChangeLoggerCLI15CommandRegistryV", "register"]
+- ["15ChangeLoggerCLI15CommandRegistryV", "run"]
+- !private ["15ChangeLoggerCLI15CommandRegistryV", "stdoutStream"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "dropFirst"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arguments"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "arguments"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "subparser"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "dropFirst"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "dropFirst"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "dropFirst"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SQ", "append"]
+- !private ["SQ", "arguments"]
+- !private ["SQ", "dropFirst"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "processInfo"]
+- !private ["s5ErrorP", "description"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "arguments"]
+- !private ["SH", "dropFirst"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "processInfo"]
+- !private ["5Basic16JSONSerializableP", "append"]
+- !private ["5Basic16JSONSerializableP", "dropFirst"]
+- !private ["5Basic16JSONSerializableP", "first"]
+- !private ["5Basic16JSONSerializableP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "dropFirst"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "dropFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSObjectC", "arguments"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectP", "arguments"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["4Yams17NodeRepresentableP", "append"]
+- !private ["4Yams17NodeRepresentableP", "dropFirst"]
+- !private ["4Yams17NodeRepresentableP", "first"]
+- !private ["4Yams17NodeRepresentableP", "init"]
+- !private ["So13NSProcessInfoC", "arguments"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["Sk", "append"]
+- !private ["Sk", "dropFirst"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sm", "append"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["10SPMUtility14ArgumentParserC6ResultC", "subparser"]
+- !private ["ST", "append"]
+- !private ["ST", "dropFirst"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dropFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arguments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "10SPMUtility14ArgumentParserC"
+- !private "10SPMUtility19ArgumentParserErrorO"
+- !private "Sa"
+- !private "SK"
+- !private "5Basic14ByteStreamableP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "15ChangeLoggerCLI7CommandP"
+- "15ChangeLoggerCLI15CommandRegistryV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "5Basic16JSONSerializableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "4Yams17NodeRepresentableP"
+- !private "So13NSProcessInfoC"
+- !private "Sk"
+- !private "Sm"
+- !private "10SPMUtility14ArgumentParserC6ResultC"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/POSIX.framework/Modules/POSIX.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/SPMLibc.framework/Modules/SPMLibc.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/Basic.framework/Modules/Basic.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/Path.framework/Modules/Path.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/Yams.framework/Modules/Yams.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/ChangeLoggerKit.framework/Modules/ChangeLoggerKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/SPMUtility.framework/Modules/SPMUtility.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/clibc.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/CYaml.framework/Headers/CYaml.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/CYaml.framework/Headers/yaml.h"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/.build/checkouts/swift-package-manager/Sources/clibc/include/module.modulemap"
+- "/Users/cavellebenjamin/Development/toolbox/ChangeLogger/DerivedData/ChangeLogger/Build/Products/Debug/CYaml.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "64bada719812126bb21eee4f90c71bf3"
