@@ -71,8 +71,8 @@ release:
   dependencies:
     - pages
   before_script:
-    # - update-locale LANG=en_US.UTF-8
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
+    # https://askubuntu.com/questions/114759/warning-setlocale-lc-all-cannot-change-locale
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl language-pack-en
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
@@ -85,6 +85,7 @@ release:
     - brew install mxcl/made/swift-sh
   script:
     - swift sh bin/homebrew.swift
+    - brew create https://gitlab.com/thecb4/changelogger --set-name changelogger
   # artifacts:
   #   paths:
   #   - public
