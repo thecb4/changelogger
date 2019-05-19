@@ -75,7 +75,8 @@ release:
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
-    - su -l linuxbrew
+    - cat /etc/passwd
+    - su - linuxbrew
     - whoami
     - cd $HOME
     - ls -alF
