@@ -83,7 +83,7 @@ release:
     - test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
     - test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
     - echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-    - brew create https://gitlab.com/thecb4/changelogger
+    - brew create https://gitlab.com/thecb4/changelogger --set-name changelogger
   # artifacts:
   #   paths:
   #   - public
