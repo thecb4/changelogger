@@ -77,6 +77,9 @@ release:
     - usermod -aG sudo linuxbrew
     - cat /etc/passwd
     # https://docs.brew.sh/Homebrew-on-Linux
+    - su -l linuxbrew
+    - cd $HOME
+    - ls -alF
     - su -l linuxbrew -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   script:
     - su -l linuxbrew -c "test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)"
