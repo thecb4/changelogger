@@ -74,9 +74,7 @@ release:
     - export LC_ALL="en_US.UTF-8"
     - locale
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
-    - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl locale-all
-    - dpkg-reconfigure locales
-    - locale-gen
+    - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
     - cat /etc/passwd
