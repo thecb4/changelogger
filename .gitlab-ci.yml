@@ -1,7 +1,7 @@
 # Author: Cavelle Benjamin
 
 variables:
-  # LC_ALL: "en_US.UTF-8"
+  LC_ALL: "en_US.UTF-8"
   DOMAIN: "thecb4.io"
   EMAIL: "cavelle@thecb4.io"
 
@@ -71,9 +71,9 @@ release:
   dependencies:
     - pages
   before_script:
-    # - export LC_CTYPE=en_US.UTF-8
-    # - export LC_ALL=en_US.UTF-8
-    - update-locale LANG=en_US.UTF-8
+    - export LC_CTYPE=en_US.UTF-8
+    - export LC_ALL=en_US.UTF-8
+    # - update-locale LANG=en_US.UTF-8
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
