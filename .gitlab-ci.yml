@@ -76,15 +76,15 @@ release:
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
     - cat /etc/passwd
-    - su - linuxbrew
-    - whoami
-    - cd $HOME
-    - ls -alF
+    - su - linuxbrew -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+    # - whoami
+    # - cd $HOME
+    # - ls -alF
     # - adduser manager
     # - usermod -aG sudo manager
     # - echo "manager:$MANAGER_PASSWORD" | chpasswd
     # - su manager
-    - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+    # - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   script:
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
     - test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
