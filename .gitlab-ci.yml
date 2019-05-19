@@ -76,7 +76,8 @@ release:
     - useradd -m -s /bin/bash manager
     - usermod -aG sudo manager
     - su manager
-    - cd
+    - whoami
+    - cd $HOME
     - ls -alF
     # - adduser manager
     # - usermod -aG sudo manager
