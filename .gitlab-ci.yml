@@ -73,7 +73,10 @@ release:
   before_script:
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
     - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl
-    - whoami
+    - adduser manager
+    - usermod -aG sudo manager
+    - echo "manager:$MANAGER_PASSWORD" | chpasswd
+    - su manager
     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
   script:
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
