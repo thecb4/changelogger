@@ -69,7 +69,7 @@ release:
     name: alpine:latest
   stage: release
   dependencies:
-    - docs
+    - pages
   before_script:
     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
