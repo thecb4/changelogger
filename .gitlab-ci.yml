@@ -78,12 +78,13 @@ release:
     - cat /etc/passwd
     # https://docs.brew.sh/Homebrew-on-Linux
     - su -l linuxbrew -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
-  script:
     - test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
     - test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
     - test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
     - echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-    - brew create https://gitlab.com/thecb4/changelogger --set-name changelogger
+    - brew install mxcl/made/swift-sh
+  script:
+    - swift sh bin/homebrew.swift
   # artifacts:
   #   paths:
   #   - public
