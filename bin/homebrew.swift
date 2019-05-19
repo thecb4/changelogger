@@ -41,6 +41,11 @@ let formula = #"""
   end
   """#
 
-let formulaPath = Path("/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/changelogger.rb")
 
-print(formula)
+
+do {
+  let formulaPath = Path("/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/changelogger.rb")
+  print(formula)
+} catch {
+
+}

@@ -73,7 +73,7 @@ release:
   before_script:
     - DEBIAN_FRONTEND=noninteractive && apt-get update -y
     # https://askubuntu.com/questions/114759/warning-setlocale-lc-all-cannot-change-locale
-    - DEBIAN_FRONTEND=noninteractive && apt-get install -y curl language-pack-en
+    - DEBIAN_FRONTEND=noninteractive && apt-get install -y tree curl language-pack-en
     - useradd -m -p "$MANAGER_PASSWORD" -s /bin/bash linuxbrew
     - usermod -aG sudo linuxbrew
     # https://docs.brew.sh/Homebrew-on-Linux
@@ -85,9 +85,7 @@ release:
     - brew install mxcl/made/swift-sh
   script:
     - swift sh bin/homebrew.swift
-    - ls -alF
-    - cd $HOME
-    - ls -alF
+    - tree /home/linuxbrew/
   # artifacts:
   #   paths:
   #   - public
