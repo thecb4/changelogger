@@ -1,4 +1,4 @@
-.RECIPEPREFIX +=
+.RECIPEPREFIX += 
 PROJECT_NAME = changelogger
 TOOL_NAME = Changelogger
 export EXECUTABLE_NAME = changelogger

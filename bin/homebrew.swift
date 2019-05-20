@@ -11,7 +11,7 @@ let version = "feature/homebrew"
 let releaseTar = "https://gitlab.com/thecb4/\(executable)/-/archive/\(version)/\(projectName)-\(version).tar.gz"
 
 let makefile = #"""
-  .RECIPEPREFIX +=
+  .RECIPEPREFIX += 
   PROJECT_NAME = \#(executable)
   TOOL_NAME = \#(toolName)
   export EXECUTABLE_NAME = \#(executable)
