@@ -28,8 +28,8 @@ let makefile = #"""
   .PHONY: install build uninstall update_brew release
 
   install: build
-    mkdir -p $(PREFIX)/bin
-    cp -f .build/release/$(EXECUTABLE_NAME) $(INSTALL_PATH)
+    mkdir -p $(PREFIX)/bin;
+    cp -f .build/release/$(EXECUTABLE_NAME) $(INSTALL_PATH);
   #  mkdir -p $(SHARE_PATH)
   #   cp -R $(CURRENT_PATH)/SettingPresets $(SHARE_PATH)/SettingPresets
 
