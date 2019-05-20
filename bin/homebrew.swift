@@ -7,11 +7,12 @@ let projectName = "changelogger"
 let toolName = "Changelogger"
 let executable = "changelogger"
 let version = "feature/homebrew"
+let brewVersion = "feature_homebrew"
 
 let releaseTar = "https://gitlab.com/thecb4/\(executable)/-/archive/\(version)/\(projectName)-\(version).tar.gz"
 
 let makefile = #"""
-  .RECIPEPREFIX += 
+  .RECIPEPREFIX +=
   PROJECT_NAME = \#(executable)
   TOOL_NAME = \#(toolName)
   export EXECUTABLE_NAME = \#(executable)
@@ -70,7 +71,7 @@ let formula = #"""
     url "https://gitlab.com/thecb4/changelogger.git", :using => :git, :tag => "\#(version)"
   # head "https://gitlab.com/thecb4/changelogger.git", :branch => "\#(version)"
 
-    version "\#(version)"
+    version "\#(brewVersion)"
 
     # depends_on "gmake" => :build
 

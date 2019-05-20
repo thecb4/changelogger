@@ -7,7 +7,7 @@ class Changelogger < Formula
   url "https://gitlab.com/thecb4/changelogger.git", :using => :git, :tag => "feature/homebrew"
 # head "https://gitlab.com/thecb4/changelogger.git", :branch => "feature/homebrew"
 
-  version "feature/homebrew"
+  version "feature_homebrew"
 
   # depends_on "gmake" => :build
 
