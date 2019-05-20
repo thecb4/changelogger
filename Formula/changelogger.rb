@@ -5,21 +5,20 @@ class Changelogger < Formula
   desc "Take control of your changelogs!"
   homepage "https://gitlab.com/thecb4/changelogger"
   url "https://gitlab.com/thecb4/changelogger.git", :using => :git, :tag => "feature/homebrew"
-# head "https://gitlab.com/thecb4/changelogger.git", :branch => "feature/homebrew"
 
   version "feature_homebrew"
 
-  # depends_on "gmake" => :build
+  depends_on "swift" => :build
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
-    # Remove unrecognized options if warned by configure
-    #system "./configure", "--disable-debug",
-    #                      "--disable-dependency-tracking",
-    #                      "--disable-silent-rules",
-    #                      "--prefix=#{prefix}"
-    # system "cmake", ".", *std_cmake_args
-    system "gmake", "install" # if this fails, try separate make/make install steps
+    # fixes an issue an issue in homebrew when both Xcode 9.3+ and command line tools are installed
+    # see more details here https://github.com/Homebrew/brew/pull/4147
+    ENV["CC"] = Utils.popen_read("xcrun -find clang").chomp
+
+    build_path = "#{buildpath}/.build/release/changelogger"
+    ohai "Building Changelogger"
+    system("swift build --disable-sandbox -c release")
+    bin.install build_path
   end
 
   test do
