@@ -33,4 +33,7 @@ Temporary Items
 # Swift
 .build/
 
+# Xcode
+DerivedData/
+
 # End of https://www.gitignore.io/api/macOS

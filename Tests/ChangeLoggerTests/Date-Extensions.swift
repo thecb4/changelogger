@@ -20,6 +20,14 @@ extension Date {
     return formatter
   }()
 
+  public static let markdownDayFormatter: DateFormatter = {
+    var formatter = DateFormatter()
+    formatter.locale = Locale(identifier: "en_US_POSIX")
+    formatter.dateFormat = "yyyy'-'MMM'-'dd'"
+    formatter.timeZone = TimeZone(secondsFromGMT: 0)
+    return formatter
+  }()
+
   public func string(
     using formatter: DateFormatter = Date.formatter,
     with format: String = Date.defaultFormat
@@ -40,5 +48,9 @@ extension Date {
     } else {
       return Date.iso8601Formatter.string(from: self)
     }
+  }
+
+  public var markdownDay: String {
+    return Date.markdownDayFormatter.string(from: self)
   }
 }
