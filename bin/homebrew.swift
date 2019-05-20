@@ -12,7 +12,7 @@ let brewVersion = "feature_homebrew"
 let releaseTar = "https://gitlab.com/thecb4/\(executable)/-/archive/\(version)/\(projectName)-\(version).tar.gz"
 
 let makefile = #"""
-  .RECIPEPREFIX += 
+  .RECIPEPREFIX +=
   PROJECT_NAME = \#(executable)
   TOOL_NAME = \#(toolName)
   export EXECUTABLE_NAME = \#(executable)
@@ -69,21 +69,20 @@ let formula = #"""
     desc "Take control of your changelogs!"
     homepage "https://gitlab.com/thecb4/changelogger"
     url "https://gitlab.com/thecb4/changelogger.git", :using => :git, :tag => "\#(version)"
-  # head "https://gitlab.com/thecb4/changelogger.git", :branch => "\#(version)"
 
     version "\#(brewVersion)"
 
-    # depends_on "gmake" => :build
+    depends_on "swift" => :build
 
     def install
-      # ENV.deparallelize  # if your formula fails when building in parallel
-      # Remove unrecognized options if warned by configure
-      #system "./configure", "--disable-debug",
-      #                      "--disable-dependency-tracking",
-      #                      "--disable-silent-rules",
-      #                      "--prefix=#{prefix}"
-      # system "cmake", ".", *std_cmake_args
-      system "gmake", "install" # if this fails, try separate make/make install steps
+      # fixes an issue an issue in homebrew when both Xcode 9.3+ and command line tools are installed
+      # see more details here https://github.com/Homebrew/brew/pull/4147
+      ENV["CC"] = Utils.popen_read("xcrun -find clang").chomp
+
+      build_path = "#{buildpath}/.build/release/\#(executable)"
+      ohai "Building Changelogger"
+      system("swift build --disable-sandbox -c release")
+      bin.install build_path
     end
 
     test do
