@@ -60,7 +60,7 @@ final class LogEntryTests: XCTestCase {
 
       let expectedMarkdown =
         """
-        #### [unreleased] - \(DateManager.formatter.string(from: Date())).
+        #### [unreleased] - \(Date().markdownDay).
         ##### Added
         - Some new feature
 

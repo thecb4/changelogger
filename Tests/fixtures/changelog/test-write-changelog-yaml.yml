@@ -1,7 +1,7 @@
 title: Changelogger Changelog
 logs:
 - version: unreleased
-  date: 2019-05-19T12:38:28.262217998Z
+  date: 2019-05-20T11:06:05.078498959Z
   commit:
     summary: Fixing workflow
     added:

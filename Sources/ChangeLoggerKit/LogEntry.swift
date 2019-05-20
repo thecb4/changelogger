@@ -39,7 +39,7 @@ extension LogEntry {
 
     let descriptor =
       """
-      #### [\(version)] - \(DateManager.formatter.string(from: date)).
+      #### [\(version)] - \(date.markdownDay).
       \(convertItemToMarkDown(titled: "Added", using: commit.added))
 
       \(convertItemToMarkDown(titled: "Changed", using: commit.changed))

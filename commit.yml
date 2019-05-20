@@ -1,9 +1,9 @@
 summary: "Homebrew support"
-added: []
-changed:
-  - gitlab-ci to include release stage
-  - gitlab-ci to include SPM 5.0.1 compile on Ubuntu-xenial
-  - gitlab-ci to include SPM 5.0.1 compile on Ubuntu-bionic
+added:
+ - Makefile generator for homebrew
+ - Formuala generator for homebrew
+ - gitlab-ci file update for homebrew
+changed: []
 deprecated: []
 removed: []
 fixed: []

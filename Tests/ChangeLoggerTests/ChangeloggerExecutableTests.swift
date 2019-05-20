@@ -350,7 +350,7 @@ final class ChangeloggerExecutableTests: XCTestCase {
         * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
         * This project adheres to [Semantic Versioning](http://semver.org/).
 
-        #### [unreleased] - 2019-May-19.
+        #### [unreleased] - \(Date().markdownDay).
         ##### Added
         - Some new feature
         - Feature flag all the things

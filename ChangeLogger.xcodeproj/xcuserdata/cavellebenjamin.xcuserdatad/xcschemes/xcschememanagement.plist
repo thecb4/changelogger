@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FeatureWorkflow.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>HomebrewWorkflow.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E9A29B252291F92700380030</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E9A29B292291F93F00380030</key>
 		<dict>
 			<key>primary</key>
