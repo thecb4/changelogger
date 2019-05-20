@@ -1,23 +1,13 @@
 title: Changelogger Changelog
 logs:
-- version: unreleased
-  date: 2019-05-20T11:07:57.740622043Z
+- version: 0.6.0
+  date: 2019-05-20T11:14:58.922181963Z
   commit:
-    summary: Homebrew support
+    summary: homebrew support
     added:
     - Makefile generator for homebrew
     - Formuala generator for homebrew
     - gitlab-ci file update for homebrew
-    changed: []
-    deprecated: []
-    removed: []
-    fixed: []
-    security: []
-- version: unreleased
-  date: 2019-05-20T03:29:59.818938016Z
-  commit:
-    summary: Homebrew support
-    added:
     - Makefile generator for homebrew
     - Formuala generator for homebrew
     - gitlab-ci file update for homebrew

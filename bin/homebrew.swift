@@ -6,8 +6,8 @@ import Path // mxcl/Path.swift == 0.16.2
 let projectName = "changelogger"
 let toolName = "Changelogger"
 let executable = "changelogger"
-let version = "feature/homebrew"
-let brewVersion = "feature_homebrew"
+let version = "0.6.0"
+let brewVersion = version
 
 let releaseTar = "https://gitlab.com/thecb4/\(executable)/-/archive/\(version)/\(projectName)-\(version).tar.gz"
 
@@ -85,7 +85,7 @@ class Changelogger < Formula
     bin.install build_path
   end
 
-  test do
+  #test do
     # `test do` will create, run in and delete a temporary directory.
     #
     # This test will fail and we won't accept that! For Homebrew/homebrew-core
@@ -95,8 +95,8 @@ class Changelogger < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
-  end
+    #system "#{bin}/\#(executable)", "do", "something
+  #end
 end
 """#
 

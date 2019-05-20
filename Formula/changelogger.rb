@@ -4,9 +4,9 @@
 class Changelogger < Formula
   desc "Take control of your changelogs!"
   homepage "https://gitlab.com/thecb4/changelogger"
-  url "https://gitlab.com/thecb4/changelogger.git", :using => :git, :tag => "feature/homebrew"
+  url "https://gitlab.com/thecb4/changelogger.git", :using => :git, :tag => "0.6.0"
 
-  version "feature_homebrew"
+  version "0.6.0"
 
   # depends_on "swift" => :build
 
@@ -21,7 +21,7 @@ class Changelogger < Formula
     bin.install build_path
   end
 
-  test do
+  #test do
     # `test do` will create, run in and delete a temporary directory.
     #
     # This test will fail and we won't accept that! For Homebrew/homebrew-core
@@ -31,6 +31,6 @@ class Changelogger < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
-  end
+    #system "#{bin}/changelogger", "do", "something
+  #end
 end

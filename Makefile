@@ -2,7 +2,7 @@
 PROJECT_NAME = changelogger
 TOOL_NAME = Changelogger
 export EXECUTABLE_NAME = changelogger
-VERSION = feature/homebrew
+VERSION = 0.6.0
 
 PREFIX = /usr/local
 INSTALL_PATH = $(PREFIX)/bin/$(EXECUTABLE_NAME)

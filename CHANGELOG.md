@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 * Format based on [Keep A Change Log](https://keepachangelog.com/en/1.0.0/)
 * This project adheres to [Semantic Versioning](http://semver.org/).
 
+#### [0.6.0] - 2019-May-20.
+##### Added
+- Makefile generator for homebrew
+- Formuala generator for homebrew
+- gitlab-ci file update for homebrew
+- Makefile generator for homebrew
+- Formuala generator for homebrew
+- gitlab-ci file update for homebrew
+
+##### Changed
+-
+
+##### Deprecated
+-
+
+##### Removed
+-
+
+##### Fixed
+-
+
+##### Security
+-
+
 #### [0.5.1] - 2019-May-19.
 ##### Added
 -
