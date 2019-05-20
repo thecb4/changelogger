@@ -35,7 +35,7 @@ let makefile = #"""
   #   cp -R $(CURRENT_PATH)/SettingPresets $(SHARE_PATH)/SettingPresets
 
   build:
-    swift build --disable-sandbox -c release;
+    swift build --verbose --disable-sandbox -c release;
 
   uninstall:
     rm -f $(INSTALL_PATH)
