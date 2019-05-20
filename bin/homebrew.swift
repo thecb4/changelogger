@@ -72,7 +72,7 @@ let formula = #"""
 
     version "\#(brewVersion)"
 
-    depends_on "swift" => :build
+    # depends_on "swift" => :build
 
     def install
       # fixes an issue an issue in homebrew when both Xcode 9.3+ and command line tools are installed
