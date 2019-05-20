@@ -15,13 +15,13 @@ SHA = $(shell curl -L -s $(RELEASE_TAR) | shasum -a 256 | sed 's/ .*//')
 .PHONY: install build uninstall update_brew release
 
 install: build
-  mkdir -p $(PREFIX)/bin
-  cp -f .build/release/$(EXECUTABLE_NAME) $(INSTALL_PATH)
+  mkdir -p $(PREFIX)/bin;
+  cp -f .build/release/$(EXECUTABLE_NAME) $(INSTALL_PATH);
 #  mkdir -p $(SHARE_PATH)
 #   cp -R $(CURRENT_PATH)/SettingPresets $(SHARE_PATH)/SettingPresets
 
 build:
-  swift build --disable-sandbox -c release
+  swift build --disable-sandbox -c release;
 
 uninstall:
   rm -f $(INSTALL_PATH)
